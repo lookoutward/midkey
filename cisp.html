@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>信息安全模拟考 — 10题</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#06b6d4;--muted:#94a3b8;--white:#e6eef6}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Helvetica,Arial;padding:24px;margin:0;background:linear-gradient(180deg,#071023 0%, #081425 100%);color:var(--white)}
+    .container{max-width:900px;margin:0 auto}
+    header{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+    h1{font-size:20px;margin:0}
+    p.lead{margin:0;color:var(--muted)}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:10px;margin:14px 0;box-shadow:0 6px 20px rgba(2,6,23,0.6)}
+    .question{padding:12px;border-radius:8px;margin-bottom:12px;background:rgba(255,255,255,0.01)}
+    .q-title{display:flex;justify-content:space-between;align-items:center}
+    .q-text{font-weight:600;margin:8px 0}
+    .opts{display:flex;flex-direction:column;gap:8px}
+    label.option{display:flex;gap:10px;align-items:center;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);cursor:pointer}
+    input[type="radio"]{accent-color:var(--accent);width:18px;height:18px}
+    .meta{display:flex;gap:8px;align-items:center;margin-top:8px}
+    button{background:var(--accent);color:#032026;border:none;padding:8px 12px;border-radius:8px;cursor:pointer;font-weight:600}
+    .mutebtn{background:transparent;border:1px solid rgba(255,255,255,0.04);color:var(--muted);padding:6px 10px;border-radius:8px}
+    .result{font-size:18px;font-weight:700;margin-top:12px}
+    .explain{margin-top:8px;padding:10px;border-radius:8px;background:rgba(6,182,212,0.04);color:var(--muted)}
+    .video-link{color:var(--accent);text-decoration:underline;cursor:pointer}
+    footer{margin-top:18px;color:var(--muted);font-size:13px}
+    @media (max-width:520px){body{padding:12px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div style="width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#5eead4);display:flex;align-items:center;justify-content:center;color:#012">AI</div>
+      <div>
+        <h1>信息安全模拟考 — 10题（演示版）</h1>
+        <p class="lead">每题下方有 AI 讲解视频链接占位——部署到 GitHub Pages 即可零成本公开。</p>
+      </div>
+    </header>
+
+    <div id="quiz" class="card"></div>
+
+    <div class="card" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+      <button id="submitBtn">提交并评分</button>
+      <button id="resetBtn" class="mutebtn">重置答案</button>
+      <div id="score" style="margin-left:auto;color:var(--muted)"></div>
+    </div>
+
+    <footer>把此文件放入 GitHub 仓库并启用 Pages（或者直接打开 index.html）即可使用。可把每题的 `video` 字段替换为你的视频链接（B站/YouTube）。</footer>
+  </div>
+
+  <script>
+    // 题库：10道信息安全单选题（示例）。你可以替换每题的 video 链接。
+    const QUESTIONS = [
+      {
+        id:1,
+        q:'在网络分层模型中，防火墙通常工作在哪一层以过滤IP地址和端口？',
+        opts:['物理层','数据链路层','网络/传输层','应用层'],
+        answer:2, // zero-based index -> 2 means 第3项
+        explain:'防火墙常见做法是基于IP/端口做包过滤，属于网络/传输层的功能。',
+        video:'https://example.com/video1'
+      },
+      {id:2,q:'什么是“零信任”安全模型的核心理念？',opts:['默认信任内部网络','所有访问都需验证','允许内部任意访问','只信任白名单设备'],answer:1,explain:'零信任意味着不默认信任，任何访问都需要基于最小权限与验证。',video:'https://example.com/video2'},
+      {id:3,q:'下列哪项最能防止中间人攻击（MITM）？',opts:['使用HTTP','使用TLS/HTTPS','使用FTP','使用Telnet'],answer:1,explain:'TLS/HTTPS 为端到端加密，能有效防止 MITM 拦截与篡改。',video:'https://example.com/video3'},
+      {id:4,q:'在密码学中，“哈希函数”的主要特性不包括哪一项？',opts:['不可逆','抗碰撞性','可逆性','确定性'],answer:2,explain:'哈希函数是不可逆的，所以不可逆/抗碰撞/确定性是其特性，可逆性不是。',video:'https://example.com/video4'},
+      {id:5,q:'什么是XSS攻击的主要目标？',opts:['注入恶意脚本到用户浏览器','破坏数据库物理结构','使服务器宕机','获取服务器的root权限'],answer:0,explain:'XSS 的目的通常是注入脚本，在用户浏览器执行以窃取Cookie或进行劫持。',video:'https://example.com/video5'},
+      {id:6,q:'在安全运维中，哪种做法有助于快速发现异常并响应？',opts:['不开日志','合理日志与告警','删除日志','延迟日志收集'],answer:1,explain:'合理的日志策略和告警能及时检测与响应安全事件。',video:'https://example.com/video6'},
+      {id:7,q:'弱口令策略中常见的防护措施不包括：',opts:['强制复杂度','定期更换密码','允许空密码','使用多因素认证（MFA）'],answer:2,explain:'允许空密码不是防护措施，反而是弱点。',video:'https://example.com/video7'},
+      {id:8,q:'社会工程学攻击通常利用下列哪项？',opts:['技术漏洞','人类信任与好奇心','加密算法缺陷','硬件损坏'],answer:1,explain:'社会工程学通过利用人的信任、好奇或恐惧来骗取信息或权限。',video:'https://example.com/video8'},
+      {id:9,q:'在云环境中，责任共担模型（Shared Responsibility）指的是什么？',opts:['只有云厂商负责安全','只有客户负责安全','客户与云厂商分担不同安全职责','安全不是任何一方的责任'],answer:2,explain:'云环境安全分为云提供商负责的部分（如物理设施）与客户负责的部分（如数据与账号）。',video:'https://example.com/video9'},
+      {id:10,q:'哪种技术可以防止对敏感数据的长期保存泄露？',opts:['数据备份','数据脱敏/掩码','开启SSH','关闭防火墙'],answer:1,explain:'数据脱敏（masking/anonymization）可以保护敏感数据即使被窃取也难以识别。',video:'https://example.com/video10'}
+    ];
+
+    const quizEl = document.getElementById('quiz');
+    const scoreEl = document.getElementById('score');
+    const submitBtn = document.getElementById('submitBtn');
+    const resetBtn = document.getElementById('resetBtn');
+
+    function renderQuiz(){
+      quizEl.innerHTML = '';
+      QUESTIONS.forEach((t,i)=>{
+        const box = document.createElement('div'); box.className='question';
+        const header = document.createElement('div'); header.className='q-title';
+        header.innerHTML = `<div>#${i+1}</div><div style="color:var(--muted);font-size:13px">单选题</div>`;
+        const txt = document.createElement('div'); txt.className='q-text'; txt.textContent = t.q;
+        const opts = document.createElement('div'); opts.className='opts';
+        t.opts.forEach((o,oi)=>{
+          const id = `q${t.id}_o${oi}`;
+          const label = document.createElement('label'); label.className='option'; label.htmlFor = id;
+          label.innerHTML = `<input type="radio" name="q${t.id}" id="${id}" value="${oi}"><div>${String.fromCharCode(65+oi)}. ${o}</div>`;
+          opts.appendChild(label);
+        });
+
+        const meta = document.createElement('div'); meta.className='meta';
+        const explainBtn = document.createElement('button'); explainBtn.className='mutebtn'; explainBtn.textContent='查看解析';
+        explainBtn.onclick = ()=>{
+          const chosen = document.querySelector(`input[name=q${t.id}]:checked`);
+          showExplain(t, chosen ? parseInt(chosen.value) : null, explainBtn);
+        };
+        const videoA = document.createElement('a'); videoA.className='video-link'; videoA.textContent='观看AI讲解视频';
+        videoA.href = t.video; videoA.target='_blank';
+        meta.appendChild(explainBtn); meta.appendChild(videoA);
+
+        box.appendChild(header); box.appendChild(txt); box.appendChild(opts); box.appendChild(meta);
+        quizEl.appendChild(box);
+      });
+    }
+
+    function showExplain(t, chosenIndex, btn){
+      // 找到当前问题的容器
+      const container = btn.closest('.question');
+      // 移除已存在的解释
+      const old = container.querySelector('.explain'); if(old) old.remove();
+      const div = document.createElement('div'); div.className='explain';
+      const correct = t.answer;
+      let html = `<div>正确答案：<strong>${String.fromCharCode(65+correct)}</strong></div>`;
+      if(chosenIndex !== null){
+        html += `<div>你的选择：${String.fromCharCode(65+chosenIndex)} ${chosenIndex===correct?'<span style="color:var(--accent);font-weight:700">（正确）</span>':'<span style="color:#ff7b7b;font-weight:700">（错误）</span>'}</div>`;
+      }
+      html += `<div style="margin-top:6px;color:var(--muted)">${t.explain}</div>`;
+      div.innerHTML = html;
+      container.appendChild(div);
+    }
+
+    submitBtn.addEventListener('click', ()=>{
+      let total = QUESTIONS.length; let correct = 0; let answered = 0;
+      QUESTIONS.forEach(t=>{
+        const checked = document.querySelector(`input[name=q${t.id}]:checked`);
+        if(checked){ answered++; if(parseInt(checked.value)===t.answer) correct++; }
+      });
+      scoreEl.textContent = `已答 ${answered}/${total}， 得分 ${correct}/${total}`;
+
+      // 展示每题解析（自动展开）
+      QUESTIONS.forEach(t=>{
+        const qEl = document.querySelector(`input[name=q${t.id}]`);
+        const container = qEl.closest('.question');
+        const chosen = document.querySelector(`input[name=q${t.id}]:checked`);
+        const old = container.querySelector('.explain'); if(old) old.remove();
+        const div = document.createElement('div'); div.className='explain';
+        const correct = t.answer;
+        let html = `<div>正确答案：<strong>${String.fromCharCode(65+correct)}</strong></div>`;
+        if(chosen){ html += `<div>你的选择：${String.fromCharCode(65+parseInt(chosen.value))} ${parseInt(chosen.value)===correct?'<span style="color:var(--accent);font-weight:700">（正确）</span>':'<span style="color:#ff7b7b;font-weight:700">（错误）</span>'}</div>`;} else { html += `<div style="color:var(--muted)">你未作答此题</div>` }
+        html += `<div style="margin-top:6px;color:var(--muted)">${t.explain}</div>`;
+        div.innerHTML = html; container.appendChild(div);
+      });
+
+      // 如果需要，可以把成绩导出为链接或JSON（此处简单提示）
+    });
+
+    resetBtn.addEventListener('click', ()=>{
+      document.querySelectorAll('input[type=radio]').forEach(r=>r.checked=false);
+      document.querySelectorAll('.explain').forEach(e=>e.remove());
+      scoreEl.textContent='';
+    });
+
+    // 初始渲染
+    renderQuiz();
+  </script>
+</body>
+</html>
