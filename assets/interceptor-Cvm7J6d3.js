@@ -1,0 +1,1 @@
+import{ae as o,af as r}from"./index-BQIvCUz5.js";function p(l,{args:t=[],done:f,canceled:s}){if(l){const i=l.apply(null,t);o(i)?i.then(a=>{a?f():s&&s()}).catch(r):i?f():s&&s()}else f()}export{p as c};
