@@ -1,1 +1,0 @@
-import{ab as o,ac as r}from"./index-DibCoevp.js";function e(l,{args:t=[],done:i,canceled:s}){if(l){const f=l.apply(null,t);o(f)?f.then(a=>{a?i():s&&s()}).catch(r):f?i():s&&s()}else i()}export{e as c};
