@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "q": "在网络分层模型中，防火墙通常工作在哪一层以过滤IP地址和端口？",
+    "opts": ["物理层", "数据链路层", "网络/传输层", "应用层"],
+    "answer": 2,
+    "explain": "防火墙常见做法是基于IP/端口做包过滤，属于网络/传输层的功能。",
+    "video": "https://mp.weixin.qq.com/s/4YK4q_Kg_95NXyLbNJ_hkg"
+  },
+  {
+    "id": 2,
+    "q": "什么是“零信任”安全模型的核心理念？",
+    "opts": ["默认信任内部网络", "所有访问都需验证", "允许内部任意访问", "只信任白名单设备"],
+    "answer": 1,
+    "explain": "零信任意味着不默认信任，任何访问都需要基于最小权限与验证。",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 3,
+    "q": "下列哪项最能防止中间人攻击（MITM）？",
+    "opts": ["使用HTTP", "使用TLS/HTTPS", "使用FTP", "使用Telnet"],
+    "answer": 1,
+    "explain": "TLS/HTTPS 为端到端加密，能有效防止 MITM 拦截与篡改。",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 4,
+    "q": "在密码学中，“哈希函数”的主要特性不包括哪一项？",
+    "opts": ["不可逆", "抗碰撞性", "可逆性", "确定性"],
+    "answer": 2,
+    "explain": "哈希函数是不可逆的，所以不可逆/抗碰撞/确定性是其特性，可逆性不是。",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 5,
+    "q": "什么是XSS攻击的主要目标？",
+    "opts": ["注入恶意脚本到用户浏览器", "破坏数据库物理结构", "使服务器宕机", "获取服务器的root权限"],
+    "answer": 0,
+    "explain": "XSS 的目的通常是注入脚本，在用户浏览器执行以窃取Cookie或进行劫持。",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 6,
+    "q": "在安全运维中，哪种做法有助于快速发现异常并响应？",
+    "opts": ["不开日志", "合理日志与告警", "删除日志", "延迟日志收集"],
+    "answer": 1,
+    "explain": "合理的日志策略和告警能及时检测与响应安全事件。",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 7,
+    "q": "弱口令策略中常见的防护措施不包括：",
+    "opts": ["强制复杂度", "定期更换密码", "允许空密码", "使用多因素认证（MFA）"],
+    "answer": 2,
+    "explain": "允许空密码不是防护措施，反而是弱点。",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 8,
+    "q": "社会工程学攻击通常利用下列哪项？",
+    "opts": ["技术漏洞", "人类信任与好奇心", "加密算法缺陷", "硬件损坏"],
+    "answer": 1,
+    "explain": "社会工程学通过利用人的信任、好奇或恐惧来骗取信息或权限。",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 9,
+    "q": "在云环境中，责任共担模型（Shared Responsibility）指的是什么？",
+    "opts": ["只有云厂商负责安全", "只有客户负责安全", "客户与云厂商分担不同安全职责", "安全不是任何一方的责任"],
+    "answer": 2,
+    "explain": "云环境安全分为云提供商负责的部分（如物理设施）与客户负责的部分（如数据与账号）。",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 10,
+    "q": "哪种技术可以防止对敏感数据的长期保存泄露？",
+    "opts": ["数据备份", "数据脱敏/掩码", "开启SSH", "关闭防火墙"],
+    "answer": 1,
+    "explain": "数据脱敏（masking/anonymization）可以保护敏感数据即使被窃取也难以识别。",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  }
+]
