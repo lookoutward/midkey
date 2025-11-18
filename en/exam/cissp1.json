@@ -5,7 +5,7 @@
     "opts": ["Physical Layer", "Data Link Layer", "Network/Transport Layer", "Application Layer"],
     "answer": 2,
     "explain": "Firewalls commonly filter packets based on IP and port, which is a function of the network/transport layer.",
-    "video": "https://mp.weixin.qq.com/s/4YK4q_Kg_95NXyLbNJ_hkg"
+    "video": "http://www.midkey.xyz"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "opts": ["Default trust in internal networks", "All access requires verification", "Allow any internal access", "Only trust whitelisted devices"],
     "answer": 1,
     "explain": "Zero Trust means not assuming trust by default; all access requires verification and least privilege.",
-    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+    "video": "http://www.midkey.xyz"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "opts": ["Using HTTP", "Using TLS/HTTPS", "Using FTP", "Using Telnet"],
     "answer": 1,
     "explain": "TLS/HTTPS provides end-to-end encryption, effectively preventing MITM interception and tampering.",
-    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+    "video": "http://www.midkey.xyz"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "opts": ["Irreversible", "Collision resistance", "Reversible", "Deterministic"],
     "answer": 2,
     "explain": "A hash function is irreversible, so irreversible, collision-resistant, and deterministic are its characteristics. Reversibility is not.",
-    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+    "video": "http://www.midkey.xyz"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "opts": ["Injecting malicious scripts into the user's browser", "Destroying the physical structure of the database", "Causing the server to crash", "Gaining root access to the server"],
     "answer": 0,
     "explain": "XSS aims to inject scripts that execute in the user's browser to steal cookies or hijack sessions.",
-    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+    "video": "http://www.midkey.xyz"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "opts": ["Not logging", "Proper logging and alerts", "Deleting logs", "Delaying log collection"],
     "answer": 1,
     "explain": "Proper logging and alerting strategies help detect and respond to security events promptly.",
-    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+    "video": "http://www.midkey.xyz"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "opts": ["Enforcing complexity", "Regularly changing passwords", "Allowing blank passwords", "Using multi-factor authentication (MFA)"],
     "answer": 2,
     "explain": "Allowing blank passwords is not a protective measure and is actually a vulnerability.",
-    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+    "video": "http://www.midkey.xyz"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "opts": ["Technical vulnerabilities", "Human trust and curiosity", "Cryptographic flaws", "Hardware malfunctions"],
     "answer": 1,
     "explain": "Social engineering exploits human trust, curiosity, or fear to obtain information or access.",
-    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+    "video": "http://www.midkey.xyz"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "opts": ["Only the cloud provider is responsible for security", "Only the customer is responsible for security", "Both the customer and cloud provider share different security responsibilities", "Security is not the responsibility of either party"],
     "answer": 2,
     "explain": "Cloud security is divided between the cloud provider (e.g., physical infrastructure) and the customer (e.g., data and accounts).",
-    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+    "video": "http://www.midkey.xyz"
   },
   {
     "id": 10,
@@ -77,6 +77,331 @@
     "opts": ["Data backup", "Data masking/anonymization", "Enabling SSH", "Disabling firewalls"],
     "answer": 1,
     "explain": "Data masking (or anonymization) protects sensitive data by making it difficult to identify even if stolen.",
-    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+    "video": "http://www.midkey.xyz"
+  },
+
+
+  {
+    "id": 11,
+    "q": "Which of the following is the primary purpose of using multi-factor authentication (MFA)?",
+    "opts": ["Prevent brute-force attacks", "Ensure a higher level of identity verification", "Increase network speed", "Enhance encryption algorithms"],
+    "answer": 1,
+    "explain": "MFA requires users to provide multiple forms of identity verification, which enhances security by making it harder for attackers to gain unauthorized access.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 12,
+    "q": "What is the main purpose of using a Virtual Private Network (VPN)?",
+    "opts": ["Encrypt all network traffic", "Provide secure remote access to the internal network", "Prevent DDoS attacks", "Control traffic flow between servers"],
+    "answer": 1,
+    "explain": "A VPN enables secure remote access by encrypting traffic between a user's device and a remote network, ensuring confidentiality and privacy.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 13,
+    "q": "Which of the following is a key characteristic of the principle of least privilege?",
+    "opts": ["Users are given the minimum permissions necessary to perform their tasks", "Users have unrestricted access to all system resources", "System administrators can override all access controls", "Users are given access to the most sensitive data by default"],
+    "answer": 0,
+    "explain": "The principle of least privilege ensures that users are granted only the permissions necessary to perform their job functions, reducing the potential for misuse.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 14,
+    "q": "Which of the following is NOT a typical feature of an intrusion detection system (IDS)?",
+    "opts": ["Detects suspicious network traffic", "Monitors network packets in real time", "Blocks unauthorized access to the network", "Alerts administrators of potential security threats"],
+    "answer": 2,
+    "explain": "IDS is used to monitor network traffic and alert administrators to suspicious activity, but it does not block traffic. That function is handled by an intrusion prevention system (IPS).",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 15,
+    "q": "What is the primary goal of a Denial-of-Service (DoS) attack?",
+    "opts": ["To crash the target server", "To steal sensitive information", "To inject malicious code into a system", "To gain unauthorized access to a network"],
+    "answer": 0,
+    "explain": "DoS attacks aim to overwhelm a system with traffic, rendering it unavailable to legitimate users by exhausting system resources.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 16,
+    "q": "Which of the following is considered an active security measure to detect security breaches in real-time?",
+    "opts": ["Firewall", "Intrusion Detection System (IDS)", "Encryption", "Backup and Restore Procedures"],
+    "answer": 1,
+    "explain": "An IDS actively monitors and analyzes network traffic to identify suspicious activities and security breaches in real-time.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 17,
+    "q": "In the context of information security, what does 'defense in depth' refer to?",
+    "opts": ["Layered security measures to protect information", "Using encryption to protect data", "Restricting access to sensitive data", "Monitoring network traffic for anomalies"],
+    "answer": 0,
+    "explain": "Defense in depth is the practice of implementing multiple layers of security controls to protect data from various threats at different levels of the system.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 18,
+    "q": "Which of the following is a key component of an effective incident response plan?",
+    "opts": ["Establishing procedures to contain, analyze, and recover from security incidents", "Regularly scanning for vulnerabilities", "Using a firewall to block external threats", "Encrypting all sensitive data"],
+    "answer": 0,
+    "explain": "An effective incident response plan ensures that organizations can contain, analyze, and recover from security incidents in a timely manner.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 19,
+    "q": "What is the purpose of a 'sandbox' in security testing?",
+    "opts": ["To run potentially harmful code in an isolated environment", "To monitor network traffic", "To back up data", "To prevent unauthorized access to the server"],
+    "answer": 0,
+    "explain": "A sandbox is an isolated environment used to test potentially malicious software without risking the security of the main system.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 20,
+    "q": "What is the purpose of the 'CIA triad' in information security?",
+    "opts": ["To ensure confidentiality, integrity, and availability of information", "To implement encryption algorithms", "To monitor network performance", "To prevent unauthorized access to databases"],
+    "answer": 0,
+    "explain": "The CIA triad is a foundational concept in information security, ensuring that data remains confidential, is accurate and complete, and is available when needed.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 21,
+    "q": "What is the primary purpose of an access control list (ACL)?",
+    "opts": ["To specify which users or devices can access network resources", "To encrypt network traffic", "To monitor system performance", "To detect and block malicious activity"],
+    "answer": 0,
+    "explain": "An access control list (ACL) defines which users or devices can access specific network resources and what actions they are permitted to perform.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 22,
+    "q": "Which of the following is a key objective of a vulnerability management program?",
+    "opts": ["Identify and prioritize vulnerabilities", "Encrypt all sensitive data", "Block unauthorized access to the network", "Monitor network traffic for unusual activity"],
+    "answer": 0,
+    "explain": "A vulnerability management program helps identify, assess, and prioritize vulnerabilities, allowing organizations to fix them before they are exploited.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 23,
+    "q": "Which of the following is an example of a physical security control?",
+    "opts": ["Firewalls", "Encryption", "Security guards", "Intrusion Detection Systems (IDS)"],
+    "answer": 2,
+    "explain": "Physical security controls include measures like security guards, access control systems, and surveillance cameras to protect physical assets and facilities.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 24,
+    "q": "Which of the following is the purpose of a Public Key Infrastructure (PKI)?",
+    "opts": ["To manage encryption keys and digital certificates", "To monitor network traffic", "To perform vulnerability scans", "To secure database access"],
+    "answer": 0,
+    "explain": "A PKI is a framework for managing encryption keys, digital certificates, and public key cryptography to ensure secure communication.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 25,
+    "q": "Which of the following is a typical characteristic of a phishing attack?",
+    "opts": ["It is used to steal user credentials through fraudulent emails", "It exploits software vulnerabilities", "It involves physical access to a computer", "It attacks the network infrastructure"],
+    "answer": 0,
+    "explain": "Phishing attacks typically involve sending fraudulent emails or messages to trick users into revealing sensitive information like passwords.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 26,
+    "q": "Which of the following is the primary benefit of using symmetric encryption over asymmetric encryption?",
+    "opts": ["Symmetric encryption is faster", "Symmetric encryption is more secure", "Asymmetric encryption requires less computational power", "Asymmetric encryption is easier to implement"],
+    "answer": 0,
+    "explain": "Symmetric encryption is generally faster than asymmetric encryption because it uses the same key for both encryption and decryption, making it more efficient.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 27,
+    "q": "In the context of security monitoring, what does 'log analysis' involve?",
+    "opts": ["Examining system logs to identify suspicious activities", "Encrypting system logs for privacy", "Backing up system logs", "Deleting old logs to save storage space"],
+    "answer": 0,
+    "explain": "Log analysis involves reviewing system logs to detect unusual or suspicious activities that might indicate a security incident.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 28,
+    "q": "Which of the following is a key characteristic of a robust incident response plan?",
+    "opts": ["It defines procedures for detecting, containing, and recovering from security incidents", "It only addresses external threats", "It focuses solely on preventing attacks", "It is designed to ignore low-priority incidents"],
+    "answer": 0,
+    "explain": "A strong incident response plan includes defined procedures for detecting, containing, analyzing, and recovering from security incidents, ensuring a quick and effective response.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 29,
+    "q": "What is the purpose of an encryption algorithm’s 'key exchange' process?",
+    "opts": ["To securely exchange encryption keys between parties", "To verify the integrity of encrypted data", "To prevent brute-force attacks", "To compress data before encryption"],
+    "answer": 0,
+    "explain": "The key exchange process enables two parties to securely exchange encryption keys, which are used for encrypting and decrypting data in a secure manner.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 30,
+    "q": "Which of the following is the best way to mitigate the risks of a weak password policy?",
+    "opts": ["Implement multi-factor authentication (MFA)", "Enforce password complexity requirements", "Require password changes every 30 days", "Allow users to use their name as a password"],
+    "answer": 0,
+    "explain": "Implementing multi-factor authentication (MFA) significantly improves security by requiring more than just a password for user authentication.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 31,
+    "q": "What is the main purpose of a risk assessment in information security?",
+    "opts": ["To identify potential threats and vulnerabilities", "To recover from a security breach", "To encrypt sensitive data", "To prevent unauthorized access to the network"],
+    "answer": 0,
+    "explain": "A risk assessment helps identify potential security risks, including threats and vulnerabilities, allowing organizations to prioritize and implement appropriate security measures.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 32,
+    "q": "What is a primary function of a firewall in network security?",
+    "opts": ["To encrypt data", "To monitor network traffic", "To block or allow traffic based on security rules", "To scan for viruses"],
+    "answer": 2,
+    "explain": "A firewall controls network traffic by blocking or allowing traffic based on predefined security rules, helping to protect the network from unauthorized access.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 33,
+    "q": "What is the purpose of a digital signature in public key cryptography?",
+    "opts": ["To authenticate the sender and verify the integrity of the message", "To encrypt the message", "To compress the message", "To prevent data leakage"],
+    "answer": 0,
+    "explain": "A digital signature uses the sender's private key to authenticate their identity and verify the integrity of the message, ensuring it hasn’t been tampered with.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 34,
+    "q": "What is the primary purpose of data masking in data protection?",
+    "opts": ["To encrypt sensitive data", "To hide sensitive information while maintaining its usability", "To compress sensitive data", "To back up data securely"],
+    "answer": 1,
+    "explain": "Data masking is used to hide sensitive information, ensuring that it cannot be exposed while still allowing authorized users to work with non-sensitive versions of the data.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 35,
+    "q": "Which of the following best describes a 'zero-day' vulnerability?",
+    "opts": ["A vulnerability that is known to attackers but has not been discovered by the vendor", "A vulnerability that is patched before any exploit can occur", "A vulnerability that occurs every time the system is rebooted", "A vulnerability that can only be exploited remotely"],
+    "answer": 0,
+    "explain": "A zero-day vulnerability is one that is unknown to the software vendor and can be exploited by attackers before a patch is released.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 36,
+    "q": "Which of the following is the primary goal of incident response in cybersecurity?",
+    "opts": ["To contain and resolve the security incident as quickly as possible", "To scan for vulnerabilities", "To prevent future attacks", "To recover from a system outage"],
+    "answer": 0,
+    "explain": "Incident response aims to contain, mitigate, and resolve security incidents as quickly as possible to minimize damage and prevent further exploitation.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 37,
+    "q": "Which of the following is the most common method for securing network communication?",
+    "opts": ["Using firewalls", "Using encryption protocols like TLS/SSL", "Using IDS", "Using access control lists (ACLs)"],
+    "answer": 1,
+    "explain": "TLS/SSL encryption is widely used to secure network communication by providing encryption for data in transit, ensuring confidentiality and integrity.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 38,
+    "q": "What is the purpose of a security policy in an organization?",
+    "opts": ["To define acceptable security practices and set expectations", "To monitor network traffic", "To back up important files", "To prevent unauthorized physical access"],
+    "answer": 0,
+    "explain": "A security policy outlines the rules and guidelines for ensuring the organization's security, defining acceptable practices and procedures for protecting its assets.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 39,
+    "q": "What is the primary purpose of an antivirus program?",
+    "opts": ["To block unauthorized network traffic", "To scan and remove malicious software from systems", "To monitor user activity", "To encrypt files"],
+    "answer": 1,
+    "explain": "Antivirus programs are designed to scan, detect, and remove malicious software (malware) from systems to protect against infections.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 40,
+    "q": "Which of the following is the most effective method to protect sensitive data from unauthorized access?",
+    "opts": ["Encryption", "Using complex passwords", "Regularly changing passwords", "Using firewalls"],
+    "answer": 0,
+    "explain": "Encryption ensures that sensitive data is converted into an unreadable format, preventing unauthorized users from accessing it even if it is intercepted.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 41,
+    "q": "Which of the following best describes a vulnerability management process?",
+    "opts": ["Regularly scanning for vulnerabilities and remediating them", "Encrypting all sensitive data", "Monitoring network traffic for unauthorized access", "Restricting access to sensitive data"],
+    "answer": 0,
+    "explain": "Vulnerability management involves identifying, assessing, and mitigating vulnerabilities in systems and applications to reduce the risk of exploitation.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 42,
+    "q": "Which of the following is an example of a logical access control?",
+    "opts": ["Using a badge reader to access a server room", "Encrypting a file", "Setting up user permissions for a database", "Locking a door with a physical key"],
+    "answer": 2,
+    "explain": "Logical access controls restrict access to computer systems, applications, and data based on user roles, permissions, and authentication methods.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 43,
+    "q": "Which of the following is the purpose of the 'least privilege' principle in access control?",
+    "opts": ["Giving users access to all resources they may need", "Allowing users to access only the minimum resources required to perform their job functions", "Granting users full system access", "Providing users with access to all resources by default"],
+    "answer": 1,
+    "explain": "The principle of least privilege ensures that users are only given the minimum level of access necessary to perform their tasks, reducing the risk of unauthorized access and misuse.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 44,
+    "q": "Which of the following is the purpose of using a proxy server in network security?",
+    "opts": ["To monitor and filter network traffic", "To encrypt data", "To prevent DDoS attacks", "To manage DNS requests"],
+    "answer": 0,
+    "explain": "A proxy server acts as an intermediary between a user and the internet, filtering and controlling access to resources and monitoring network traffic.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 45,
+    "q": "Which type of attack occurs when an attacker intercepts communication between two parties to steal or alter information?",
+    "opts": ["Man-in-the-Middle attack", "Phishing attack", "Denial-of-Service attack", "SQL injection"],
+    "answer": 0,
+    "explain": "A Man-in-the-Middle (MITM) attack occurs when an attacker intercepts and potentially alters communications between two parties, allowing them to steal or manipulate data.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 46,
+    "q": "Which of the following is the most effective method for ensuring data confidentiality in a database?",
+    "opts": ["Data encryption", "Regular backups", "Access control lists (ACLs)", "Network segmentation"],
+    "answer": 0,
+    "explain": "Data encryption ensures that sensitive data is transformed into an unreadable format, preventing unauthorized access to the data even if it is intercepted.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 47,
+    "q": "In the context of information security, what does 'defense in depth' mean?",
+    "opts": ["Using multiple layers of security to protect data", "Implementing a firewall at the perimeter", "Encrypting sensitive data", "Using strong passwords"],
+    "answer": 0,
+    "explain": "Defense in depth involves using multiple layers of security measures (such as firewalls, IDS/IPS, encryption, and access controls) to protect data and reduce risks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 48,
+    "q": "Which of the following is an example of a physical security control?",
+    "opts": ["Access card systems", "Encryption", "Multi-factor authentication", "User training"],
+    "answer": 0,
+    "explain": "Physical security controls include measures such as access card systems, biometric scanners, and surveillance cameras to protect physical assets and buildings.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 49,
+    "q": "What is the purpose of 'data anonymization' in data protection?",
+    "opts": ["To make sensitive data unreadable", "To hide the identity of individuals in data sets", "To ensure data integrity", "To encrypt data in transit"],
+    "answer": 1,
+    "explain": "Data anonymization involves removing or altering personally identifiable information (PII) from data sets, making it impossible to identify individuals while retaining the data’s usefulness.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 50,
+    "q": "Which of the following is a common method of preventing unauthorized access to sensitive data?",
+    "opts": ["Data encryption", "Using strong passwords", "Access control policies", "All of the above"],
+    "answer": 3,
+    "explain": "All of the listed methods—data encryption, using strong passwords, and implementing access control policies—are effective in preventing unauthorized access to sensitive data.",
+    "video": "http://www.midkey.xyz"
   }
+
 ]
