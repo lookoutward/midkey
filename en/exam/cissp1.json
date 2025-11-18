@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "q": "In the network layer model, at which layer does a firewall typically operate to filter IP addresses and ports?",
+    "opts": ["Physical Layer", "Data Link Layer", "Network/Transport Layer", "Application Layer"],
+    "answer": 2,
+    "explain": "Firewalls commonly filter packets based on IP and port, which is a function of the network/transport layer.",
+    "video": "https://mp.weixin.qq.com/s/4YK4q_Kg_95NXyLbNJ_hkg"
+  },
+  {
+    "id": 2,
+    "q": "What is the core concept of the Zero Trust security model?",
+    "opts": ["Default trust in internal networks", "All access requires verification", "Allow any internal access", "Only trust whitelisted devices"],
+    "answer": 1,
+    "explain": "Zero Trust means not assuming trust by default; all access requires verification and least privilege.",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 3,
+    "q": "Which of the following is most effective in preventing a Man-in-the-Middle (MITM) attack?",
+    "opts": ["Using HTTP", "Using TLS/HTTPS", "Using FTP", "Using Telnet"],
+    "answer": 1,
+    "explain": "TLS/HTTPS provides end-to-end encryption, effectively preventing MITM interception and tampering.",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 4,
+    "q": "Which of the following is NOT a main characteristic of a cryptographic 'hash function'?",
+    "opts": ["Irreversible", "Collision resistance", "Reversible", "Deterministic"],
+    "answer": 2,
+    "explain": "A hash function is irreversible, so irreversible, collision-resistant, and deterministic are its characteristics. Reversibility is not.",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 5,
+    "q": "What is the primary goal of an XSS attack?",
+    "opts": ["Injecting malicious scripts into the user's browser", "Destroying the physical structure of the database", "Causing the server to crash", "Gaining root access to the server"],
+    "answer": 0,
+    "explain": "XSS aims to inject scripts that execute in the user's browser to steal cookies or hijack sessions.",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 6,
+    "q": "Which practice in security operations helps quickly detect anomalies and respond?",
+    "opts": ["Not logging", "Proper logging and alerts", "Deleting logs", "Delaying log collection"],
+    "answer": 1,
+    "explain": "Proper logging and alerting strategies help detect and respond to security events promptly.",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 7,
+    "q": "Which of the following is NOT a common protective measure for weak password policies?",
+    "opts": ["Enforcing complexity", "Regularly changing passwords", "Allowing blank passwords", "Using multi-factor authentication (MFA)"],
+    "answer": 2,
+    "explain": "Allowing blank passwords is not a protective measure and is actually a vulnerability.",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 8,
+    "q": "Social engineering attacks typically exploit which of the following?",
+    "opts": ["Technical vulnerabilities", "Human trust and curiosity", "Cryptographic flaws", "Hardware malfunctions"],
+    "answer": 1,
+    "explain": "Social engineering exploits human trust, curiosity, or fear to obtain information or access.",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 9,
+    "q": "In a cloud environment, what does the Shared Responsibility model refer to?",
+    "opts": ["Only the cloud provider is responsible for security", "Only the customer is responsible for security", "Both the customer and cloud provider share different security responsibilities", "Security is not the responsibility of either party"],
+    "answer": 2,
+    "explain": "Cloud security is divided between the cloud provider (e.g., physical infrastructure) and the customer (e.g., data and accounts).",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  },
+  {
+    "id": 10,
+    "q": "Which technology can prevent the long-term exposure of sensitive data from being leaked?",
+    "opts": ["Data backup", "Data masking/anonymization", "Enabling SSH", "Disabling firewalls"],
+    "answer": 1,
+    "explain": "Data masking (or anonymization) protects sensitive data by making it difficult to identify even if stolen.",
+    "video": "https://weixin.qq.com/sph/AGN3VoFlH"
+  }
+]
