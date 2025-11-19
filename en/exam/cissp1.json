@@ -402,6 +402,493 @@
     "answer": 3,
     "explain": "All of the listed methods—data encryption, using strong passwords, and implementing access control policies—are effective in preventing unauthorized access to sensitive data.",
     "video": "http://www.midkey.xyz"
-  }
+  },
 
+
+  {
+    "id": 51,
+    "q": "Which security model focuses on preventing information from flowing downward to lower-clearance subjects?",
+    "opts": ["Bell-LaPadula", "Biba", "Clark-Wilson", "BREACH"],
+    "answer": 0,
+    "explain": "Bell-LaPadula enforces 'no read up, no write down' to protect confidentiality.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 52,
+    "q": "Which security principle helps ensure that a system continues to operate even when components fail?",
+    "opts": ["Redundancy", "Encryption", "Obfuscation", "Federation"],
+    "answer": 0,
+    "explain": "Redundancy ensures availability by providing backup components.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 53,
+    "q": "Which concept ensures that data has not been altered without authorization?",
+    "opts": ["Availability", "Confidentiality", "Integrity", "Non-repudiation"],
+    "answer": 2,
+    "explain": "Integrity ensures information accuracy and protection from unauthorized changes.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 54,
+    "q": "Which of the following is the strongest authentication factor?",
+    "opts": ["Password", "SMS code", "Hardware token", "Knowledge-based questions"],
+    "answer": 2,
+    "explain": "Hardware tokens are considered strong MFA factors because they are difficult to replicate.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 55,
+    "q": "A company restricts employee access based on job roles. What model is this?",
+    "opts": ["DAC", "RBAC", "MAC", "ABAC"],
+    "answer": 1,
+    "explain": "RBAC uses roles to control permissions based on job functions.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 56,
+    "q": "Which type of malware locks files and demands payment?",
+    "opts": ["Worm", "Ransomware", "Spyware", "Rootkit"],
+    "answer": 1,
+    "explain": "Ransomware encrypts or locks files, demanding payment to restore access.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 57,
+    "q": "What does the principle of 'separation of duties' aim to prevent?",
+    "opts": ["Social engineering", "Unauthorized system access", "Fraud and misuse by a single person", "Data tampering"],
+    "answer": 2,
+    "explain": "Separation of duties ensures no single person controls an entire sensitive process.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 58,
+    "q": "Which backup type only stores data changed since the last full backup and clears archive bits?",
+    "opts": ["Full backup", "Differential backup", "Incremental backup", "Snapshot"],
+    "answer": 2,
+    "explain": "Incremental backups save only data changed since the last full or incremental backup.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 59,
+    "q": "Which protocol secures email communication?",
+    "opts": ["SMTP", "POP3", "IMAP", "S/MIME"],
+    "answer": 3,
+    "explain": "S/MIME provides digital signatures and encryption for secure email.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 60,
+    "q": "What is the main purpose of network segmentation?",
+    "opts": ["To increase bandwidth", "To reduce broadcast storms", "To limit attack surface and contain breaches", "To encrypt data automatically"],
+    "answer": 2,
+    "explain": "Segmentation isolates systems to minimize lateral movement during attacks.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 61,
+    "q": "Which of the following is an example of biometric authentication?",
+    "opts": ["Password", "OTP", "Fingerprint", "Smart card"],
+    "answer": 2,
+    "explain": "Biometrics include physical traits such as fingerprints or iris patterns.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 62,
+    "q": "What is the primary benefit of using a Content Delivery Network (CDN)?",
+    "opts": ["Improved security logging", "Reduced server CPU usage", "DDoS mitigation and faster global delivery", "Better encryption"],
+    "answer": 2,
+    "explain": "CDNs distribute traffic globally and offer built-in DDoS protection.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 63,
+    "q": "Which type of attack involves flooding a system with requests to exhaust resources?",
+    "opts": ["MITM", "DDoS", "SQL Injection", "Cross-Site Scripting"],
+    "answer": 1,
+    "explain": "DDoS attacks overwhelm systems to make them unavailable to legitimate users.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 64,
+    "q": "Which of the following is considered a preventive control?",
+    "opts": ["Logging", "Firewall rules", "Incident response", "Audit reports"],
+    "answer": 1,
+    "explain": "Firewalls prevent malicious or unauthorized traffic from entering the network.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 65,
+    "q": "Which type of risk management strategy transfers the risk to another party?",
+    "opts": ["Mitigate", "Transfer", "Accept", "Avoid"],
+    "answer": 1,
+    "explain": "Risk transfer often involves insurance or outsourcing responsibilities to third parties.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 66,
+    "q": "What is the purpose of a digital certificate?",
+    "opts": ["Verify server speed", "Authenticate identity using PKI", "Encrypt disk volumes", "Store passwords"],
+    "answer": 1,
+    "explain": "Digital certificates verify identity and support public-key cryptography.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 67,
+    "q": "Which mechanism ensures users cannot deny actions they performed?",
+    "opts": ["Integrity", "Obfuscation", "Non-repudiation", "Availability"],
+    "answer": 2,
+    "explain": "Non-repudiation uses logs and digital signatures to prove user actions.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 68,
+    "q": "Which type of testing evaluates security from an outsider’s perspective with no internal knowledge?",
+    "opts": ["White-box testing", "Black-box testing", "Gray-box testing", "Code review"],
+    "answer": 1,
+    "explain": "Black-box testing simulates an external attacker without internal information.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 69,
+    "q": "Which wireless security protocol is considered the weakest?",
+    "opts": ["WPA2", "WPA3", "WEP", "802.1X"],
+    "answer": 2,
+    "explain": "WEP is outdated and can be cracked within minutes using modern tools.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 70,
+    "q": "What is the purpose of mandatory access control (MAC)?",
+    "opts": ["Users manage their own permissions", "Access based on labels and classifications", "Permissions inherited from groups", "Access based on dynamic attributes"],
+    "answer": 1,
+    "explain": "MAC uses labels and security classifications to enforce strict access.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 71,
+    "q": "Which attack attempts all possible password combinations?",
+    "opts": ["Dictionary attack", "Brute-force attack", "Phishing", "Replay attack"],
+    "answer": 1,
+    "explain": "Brute-force attacks systematically try every possible combination.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 72,
+    "q": "Which standard defines how organizations should manage information security?",
+    "opts": ["ISO 9001", "ISO 27001", "PCI-DSS", "NIST CSF"],
+    "answer": 1,
+    "explain": "ISO 27001 provides a formal framework for establishing an ISMS.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 73,
+    "q": "A system that can run outdated or suspicious programs safely is using what?",
+    "opts": ["Virtualization", "Tokenization", "Hashing", "Clustering"],
+    "answer": 0,
+    "explain": "Virtual machines isolate applications, reducing risk to the host.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 74,
+    "q": "Which control type is used to discover and report security violations?",
+    "opts": ["Preventive", "Detective", "Corrective", "Deterrent"],
+    "answer": 1,
+    "explain": "Detective controls identify security incidents after they occur.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 75,
+    "q": "What is the main benefit of tokenization?",
+    "opts": ["Encrypting communication channels", "Replacing sensitive data with non-sensitive values", "Increasing network speed", "Preventing hardware failures"],
+    "answer": 1,
+    "explain": "Tokenization protects sensitive data by substituting it with tokens.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 76,
+    "q": "Which tool is primarily used for security log collection and correlation?",
+    "opts": ["Firewall", "IDS", "SIEM", "Proxy"],
+    "answer": 2,
+    "explain": "SIEM platforms collect, analyze, and correlate logs for threat detection.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 77,
+    "q": "Which type of malware hides itself by modifying the operating system?",
+    "opts": ["Ransomware", "Rootkit", "Worm", "Botnet"],
+    "answer": 1,
+    "explain": "Rootkits conceal their presence by altering OS components.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 78,
+    "q": "What does the BIA (Business Impact Analysis) primarily identify?",
+    "opts": ["Threat actors", "Critical business processes and impact of disruption", "Password weaknesses", "Encryption requirements"],
+    "answer": 1,
+    "explain": "BIA prioritizes business functions and evaluates the effect of downtime.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 79,
+    "q": "Which type of cloud model gives the customer the most control and responsibility?",
+    "opts": ["SaaS", "PaaS", "IaaS", "FaaS"],
+    "answer": 2,
+    "explain": "IaaS provides infrastructure while the customer configures OS and applications.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 80,
+    "q": "Which technique prevents session hijacking by frequently changing session IDs?",
+    "opts": ["Session rotation", "Tokenization", "Hash salting", "Load balancing"],
+    "answer": 0,
+    "explain": "Rotating session IDs reduces the chance of stolen tokens being reused.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 81,
+    "q": "Which best describes a 'cold site' for disaster recovery?",
+    "opts": ["Fully operational backups", "Minimal infrastructure requiring setup", "Real-time failover", "Cloud-synchronized mirror systems"],
+    "answer": 1,
+    "explain": "Cold sites provide basic space and power but require additional setup.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 82,
+    "q": "Which process converts plaintext into unreadable ciphertext?",
+    "opts": ["Hashing", "Encoding", "Encryption", "Tokenization"],
+    "answer": 2,
+    "explain": "Encryption protects confidentiality by transforming readable data into ciphertext.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 83,
+    "q": "Which malware spreads automatically without user interaction?",
+    "opts": ["Virus", "Worm", "Trojan", "Adware"],
+    "answer": 1,
+    "explain": "Worms replicate autonomously across networks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 84,
+    "q": "Which of the following is a corrective control?",
+    "opts": ["Patching vulnerabilities", "Encryption", "Firewall rules", "Policies"],
+    "answer": 0,
+    "explain": "Corrective controls fix system weaknesses after detection.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 85,
+    "q": "Using multiple cloud providers to reduce dependency on one is known as what?",
+    "opts": ["Federation", "Cloud redundancy", "Multi-cloud strategy", "Failover clustering"],
+    "answer": 2,
+    "explain": "Multi-cloud reduces risk from service outages or vendor lock-in.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 86,
+    "q": "Which wireless attack involves imitating a legitimate Wi-Fi access point?",
+    "opts": ["Packet sniffing", "Evil twin attack", "MAC spoofing", "Replay attack"],
+    "answer": 1,
+    "explain": "An evil twin AP tricks users into connecting to a malicious hotspot.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 87,
+    "q": "Which control type discourages attackers from attempting unauthorized actions?",
+    "opts": ["Detective", "Preventive", "Deterrent", "Corrective"],
+    "answer": 2,
+    "explain": "Deterrent controls (e.g., warning banners) discourage malicious activity.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 88,
+    "q": "Which process ensures that software is developed following secure practices?",
+    "opts": ["Secure SDLC", "Agile", "DevOps", "Backlog grooming"],
+    "answer": 0,
+    "explain": "Secure SDLC integrates security at every stage of software development.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 89,
+    "q": "Which type of cryptography uses two mathematically related keys?",
+    "opts": ["Symmetric", "Asymmetric", "Hashing", "Obfuscation"],
+    "answer": 1,
+    "explain": "Asymmetric cryptography uses public and private key pairs.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 90,
+    "q": "Which protocol provides secure remote management of network devices?",
+    "opts": ["FTP", "SSH", "Telnet", "SMTP"],
+    "answer": 1,
+    "explain": "SSH encrypts remote connections, unlike Telnet.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 91,
+    "q": "What is the main purpose of a privacy impact assessment (PIA)?",
+    "opts": ["Reduce system load", "Ensure personal data protection risks are evaluated", "Test encryption strength", "Measure system uptime"],
+    "answer": 1,
+    "explain": "PIAs ensure compliance with privacy regulations and assess data risks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 92,
+    "q": "Which method authenticates users based on behavior patterns?",
+    "opts": ["Biometrics", "Keystroke dynamics", "PIN code", "Smart card"],
+    "answer": 1,
+    "explain": "Behavioral biometrics analyze typing rhythm or movement patterns.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 93,
+    "q": "Which attack injects malicious SQL commands into a vulnerable input field?",
+    "opts": ["XSS", "CSRF", "SQL Injection", "MITM"],
+    "answer": 2,
+    "explain": "SQLi manipulates backend databases through crafted queries.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 94,
+    "q": "What does data minimization aim to reduce?",
+    "opts": ["Storage cost", "Processing time", "Amount of data collected", "Encryption overhead"],
+    "answer": 2,
+    "explain": "Minimization collects only necessary data to lower privacy risk.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 95,
+    "q": "Which type of backup allows the fastest restoration time?",
+    "opts": ["Full backup", "Incremental", "Differential", "Archive"],
+    "answer": 0,
+    "explain": "Full backups restore the entire system without needing other files.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 96,
+    "q": "What is the purpose of network whitelisting?",
+    "opts": ["Block all traffic", "Allow only approved traffic", "Encrypt data", "Increase network speed"],
+    "answer": 1,
+    "explain": "Whitelisting blocks everything except explicitly approved sources.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 97,
+    "q": "Which principle requires regularly verifying that users still need their assigned permissions?",
+    "opts": ["Auditing", "Access recertification", "Need-to-know", "Role rotation"],
+    "answer": 1,
+    "explain": "Access recertification reduces privilege creep and outdated access.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 98,
+    "q": "Which component of PKI is responsible for issuing digital certificates?",
+    "opts": ["OCSP", "RA", "CA", "CRL"],
+    "answer": 2,
+    "explain": "The Certificate Authority (CA) issues and signs certificates.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 99,
+    "q": "Which system automatically blocks traffic that matches malicious patterns?",
+    "opts": ["IDS", "IPS", "Firewall", "Proxy"],
+    "answer": 1,
+    "explain": "IPS actively blocks suspicious traffic, unlike IDS.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 100,
+    "q": "Which cybersecurity term describes the time between discovering and patching a vulnerability?",
+    "opts": ["Recovery time", "Window of exposure", "Incident duration", "Exploit gap"],
+    "answer": 1,
+    "explain": "The window of exposure is the time attackers can exploit a vulnerability.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 101,
+    "q": "Which NIST publication covers the cybersecurity framework?",
+    "opts": ["NIST 800-30", "NIST CSF", "NIST 800-53", "NIST 800-63"],
+    "answer": 1,
+    "explain": "NIST CSF provides guidelines for cybersecurity risk management.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 102,
+    "q": "Which term describes unauthorized changes to log files?",
+    "opts": ["Log poisoning", "Log forging", "Log tampering", "Log rotation"],
+    "answer": 2,
+    "explain": "Log tampering hides or alters evidence of malicious activity.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 103,
+    "q": "Which method verifies that a downloaded file has not been modified?",
+    "opts": ["Hash comparison", "Compression", "Encoding", "Checksum removal"],
+    "answer": 0,
+    "explain": "Hashing ensures file integrity by detecting changes.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 104,
+    "q": "What is the main goal of a vulnerability scan?",
+    "opts": ["Exploit systems", "Test user awareness", "Identify potential weaknesses", "Monitor availability"],
+    "answer": 2,
+    "explain": "Vulnerability scans locate system weaknesses before attackers do.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 105,
+    "q": "What does a SOC primarily focus on?",
+    "opts": ["Incident detection and response", "Software development", "Hardware repairs", "Database optimization"],
+    "answer": 0,
+    "explain": "Security Operation Centers monitor, detect, and respond to threats.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 106,
+    "q": "Which principle states that systems should be secure by default?",
+    "opts": ["Secure by design", "Fail-open", "User-centered design", "Dynamic access"],
+    "answer": 0,
+    "explain": "Secure-by-design ensures systems start with the strongest security baseline.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 107,
+    "q": "Which attack involves reusing intercepted authentication tokens?",
+    "opts": ["Replay attack", "DDoS", "Phishing", "Smurf attack"],
+    "answer": 0,
+    "explain": "Replay attacks reuse captured authentication information.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 108,
+    "q": "What is the purpose of sandboxing suspicious files?",
+    "opts": ["Increase speed", "Isolate execution to prevent harm", "Encrypt the files", "Transfer them offsite"],
+    "answer": 1,
+    "explain": "Sandboxes isolate code execution to prevent damage to the system.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 109,
+    "q": "Which agreement prohibits employees from disclosing sensitive information?",
+    "opts": ["SLA", "NDA", "MOU", "BPA"],
+    "answer": 1,
+    "explain": "NDAs legally prevent disclosure of confidential information.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 110,
+    "q": "Which type of phishing targets high-level executives?",
+    "opts": ["Spear phishing", "Whaling", "Clone phishing", "Smishing"],
+    "answer": 1,
+    "explain": "Whaling targets executives or high-value individuals.",
+    "video": "http://www.midkey.xyz"
+  }
 ]
+
