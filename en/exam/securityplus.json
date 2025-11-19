@@ -1,0 +1,1636 @@
+[
+  {
+    "id": 1,
+    "q": "Which security concept ensures that data is not altered during transmission?",
+    "opts": ["Availability", "Integrity", "Obfuscation", "Redundancy"],
+    "answer": 1,
+    "explain": "Integrity ensures information remains accurate and unaltered during storage or transmission.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 2,
+    "q": "A company wants to restrict access to its Wi-Fi by requiring a username and password. Which authentication method should be used?",
+    "opts": ["WEP", "WPA3-Personal", "Open Authentication", "WPA2-Enterprise"],
+    "answer": 3,
+    "explain": "WPA2/3-Enterprise uses 802.1X and RADIUS to require individual credentials for Wi-Fi access.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 3,
+    "q": "Which attack involves overwhelming a system with traffic to make it unavailable?",
+    "opts": ["Phishing", "DDoS", "Injection", "Spoofing"],
+    "answer": 1,
+    "explain": "A DDoS flood overwhelms a system with traffic to disrupt service availability.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 4,
+    "q": "Which protocol is commonly used to securely manage network devices over an encrypted channel?",
+    "opts": ["Telnet", "FTP", "SSH", "SMTP"],
+    "answer": 2,
+    "explain": "SSH provides encrypted remote management for switches, routers, and servers.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 5,
+    "q": "Which security control type is a security guard performing badge checks at the entrance?",
+    "opts": ["Technical", "Managerial", "Physical", "Logical"],
+    "answer": 2,
+    "explain": "Physical controls include guards, fences, and barriers.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 6,
+    "q": "Which malware encrypts user data and demands payment for decryption?",
+    "opts": ["Worm", "Ransomware", "Spyware", "Adware"],
+    "answer": 1,
+    "explain": "Ransomware encrypts files and demands ransom to restore access.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 7,
+    "q": "A user receives an email claiming their bank account will close unless they click a link. What attack is this?",
+    "opts": ["Vishing", "Smishing", "Phishing", "Whaling"],
+    "answer": 2,
+    "explain": "Phishing uses email to trick users into providing credentials or clicking malicious links.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 8,
+    "q": "Which wireless attack forces users to reconnect to a fake access point?",
+    "opts": ["Disassociation attack", "Replay attack", "Evil twin", "Brute force"],
+    "answer": 2,
+    "explain": "An evil twin AP imitates a legitimate AP to intercept traffic.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 9,
+    "q": "Which access control model uses labels like 'Top Secret' and 'Confidential'?",
+    "opts": ["RBAC", "DAC", "MAC", "ABAC"],
+    "answer": 2,
+    "explain": "Mandatory Access Control assigns system-enforced labels to control access.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 10,
+    "q": "Which technique replaces sensitive data with a non-sensitive placeholder?",
+    "opts": ["Hashing", "Obfuscation", "Tokenization", "Encryption"],
+    "answer": 2,
+    "explain": "Tokenization substitutes sensitive values with tokens that have no exploitable meaning.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 11,
+    "q": "Which tool is used to detect unauthorized changes to system files?",
+    "opts": ["HIPS", "Nmap", "Tripwire", "Syslog"],
+    "answer": 2,
+    "explain": "Tripwire monitors file integrity and alerts on unauthorized modifications.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 12,
+    "q": "Which cloud model provides hardware but not operating systems?",
+    "opts": ["SaaS", "PaaS", "IaaS", "SECaaS"],
+    "answer": 2,
+    "explain": "IaaS offers virtual hardware while requiring customers to manage OS and applications.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 13,
+    "q": "Which cryptographic property ensures messages are sent by the claimed sender?",
+    "opts": ["Confidentiality", "Authentication", "Obfuscation", "Distribution"],
+    "answer": 1,
+    "explain": "Authentication provides proof of the sender’s identity.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 14,
+    "q": "A company uses multiple servers to ensure service remains available even if one fails. This is an example of:",
+    "opts": ["Hardening", "Redundancy", "Hashing", "Obfuscation"],
+    "answer": 1,
+    "explain": "Redundancy increases system availability using backups or additional systems.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 15,
+    "q": "Which social engineering attack specifically targets executives?",
+    "opts": ["Whaling", "Phishing", "Shoulder surfing", "Vishing"],
+    "answer": 0,
+    "explain": "Whaling targets high-profile users such as CEOs and executives.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 16,
+    "q": "Which protocol secures web browsing by encrypting communication?",
+    "opts": ["HTTP", "FTP", "TLS", "DNS"],
+    "answer": 2,
+    "explain": "TLS provides encryption for HTTPS and other secure communication channels.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 17,
+    "q": "What type of virus attaches itself to documents such as Word files?",
+    "opts": ["Macro virus", "Boot sector virus", "Polymorphic virus", "Worm"],
+    "answer": 0,
+    "explain": "Macro viruses infect Office documents that use embedded scripting languages.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 18,
+    "q": "Which authentication factor is based on something you are?",
+    "opts": ["Password", "Smart card", "Fingerprint", "PIN"],
+    "answer": 2,
+    "explain": "Biometric identifiers like fingerprints belong to the “something you are” category.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 19,
+    "q": "What term describes giving a user only the permissions they need to complete their job?",
+    "opts": ["Least privilege", "Segmentation", "Baseline", "Redundancy"],
+    "answer": 0,
+    "explain": "Least privilege limits user access to only necessary tasks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 20,
+    "q": "Which type of threat actor is motivated primarily by profit?",
+    "opts": ["Hacktivist", "Insider", "Script kiddie", "Cybercriminal"],
+    "answer": 3,
+    "explain": "Cybercriminal groups mainly focus on financial gain.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 21,
+    "q": "Which device inspects network traffic and blocks malicious activity?",
+    "opts": ["Router", "Switch", "Firewall", "Repeater"],
+    "answer": 2,
+    "explain": "Firewalls enforce security rules by filtering inbound and outbound traffic.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 22,
+    "q": "Which access control method assigns permissions based on a user's job role?",
+    "opts": ["RBAC", "MAC", "DAC", "ABAC"],
+    "answer": 0,
+    "explain": "Role-Based Access Control grants rights based on organizational roles.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 23,
+    "q": "Which attack intercepts and alters communication between two parties?",
+    "opts": ["Man-in-the-middle", "Brute-force", "Flooding", "Harvesting"],
+    "answer": 0,
+    "explain": "MiTM attacks insert an attacker between victims to capture or modify data.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 24,
+    "q": "What is the main purpose of network segmentation?",
+    "opts": ["Increase signal strength", "Improve aesthetics", "Limit attack spread", "Reduce hardware cost"],
+    "answer": 2,
+    "explain": "Segmentation isolates networks to prevent lateral movement and contain breaches.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 25,
+    "q": "What type of backup stores only files changed since the last full backup?",
+    "opts": ["Differential", "Incremental", "Snapshot", "Copy"],
+    "answer": 0,
+    "explain": "Differential backups store all changes since the last full backup.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 26,
+    "q": "A security team wants to obscure sensitive information in a configuration file. What technique should they use?",
+    "opts": ["Hashing", "Obfuscation", "Whitelisting", "Forensics"],
+    "answer": 1,
+    "explain": "Obfuscation hides or disguises data to prevent misuse.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 27,
+    "q": "Which attack attempts all possible password combinations?",
+    "opts": ["Rainbow table", "Dictionary", "Brute-force", "Spraying"],
+    "answer": 2,
+    "explain": "Brute-force attacks try every possible combination to guess credentials.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 28,
+    "q": "Which log type would show successful or failed login attempts?",
+    "opts": ["DNS logs", "Authentication logs", "Firewall logs", "Performance logs"],
+    "answer": 1,
+    "explain": "Authentication logs track login events and credential use.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 29,
+    "q": "Which type of testing examines the internal structure of an application?",
+    "opts": ["Gray-box", "Black-box", "White-box", "External"],
+    "answer": 2,
+    "explain": "White-box testing requires full knowledge of code and architecture.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 30,
+    "q": "Which wireless security protocol is considered obsolete and vulnerable?",
+    "opts": ["WPA3", "WPA2", "WEP", "WPA3-Enterprise"],
+    "answer": 2,
+    "explain": "WEP is outdated and easily cracked; it should never be used.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 31,
+    "q": "Which document outlines steps to restore IT systems after a disaster?",
+    "opts": ["SLA", "BCP", "DRP", "MOU"],
+    "answer": 2,
+    "explain": "The Disaster Recovery Plan focuses on restoring technical operations.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 32,
+    "q": "A company encrypts all laptops to protect data in case of theft. Which concept does this support?",
+    "opts": ["Availability", "Confidentiality", "Redundancy", "Hardening"],
+    "answer": 1,
+    "explain": "Encryption protects confidentiality by preventing unauthorized data access.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 33,
+    "q": "What is the primary purpose of patch management?",
+    "opts": ["Improve signal quality", "Remove duplicate files", "Reduce vulnerabilities", "Increase bandwidth"],
+    "answer": 2,
+    "explain": "Patch management fixes security flaws and reduces attack surface.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 34,
+    "q": "Which threat actor typically has internal access to systems?",
+    "opts": ["Insider", "Hacktivist", "Competitor", "Foreign government"],
+    "answer": 0,
+    "explain": "Insiders have legitimate access and can cause intentional or accidental harm.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 35,
+    "q": "Which security concept ensures services remain operational during an attack?",
+    "opts": ["Availability", "Integrity", "Confidentiality", "Hashing"],
+    "answer": 0,
+    "explain": "Availability ensures systems remain accessible and functional.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 36,
+    "q": "Which attack captures credentials as a user enters them on a fake login page?",
+    "opts": ["Pharming", "Spear phishing", "Vishing", "Whaling"],
+    "answer": 0,
+    "explain": "Pharming redirects users to fake sites to steal login credentials.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 37,
+    "q": "A company adds motion sensors and cameras to its building. What control type is this?",
+    "opts": ["Logical", "Administrative", "Physical", "Operational"],
+    "answer": 2,
+    "explain": "Physical controls protect facilities with hardware such as sensors and cameras.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 38,
+    "q": "What is the main purpose of a VPN?",
+    "opts": ["Block malware", "Encrypt network traffic", "Increase bandwidth", "Monitor emails"],
+    "answer": 1,
+    "explain": "VPNs encrypt traffic between endpoints to secure remote connections.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 39,
+    "q": "Which protocol is used for secure email transfer?",
+    "opts": ["POP3", "IMAP", "SMTP over TLS", "FTP"],
+    "answer": 2,
+    "explain": "SMTP over TLS encrypts email transmission to protect confidentiality.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 40,
+    "q": "Which device analyzes network packets and alerts on suspicious behavior?",
+    "opts": ["IDS", "Hub", "Repeater", "Cable modem"],
+    "answer": 0,
+    "explain": "An IDS monitors network traffic and detects malicious patterns.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 41,
+    "q": "Which concept involves verifying the identity of a user before granting access?",
+    "opts": ["Identification", "Authentication", "Authorization", "Availability"],
+    "answer": 1,
+    "explain": "Authentication confirms that a user is who they claim to be.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 42,
+    "q": "Which file type is commonly used to store public keys?",
+    "opts": ["PEM", "TXT", "LOG", "CSV"],
+    "answer": 0,
+    "explain": "PEM files store certificates and keys in Base64 format.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 43,
+    "q": "Which device connects multiple network segments and filters traffic by IP and port?",
+    "opts": ["Switch", "Bridge", "Repeater", "Firewall"],
+    "answer": 3,
+    "explain": "Firewalls filter inbound/outbound traffic using security rules.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 44,
+    "q": "Which vulnerability type allows an attacker to insert malicious commands into a website?",
+    "opts": ["XSS", "DDoS", "Replay", "ARP poisoning"],
+    "answer": 0,
+    "explain": "Cross-Site Scripting injects malicious scripts into web pages viewed by users.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 45,
+    "q": "Which type of device provides centralized authentication for network access?",
+    "opts": ["Switch", "Proxy server", "RADIUS server", "IDS"],
+    "answer": 2,
+    "explain": "RADIUS servers authenticate users for VPNs, Wi-Fi, and network access.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 46,
+    "q": "Which technique hides internal IP addresses from the internet?",
+    "opts": ["DNSSEC", "NAT", "DHCP", "ARP"],
+    "answer": 1,
+    "explain": "NAT masks internal addresses by translating them to a public IP.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 47,
+    "q": "Which type of control includes company policies and procedures?",
+    "opts": ["Administrative", "Physical", "Technical", "Operational"],
+    "answer": 0,
+    "explain": "Administrative controls include policies, training, and standards.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 48,
+    "q": "Which cybersecurity principle ensures actions can be traced back to a responsible party?",
+    "opts": ["Obfuscation", "Non-repudiation", "Replication", "Reconciliation"],
+    "answer": 1,
+    "explain": "Non-repudiation ensures users cannot deny performing an action.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 49,
+    "q": "Which wireless frequency band is commonly used for short-range Bluetooth communication?",
+    "opts": ["5 GHz", "2.4 GHz", "900 MHz", "700 MHz"],
+    "answer": 1,
+    "explain": "Bluetooth operates in the 2.4 GHz ISM band.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 50,
+    "q": "Which type of malware can self-replicate without attaching to other files?",
+    "opts": ["Virus", "Worm", "Trojan", "Keylogger"],
+    "answer": 1,
+    "explain": "Worms self-replicate and spread across networks without needing a host file.",
+    "video": "http://www.midkey.xyz"
+  },
+
+
+  {
+    "id": 51,
+    "q": "Which term describes a weakness that can be exploited by a threat actor?",
+    "opts": ["Threat", "Risk", "Vulnerability", "Impact"],
+    "answer": 2,
+    "explain": "A vulnerability is a flaw or weakness that could be exploited.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 52,
+    "q": "Which security feature ensures data availability during power outages?",
+    "opts": ["Load balancer", "UPS", "Firewall", "IDS"],
+    "answer": 1,
+    "explain": "A UPS provides backup power to maintain system availability.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 53,
+    "q": "Which attack attempts to exploit a password reused across multiple sites?",
+    "opts": ["Password spraying", "Credential stuffing", "Brute-force", "Dictionary attack"],
+    "answer": 1,
+    "explain": "Credential stuffing uses known leaked credentials across multiple sites.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 54,
+    "q": "Which technology allows administrators to control mobile device security settings?",
+    "opts": ["MDM", "VPN", "NAT", "WAF"],
+    "answer": 0,
+    "explain": "Mobile Device Management enforces policies on smartphones and tablets.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 55,
+    "q": "Which type of malware appears legitimate but performs malicious actions?",
+    "opts": ["Worm", "Rootkit", "Trojan", "Keylogger"],
+    "answer": 2,
+    "explain": "Trojans disguise themselves as harmless applications.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 56,
+    "q": "Which cybersecurity team is responsible for responding to security incidents?",
+    "opts": ["NOC", "SOC", "DevOps", "Help Desk"],
+    "answer": 1,
+    "explain": "A Security Operations Center (SOC) monitors and responds to security threats.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 57,
+    "q": "Which cryptographic algorithm is symmetric?",
+    "opts": ["RSA", "ECC", "AES", "DSA"],
+    "answer": 2,
+    "explain": "AES is a widely used symmetric encryption algorithm.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 58,
+    "q": "Which best describes a mantrap?",
+    "opts": ["A network scanning tool", "A secure two-door entry system", "A malware containment method", "A backup generator"],
+    "answer": 1,
+    "explain": "A mantrap uses two doors to control access and prevent tailgating.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 59,
+    "q": "Which device protects against SQL injection attacks?",
+    "opts": ["Firewall", "WAF", "Switch", "Router"],
+    "answer": 1,
+    "explain": "A Web Application Firewall filters malicious web traffic like SQL injection.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 60,
+    "q": "Which term refers to detecting a security issue and restoring normal operations?",
+    "opts": ["Mitigation", "Recovery", "Preparation", "Containment"],
+    "answer": 1,
+    "explain": "Recovery focuses on returning systems to normal functioning after an incident.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 61,
+    "q": "A user clicks a link and installs malware. Which principle failed?",
+    "opts": ["Availability", "User training", "Redundancy", "Power management"],
+    "answer": 1,
+    "explain": "Security awareness training reduces risky user behavior.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 62,
+    "q": "A company separates its database and web servers into different VLANs. What security benefit does this provide?",
+    "opts": ["Higher bandwidth", "Reduced power usage", "Network segmentation", "Increased encryption"],
+    "answer": 2,
+    "explain": "Segmentation limits attack spread and isolates systems.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 63,
+    "q": "Which term describes disguising malicious code to avoid detection?",
+    "opts": ["Obfuscation", "Hashing", "Redundancy", "Hardening"],
+    "answer": 0,
+    "explain": "Obfuscation hides code logic to evade detection tools.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 64,
+    "q": "Which system uses rules to decide network access based on attributes like device type?",
+    "opts": ["MAC", "RBAC", "ABAC", "DAC"],
+    "answer": 2,
+    "explain": "Attribute-Based Access Control uses attributes to make decisions.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 65,
+    "q": "Which wireless attack captures data packets for later cracking?",
+    "opts": ["Deauthentication attack", "Packet sniffing", "Evil twin", "Replay attack"],
+    "answer": 1,
+    "explain": "Packet sniffing captures wireless traffic for offline analysis.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 66,
+    "q": "Which certificate type indicates a website’s identity has undergone extensive verification?",
+    "opts": ["EV certificate", "Wildcard certificate", "Self-signed certificate", "SAN certificate"],
+    "answer": 0,
+    "explain": "EV certificates require strict identity validation by certificate authorities.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 67,
+    "q": "Which backup method allows the fastest recovery time?",
+    "opts": ["Incremental", "Differential", "Full", "Snapshot"],
+    "answer": 2,
+    "explain": "Full backups store all data and restore quickly compared to incremental methods.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 68,
+    "q": "Which concept ensures users can only access information appropriate for their role?",
+    "opts": ["Authorization", "Authentication", "Obfuscation", "Inspection"],
+    "answer": 0,
+    "explain": "Authorization determines resource access after authentication.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 69,
+    "q": "Which tool scans systems for known vulnerabilities?",
+    "opts": ["Vulnerability scanner", "SIEM", "MDM", "Switch"],
+    "answer": 0,
+    "explain": "Vulnerability scanners identify weaknesses needing remediation.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 70,
+    "q": "What type of threat actor typically has limited skills but uses preset attack tools?",
+    "opts": ["Hacktivist", "Script kiddie", "Insider", "Cybercriminal"],
+    "answer": 1,
+    "explain": "Script kiddies rely on existing tools without deep technical skills.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 71,
+    "q": "Which principle requires multiple employees to complete a sensitive task?",
+    "opts": ["Dual control", "Least privilege", "Obfuscation", "Hashing"],
+    "answer": 0,
+    "explain": "Dual control requires two or more people for high-risk operations.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 72,
+    "q": "Which technology validates that software has not been tampered with before loading?",
+    "opts": ["VPN", "Secure boot", "MDM", "NAT"],
+    "answer": 1,
+    "explain": "Secure boot checks signatures to ensure system integrity.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 73,
+    "q": "Which attack tricks DNS servers into accepting malicious entries?",
+    "opts": ["DNS poisoning", "MAC flooding", "ARP spoofing", "Smishing"],
+    "answer": 0,
+    "explain": "DNS poisoning inserts false DNS records to redirect traffic.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 74,
+    "q": "What is the primary purpose of change management?",
+    "opts": ["Increase network speed", "Avoid unexpected disruption", "Improve physical security", "Enhance backups"],
+    "answer": 1,
+    "explain": "Change management reduces risk from uncontrolled modifications.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 75,
+    "q": "Which device prevents unauthorized users from connecting to unused network ports?",
+    "opts": ["Firewall", "Port security on a switch", "IDS", "WAF"],
+    "answer": 1,
+    "explain": "Port security restricts which MAC addresses may access switch ports.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 76,
+    "q": "Which biometric factor measures physical movement patterns?",
+    "opts": ["Fingerprint", "Iris pattern", "Gait analysis", "Facial recognition"],
+    "answer": 2,
+    "explain": "Gait analysis identifies individuals based on walking patterns.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 77,
+    "q": "Which tool aggregates logs from multiple devices for analysis?",
+    "opts": ["SIEM", "MDM", "Proxy", "Firewall"],
+    "answer": 0,
+    "explain": "SIEM systems collect logs and provide correlation and alerts.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 78,
+    "q": "Which mitigation reduces the impact of a successful phishing attack?",
+    "opts": ["Password complexity", "Data classification", "MFA", "Cable management"],
+    "answer": 2,
+    "explain": "Multi-factor authentication helps protect accounts even if credentials are stolen.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 79,
+    "q": "Which protocol secures file transfers with encryption?",
+    "opts": ["TFTP", "SFTP", "HTTP", "SMTP"],
+    "answer": 1,
+    "explain": "SFTP uses SSH to encrypt file transfer sessions.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 80,
+    "q": "Which type of policy defines acceptable corporate resource usage?",
+    "opts": ["AUP", "SLA", "DRP", "MOU"],
+    "answer": 0,
+    "explain": "Acceptable Use Policies outline appropriate employee behavior.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 81,
+    "q": "Which architecture moves security controls closer to the user and device instead of a central perimeter?",
+    "opts": ["Zero Trust", "DMZ", "VPN", "IaaS"],
+    "answer": 0,
+    "explain": "Zero Trust validates every request regardless of network location.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 82,
+    "q": "Which term describes reducing unnecessary services to minimize attack surface?",
+    "opts": ["Hardening", "Replication", "Segmentation", "Monitoring"],
+    "answer": 0,
+    "explain": "Hardening removes unneeded features to reduce vulnerabilities.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 83,
+    "q": "Which cloud model provides software applications over the internet?",
+    "opts": ["PaaS", "SaaS", "IaaS", "SECaaS"],
+    "answer": 1,
+    "explain": "SaaS delivers complete applications such as email or CRM.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 84,
+    "q": "Which term refers to encrypting data before it is written to a storage device?",
+    "opts": ["File hashing", "Data masking", "Data-at-rest encryption", "Tokenization"],
+    "answer": 2,
+    "explain": "Data-at-rest encryption protects stored files from unauthorized access.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 85,
+    "q": "Which type of attack overloads switch CAM tables to force traffic flooding?",
+    "opts": ["MAC flooding", "DNS hijacking", "Brute-force", "Watering hole"],
+    "answer": 0,
+    "explain": "MAC flooding overwhelms the table, causing the switch to behave like a hub.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 86,
+    "q": "A company wants to verify that files haven't changed since installation. Which control should be used?",
+    "opts": ["Firewall", "Checksum/hash verification", "VPN", "Load balancer"],
+    "answer": 1,
+    "explain": "Hashes verify file integrity.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 87,
+    "q": "Which attack targets users by compromising websites they frequently visit?",
+    "opts": ["Watering hole attack", "Phishing", "Whaling", "Smishing"],
+    "answer": 0,
+    "explain": "Watering hole attacks infect sites frequently accessed by the target group.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 88,
+    "q": "Which security mechanism prevents data from being read if a device is stolen?",
+    "opts": ["Hardening", "Encryption", "Firmware update", "Patch management"],
+    "answer": 1,
+    "explain": "Encryption protects confidentiality even if physical control is lost.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 89,
+    "q": "Which authentication factor involves something you have?",
+    "opts": ["Password", "Smart card", "Fingerprint", "PIN"],
+    "answer": 1,
+    "explain": "Smart cards and tokens are 'something you have' factors.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 90,
+    "q": "Which security concept ensures users cannot deny actions they performed?",
+    "opts": ["Confidentiality", "Non-repudiation", "Availability", "Segmentation"],
+    "answer": 1,
+    "explain": "Non-repudiation ensures accountability for actions.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 91,
+    "q": "Which term describes a plan for continuing operations after a disaster?",
+    "opts": ["BCP", "SLA", "BIA", "AUP"],
+    "answer": 0,
+    "explain": "The Business Continuity Plan ensures operations continue during disruptions.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 92,
+    "q": "Which device filters web traffic and caches frequently accessed pages?",
+    "opts": ["Proxy server", "Firewall", "Switch", "Load balancer"],
+    "answer": 0,
+    "explain": "Proxies filter traffic and improve performance with caching.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 93,
+    "q": "Which management policy defines how long data must be stored?",
+    "opts": ["Retention policy", "BYOD policy", "AUP", "Backup policy"],
+    "answer": 0,
+    "explain": "Retention policies define storage duration and deletion timelines.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 94,
+    "q": "Which attack uses fake ARP messages to redirect network traffic?",
+    "opts": ["Replay attack", "Phishing", "ARP poisoning", "Smishing"],
+    "answer": 2,
+    "explain": "ARP poisoning corrupts ARP tables to intercept or redirect traffic.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 95,
+    "q": "Which control type includes firewalls and encryption?",
+    "opts": ["Administrative", "Technical", "Physical", "Operational"],
+    "answer": 1,
+    "explain": "Technical controls involve hardware or software security mechanisms.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 96,
+    "q": "Which protocol is used for securely browsing web pages?",
+    "opts": ["POP3", "HTTPS", "SNMP", "ICMP"],
+    "answer": 1,
+    "explain": "HTTPS encrypts web communications using TLS.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 97,
+    "q": "Which term describes identifying the potential consequences of disruptions?",
+    "opts": ["SLA", "Risk avoidance", "Business Impact Analysis", "Hardening"],
+    "answer": 2,
+    "explain": "A BIA analyzes effects of outages on business operations.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 98,
+    "q": "Which wireless protocol provides the strongest security today?",
+    "opts": ["WEP", "WPA2", "WPA3", "Open Wi-Fi"],
+    "answer": 2,
+    "explain": "WPA3 improves security with stronger encryption and protections.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 99,
+    "q": "Which component distributes traffic across multiple servers to improve availability?",
+    "opts": ["Proxy", "Load balancer", "Switch", "SIEM"],
+    "answer": 1,
+    "explain": "Load balancers enhance availability by distributing requests.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 100,
+    "q": "Which attack tricks users through SMS messages?",
+    "opts": ["Phishing", "Vishing", "Smishing", "Whaling"],
+    "answer": 2,
+    "explain": "Smishing uses SMS to lure victims into clicking malicious links.",
+    "video": "http://www.midkey.xyz"
+  },
+
+
+  {
+    "id": 101,
+    "q": "Which attack involves an adversary inserting themselves between two communicating parties to intercept or modify traffic?",
+    "opts": ["Brute-force attack", "Man-in-the-middle attack", "Dictionary attack", "Replay attack"],
+    "answer": 1,
+    "explain": "MITM attacks allow attackers to intercept or alter communications between two endpoints.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 102,
+    "q": "Which protocol is commonly used to provide secure remote administration over an encrypted channel?",
+    "opts": ["FTP", "Telnet", "SSH", "SNMPv1"],
+    "answer": 2,
+    "explain": "SSH provides encrypted remote administration, unlike Telnet which is plaintext.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 103,
+    "q": "A user reports their system is infected with ransomware. What is typically the first sign?",
+    "opts": ["Browser redirects", "Files encrypted and inaccessible", "Slow system performance", "Unexpected software updates"],
+    "answer": 1,
+    "explain": "Ransomware commonly encrypts user files and demands payment for decryption.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 104,
+    "q": "Which term describes the process of reducing an organization’s attack surface by disabling unnecessary services?",
+    "opts": ["Hardening", "Load balancing", "Virtualization", "Redundancy"],
+    "answer": 0,
+    "explain": "Hardening removes unnecessary features to minimize potential attack vectors.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 105,
+    "q": "Which of the following best describes a logic bomb?",
+    "opts": ["A self-replicating worm", "Code that triggers under specific conditions", "A hardware trojan", "A phishing tool"],
+    "answer": 1,
+    "explain": "Logic bombs execute malicious actions only when certain conditions are met.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 106,
+    "q": "A security team wants to ensure integrity of log files. Which technology should they use?",
+    "opts": ["Hashing", "Symmetric encryption", "Obfuscation", "Steganography"],
+    "answer": 0,
+    "explain": "Hashing verifies integrity by generating a unique value that changes if data is modified.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 107,
+    "q": "Which authentication factor is represented by a smart card?",
+    "opts": ["Something you know", "Something you have", "Something you are", "Somewhere you are"],
+    "answer": 1,
+    "explain": "Smart cards are a form of possession-based authentication.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 108,
+    "q": "Which type of malware disguises itself as legitimate software?",
+    "opts": ["Worm", "Rootkit", "Trojan", "Spyware"],
+    "answer": 2,
+    "explain": "Trojans appear legitimate but contain malicious code.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 109,
+    "q": "What is the primary purpose of a VPN?",
+    "opts": ["Improving network speed", "Encrypting network traffic", "Filtering network packets", "Providing DNS services"],
+    "answer": 1,
+    "explain": "VPNs encrypt traffic between endpoints to maintain confidentiality.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 110,
+    "q": "Which vulnerability scanning type uses credentials to access deeper system information?",
+    "opts": ["Non-credentialed scan", "Black-box scan", "Credentialed scan", "Passive scan"],
+    "answer": 2,
+    "explain": "Credentialed scans use valid credentials and provide more detailed results.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 111,
+    "q": "An attacker sends multiple SYN packets without completing the handshake. What attack is this?",
+    "opts": ["XSS attack", "SYN flood", "DNS spoofing", "ARP poisoning"],
+    "answer": 1,
+    "explain": "SYN floods exhaust server resources by leaving half-open connections.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 112,
+    "q": "Which wireless security protocol is the most secure option for modern enterprise environments?",
+    "opts": ["WEP", "WPA", "WPA2-Personal", "WPA3-Enterprise"],
+    "answer": 3,
+    "explain": "WPA3-Enterprise offers the strongest authentication and encryption.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 113,
+    "q": "Which term describes a security control that compensates for a weakness in another control?",
+    "opts": ["Deterrent control", "Corrective control", "Compensating control", "Physical control"],
+    "answer": 2,
+    "explain": "Compensating controls offset gaps when a primary control cannot be implemented.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 114,
+    "q": "Which cloud model provides only hardware resources such as compute and storage?",
+    "opts": ["SaaS", "PaaS", "IaaS", "FaaS"],
+    "answer": 2,
+    "explain": "IaaS delivers virtualized hardware components like compute, network, and storage.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 115,
+    "q": "A company needs a secure method to store passwords. Which is best practice?",
+    "opts": ["Store in plaintext", "Encrypt without salting", "Hash with salt", "Store in a spreadsheet"],
+    "answer": 2,
+    "explain": "Salting and hashing protect passwords even if the database is compromised.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 116,
+    "q": "Which device analyzes network traffic and blocks malicious packets in real-time?",
+    "opts": ["IDS", "IPS", "Hub", "Repeater"],
+    "answer": 1,
+    "explain": "IPS systems actively block suspicious traffic, unlike IDS which only alerts.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 117,
+    "q": "A user receives an email pretending to be from HR asking for login information. This is an example of:",
+    "opts": ["Whaling", "Phishing", "Vishing", "Smishing"],
+    "answer": 1,
+    "explain": "Phishing typically uses email to trick users into revealing credentials.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 118,
+    "q": "Which component of the CIA triad focuses on ensuring that data is accurate and unaltered?",
+    "opts": ["Confidentiality", "Integrity", "Availability", "Authentication"],
+    "answer": 1,
+    "explain": "Integrity ensures information remains unchanged unless authorized.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 119,
+    "q": "Which tool is typically used to capture and analyze network packets?",
+    "opts": ["Wireshark", "Nmap", "Metasploit", "Burp Suite"],
+    "answer": 0,
+    "explain": "Wireshark is a packet analyzer used for network troubleshooting and security analysis.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 120,
+    "q": "What is the primary function of DNSSEC?",
+    "opts": ["Encrypt DNS queries", "Authenticate DNS responses", "Block malicious domains", "Speed up DNS lookups"],
+    "answer": 1,
+    "explain": "DNSSEC digitally signs DNS data to prevent spoofing and ensure authenticity.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 121,
+    "q": "Which attack attempts all possible password combinations until the correct one is found?",
+    "opts": ["Rainbow table attack", "Credential stuffing", "Brute-force attack", "Phishing attack"],
+    "answer": 2,
+    "explain": "Brute-force attacks try every possible combination to find the correct password.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 122,
+    "q": "What type of security test simulates real-world attacks without full system knowledge?",
+    "opts": ["White-box test", "Black-box test", "Gray-box test", "Functional test"],
+    "answer": 1,
+    "explain": "Black-box tests simulate attackers with no internal knowledge.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 123,
+    "q": "Which backup method only saves data changed since the last full backup?",
+    "opts": ["Differential", "Incremental", "Snapshot", "Archive"],
+    "answer": 1,
+    "explain": "Incremental backups are fast and store only changes since the last full or incremental backup.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 124,
+    "q": "What is the main purpose of network segmentation?",
+    "opts": ["Increase bandwidth", "Separate sensitive systems from general traffic", "Improve wireless coverage", "Reduce encryption needs"],
+    "answer": 1,
+    "explain": "Segmentation isolates sensitive systems to limit lateral movement.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 125,
+    "q": "Which device prevents unauthorized access to a network by filtering inbound and outbound traffic?",
+    "opts": ["Switch", "Router", "Firewall", "Load balancer"],
+    "answer": 2,
+    "explain": "Firewalls enforce network policies and filter traffic based on rules.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 126,
+    "q": "Which attack involves sending fraudulent ARP messages?",
+    "opts": ["DNS poisoning", "ARP poisoning", "DoS attack", "XSS"],
+    "answer": 1,
+    "explain": "ARP poisoning manipulates MAC-to-IP mappings in local networks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 127,
+    "q": "A company wants to prevent employees from installing unauthorized software. Which control is best?",
+    "opts": ["Firewall rules", "Application allowlisting", "Password policies", "Content filtering"],
+    "answer": 1,
+    "explain": "Allowlisting ensures only approved applications can run.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 128,
+    "q": "Which incident response phase focuses on learning from an event to improve processes?",
+    "opts": ["Preparation", "Containment", "Eradication", "Lessons learned"],
+    "answer": 3,
+    "explain": "Lessons learned evaluates the response and identifies improvements.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 129,
+    "q": "Which technique makes stolen password hashes more resistant to rainbow table attacks?",
+    "opts": ["Compression", "Salting", "Encoding", "Obfuscation"],
+    "answer": 1,
+    "explain": "Salting adds randomness to passwords, preventing rainbow table use.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 130,
+    "q": "Which security concept ensures a user only has the access necessary to perform their job?",
+    "opts": ["Least privilege", "Segregation of duties", "Mandatory vacation", "Zero trust"],
+    "answer": 0,
+    "explain": "Least privilege minimizes permissions to reduce risk.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 131,
+    "q": "Which type of malware spreads without requiring user interaction?",
+    "opts": ["Trojan", "Adware", "Worm", "Rootkit"],
+    "answer": 2,
+    "explain": "Worms self-replicate across networks without user assistance.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 132,
+    "q": "What is the purpose of multi-factor authentication?",
+    "opts": ["Increase password length", "Reduce network load", "Add additional layers of verification", "Encrypt data"],
+    "answer": 2,
+    "explain": "MFA strengthens authentication by requiring multiple evidence types.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 133,
+    "q": "Which tool is commonly used for port scanning?",
+    "opts": ["Nmap", "Nikto", "Aircrack-ng", "John the Ripper"],
+    "answer": 0,
+    "explain": "Nmap identifies open ports and network services.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 134,
+    "q": "A user reports constant pop-ups and unwanted browser extensions. What is most likely installed?",
+    "opts": ["Ransomware", "Adware", "Worm", "Botnet client"],
+    "answer": 1,
+    "explain": "Adware generates ads and can modify browser settings.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 135,
+    "q": "Which wireless attack forces clients to reconnect to a rogue access point?",
+    "opts": ["Evil twin attack", "Deauthentication attack", "WPS attack", "Bluejacking"],
+    "answer": 1,
+    "explain": "Deauth attacks disconnect clients so they may reconnect to a rogue AP.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 136,
+    "q": "What is the primary purpose of tokenization?",
+    "opts": ["Encrypt entire databases", "Replace sensitive data with non-sensitive tokens", "Mask passwords", "Compress large files"],
+    "answer": 1,
+    "explain": "Tokenization replaces sensitive data (e.g., credit card numbers) with tokens.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 137,
+    "q": "Which concept ensures that systems remain available during an attack?",
+    "opts": ["Integrity", "Resiliency", "Confidentiality", "Obfuscation"],
+    "answer": 1,
+    "explain": "Resiliency focuses on maintaining operations under adverse conditions.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 138,
+    "q": "Which control type includes fences, cameras, and locks?",
+    "opts": ["Administrative control", "Technical control", "Physical control", "Operational control"],
+    "answer": 2,
+    "explain": "Physical controls protect physical access to assets.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 139,
+    "q": "A company wants to restrict access to internal services based on user identity and device health. Which model applies?",
+    "opts": ["Zero trust", "Least privilege", "Network segmentation", "Defense in depth"],
+    "answer": 0,
+    "explain": "Zero trust assumes no implicit trust and verifies every user and device.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 140,
+    "q": "Which protocol is used to synchronize system clocks securely?",
+    "opts": ["HTTPS", "SNMPv3", "NTP with authentication", "SFTP"],
+    "answer": 2,
+    "explain": "Authenticated NTP prevents spoofing and ensures accurate time.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 141,
+    "q": "Which type of encryption uses the same key for encryption and decryption?",
+    "opts": ["Symmetric", "Asymmetric", "Hashing", "Steganography"],
+    "answer": 0,
+    "explain": "Symmetric encryption relies on a shared secret key.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 142,
+    "q": "What is the purpose of sandboxing?",
+    "opts": ["Encrypt data", "Isolate applications to prevent system damage", "Improve network latency", "Increase storage capacity"],
+    "answer": 1,
+    "explain": "Sandboxing runs code in an isolated environment to prevent broader compromise.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 143,
+    "q": "Which principle ensures that tasks are divided so no single person controls a critical process?",
+    "opts": ["Least privilege", "Segregation of duties", "Mandatory access control", "Discretionary access control"],
+    "answer": 1,
+    "explain": "Segregation of duties prevents fraud and misuse.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 144,
+    "q": "A company wants temporary one-time-use passwords for contractors. Which technology fits this requirement?",
+    "opts": ["TOTP", "Static passwords", "Biometrics", "PIN codes"],
+    "answer": 0,
+    "explain": "TOTP generates time-based one-time passwords.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 145,
+    "q": "Which type of malware provides remote control of an infected system?",
+    "opts": ["RAT", "Adware", "Trojan", "Boot sector virus"],
+    "answer": 0,
+    "explain": "Remote Access Trojans give attackers full remote control capability.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 146,
+    "q": "Which term refers to disguising malicious traffic as legitimate to avoid detection?",
+    "opts": ["Pivoting", "Session hijacking", "Evasion", "Spoofing"],
+    "answer": 2,
+    "explain": "Evasion techniques bypass security controls by hiding malicious behavior.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 147,
+    "q": "Which security control enforces access rules based on labels such as Secret or Confidential?",
+    "opts": ["RBAC", "DAC", "MAC", "ABAC"],
+    "answer": 2,
+    "explain": "Mandatory Access Control uses classifications and labels to enforce policies.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 148,
+    "q": "What is the main purpose of digital signatures?",
+    "opts": ["Confidentiality only", "Integrity and authenticity", "Availability only", "Obfuscation"],
+    "answer": 1,
+    "explain": "Digital signatures verify data integrity and confirm the sender's identity.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 149,
+    "q": "A company wants to ensure that data cannot be altered during transit. Which technology ensures this?",
+    "opts": ["Symmetric encryption", "Integrity checks using hashing", "Load balancing", "Firewall filtering"],
+    "answer": 1,
+    "explain": "Hashing and integrity checks detect unauthorized data modification.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 150,
+    "q": "Which term refers to identifying and removing vulnerabilities from software before deployment?",
+    "opts": ["Code signing", "Secure coding", "Patch management", "Load testing"],
+    "answer": 1,
+    "explain": "Secure coding practices identify and eliminate vulnerabilities early in development.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 151,
+    "q": "Which type of malware encrypts a victim's files and demands payment for the decryption key?",
+    "opts": ["Worm", "Trojan", "Ransomware", "Adware"],
+    "answer": 2,
+    "explain": "Ransomware encrypts user data and demands ransom for decryption.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 152,
+    "q": "Which attack involves overwhelming a system with traffic to render it unavailable?",
+    "opts": ["Phishing", "DDoS", "SQL Injection", "MITM"],
+    "answer": 1,
+    "explain": "DDoS attacks flood a target with traffic, degrading or denying service.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 153,
+    "q": "Which security principle ensures that users only access resources necessary for their job?",
+    "opts": ["Separation of Duties", "Least Privilege", "Defense in Depth", "Obfuscation"],
+    "answer": 1,
+    "explain": "Least privilege restricts user access to the minimum required to perform work.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 154,
+    "q": "Which wireless security protocol is considered the most secure for modern networks?",
+    "opts": ["WEP", "WPA", "WPA2", "WPA3"],
+    "answer": 3,
+    "explain": "WPA3 is the latest and most secure wireless encryption standard.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 155,
+    "q": "Which tool is commonly used to capture and analyze network packets?",
+    "opts": ["Nmap", "Wireshark", "Burp Suite", "Nessus"],
+    "answer": 1,
+    "explain": "Wireshark is a packet analyzer used to capture and inspect network traffic.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 156,
+    "q": "Which authentication factor is based on something the user has?",
+    "opts": ["Password", "Fingerprint", "Smart Card", "Behavior Pattern"],
+    "answer": 2,
+    "explain": "A smart card represents the 'something you have' authentication factor.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 157,
+    "q": "Which term describes the ability to trace actions back to a specific user?",
+    "opts": ["Redundancy", "Authentication", "Accountability", "Integrity"],
+    "answer": 2,
+    "explain": "Accountability ensures actions can be linked to individual users.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 158,
+    "q": "Which type of malware disguises itself as legitimate software?",
+    "opts": ["Rootkit", "Trojan", "Worm", "Bot"],
+    "answer": 1,
+    "explain": "Trojans appear legitimate but contain malicious code.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 159,
+    "q": "Which cloud model gives users control over applications but not the underlying OS?",
+    "opts": ["IaaS", "PaaS", "SaaS", "FaaS"],
+    "answer": 1,
+    "explain": "PaaS allows developers to deploy applications without managing OS or hardware.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 160,
+    "q": "Which protocol is used to send email?",
+    "opts": ["POP3", "IMAP", "SMTP", "FTP"],
+    "answer": 2,
+    "explain": "SMTP is responsible for sending email between servers.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 161,
+    "q": "Which process ensures a file has not been altered?",
+    "opts": ["Availability", "Integrity", "Authentication", "Authorization"],
+    "answer": 1,
+    "explain": "Integrity ensures data remains unchanged and accurate.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 162,
+    "q": "Which device inspects packets and enforces network security rules?",
+    "opts": ["Hub", "Switch", "Firewall", "Repeater"],
+    "answer": 2,
+    "explain": "Firewalls filter traffic based on predefined security rules.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 163,
+    "q": "What is the primary purpose of a DMZ?",
+    "opts": ["Encrypt data", "Host public-facing services", "Block malware", "Monitor logs"],
+    "answer": 1,
+    "explain": "A DMZ separates internal networks from public-facing services.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 164,
+    "q": "Which attack involves intercepting communication between two parties?",
+    "opts": ["Replay Attack", "Brute Force", "MITM", "Phishing"],
+    "answer": 2,
+    "explain": "MITM attacks intercept or alter communication between systems.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 165,
+    "q": "Which device connects multiple network segments and works at Layer 3?",
+    "opts": ["Hub", "Switch", "Router", "Bridge"],
+    "answer": 2,
+    "explain": "Routers operate at Layer 3, forwarding packets based on IP.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 166,
+    "q": "What is the purpose of multifactor authentication?",
+    "opts": ["Faster logins", "Stronger security", "Lower costs", "More flexibility"],
+    "answer": 1,
+    "explain": "MFA increases security by requiring multiple verification methods.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 167,
+    "q": "Which type of social engineering attack impersonates a trusted person via phone?",
+    "opts": ["Phishing", "Vishing", "Smishing", "Pretexting"],
+    "answer": 1,
+    "explain": "Vishing is voice phishing conducted over phone calls.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 168,
+    "q": "Which security control type is a firewall considered?",
+    "opts": ["Administrative", "Technical", "Operational", "Physical"],
+    "answer": 1,
+    "explain": "A firewall is a technical (logical) control.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 169,
+    "q": "Which protocol uses port 443?",
+    "opts": ["HTTP", "FTP", "HTTPS", "SSH"],
+    "answer": 2,
+    "explain": "HTTPS uses port 443 for encrypted web traffic.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 170,
+    "q": "Which attack attempts all possible password combinations?",
+    "opts": ["Phishing", "Dictionary Attack", "Brute Force", "Replay Attack"],
+    "answer": 2,
+    "explain": "Brute force attacks try every possible combination until successful.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 171,
+    "q": "What is the purpose of hashing?",
+    "opts": ["Encrypt data", "Verify integrity", "Hide IP address", "Authenticate users"],
+    "answer": 1,
+    "explain": "Hashing ensures integrity and creates unique digests.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 172,
+    "q": "Which wireless attack forces clients to reconnect to a malicious AP?",
+    "opts": ["Deauthentication Attack", "Evil Twin", "Rogue AP", "WPS Attack"],
+    "answer": 0,
+    "explain": "Deauthentication attacks force clients off a network to reconnect elsewhere.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 173,
+    "q": "Which term refers to identifying weaknesses in systems?",
+    "opts": ["Penetration Testing", "Risk Mitigation", "Vulnerability Scanning", "Threat Modeling"],
+    "answer": 2,
+    "explain": "Vulnerability scanning identifies security weaknesses.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 174,
+    "q": "Which backup type saves only data changed since the last backup of any type?",
+    "opts": ["Full", "Incremental", "Differential", "Cold"],
+    "answer": 2,
+    "explain": "Differential backups store changes since the last full backup.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 175,
+    "q": "Which standard is used for smart card authentication?",
+    "opts": ["X.500", "CAC", "PIV", "FIDO"],
+    "answer": 2,
+    "explain": "PIV is the U.S. federal standard for smart card authentication.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 176,
+    "q": "Which risk response involves transferring financial impact to insurance?",
+    "opts": ["Mitigation", "Avoidance", "Acceptance", "Transference"],
+    "answer": 3,
+    "explain": "Risk transference shifts impact to third parties like insurers.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 177,
+    "q": "Which device detects malicious traffic but does NOT block it?",
+    "opts": ["IPS", "IDS", "Firewall", "Proxy"],
+    "answer": 1,
+    "explain": "IDS systems detect suspicious traffic but do not block it.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 178,
+    "q": "Which attack targets database queries?",
+    "opts": ["Cross-Site Scripting", "MITM", "SQL Injection", "Spoofing"],
+    "answer": 2,
+    "explain": "SQL injection manipulates backend database queries.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 179,
+    "q": "Which log type records login successes and failures?",
+    "opts": ["Application Logs", "Security Logs", "System Logs", "Backup Logs"],
+    "answer": 1,
+    "explain": "Security logs track authentication attempts and account events.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 180,
+    "q": "Which device improves availability by distributing traffic?",
+    "opts": ["Router", "Load Balancer", "Switch", "Hub"],
+    "answer": 1,
+    "explain": "Load balancers distribute workloads across multiple systems.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 181,
+    "q": "Which policy outlines how employees can use company devices?",
+    "opts": ["NDA", "AUP", "SLA", "IRP"],
+    "answer": 1,
+    "explain": "An Acceptable Use Policy defines allowed and prohibited actions.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 182,
+    "q": "Which wireless frequency offers longer range but slower speed?",
+    "opts": ["2.4 GHz", "5 GHz", "6 GHz", "60 GHz"],
+    "answer": 0,
+    "explain": "2.4 GHz has longer range but lower throughput.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 183,
+    "q": "Which type of malware hides its presence by modifying system files?",
+    "opts": ["Virus", "Rootkit", "Worm", "Bot"],
+    "answer": 1,
+    "explain": "Rootkits provide stealth by hiding malicious activity.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 184,
+    "q": "Which principle requires multiple people to complete critical tasks?",
+    "opts": ["Least Privilege", "Separation of Duties", "Obfuscation", "Availability"],
+    "answer": 1,
+    "explain": "Separation of duties prevents fraud by splitting responsibilities.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 185,
+    "q": "Which certificate entity verifies domain ownership and identity?",
+    "opts": ["CRL", "OCSP", "CA", "CSR"],
+    "answer": 2,
+    "explain": "Certificate Authorities validate identities and issue certificates.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 186,
+    "q": "Which attack tricks users into clicking malicious links via email?",
+    "opts": ["Vishing", "Phishing", "Smishing", "Whaling"],
+    "answer": 1,
+    "explain": "Phishing uses fraudulent emails to steal data.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 187,
+    "q": "Which device stores encryption keys for mobile devices?",
+    "opts": ["HSM", "TPM", "Firewall", "Proxy"],
+    "answer": 1,
+    "explain": "TPMs store and protect cryptographic keys on devices.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 188,
+    "q": "Which protocol is used to securely manage network devices?",
+    "opts": ["Telnet", "SSH", "FTP", "HTTP"],
+    "answer": 1,
+    "explain": "SSH encrypts remote management communications.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 189,
+    "q": "Which term refers to verifying a user’s identity?",
+    "opts": ["Authorization", "Integrity", "Authentication", "Accounting"],
+    "answer": 2,
+    "explain": "Authentication confirms identity, such as via passwords or biometrics.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 190,
+    "q": "Which system automates patch deployment?",
+    "opts": ["IPS", "IDS", "WSUS", "SIEM"],
+    "answer": 2,
+    "explain": "WSUS automates Windows patch management.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 191,
+    "q": "Which policy defines how to restore operations after a disaster?",
+    "opts": ["AUP", "DRP", "SLA", "NDA"],
+    "answer": 1,
+    "explain": "Disaster Recovery Plans outline restoration procedures.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 192,
+    "q": "Which scanning type tests for open ports on a system?",
+    "opts": ["Credentialed Scan", "Port Scan", "Compliance Scan", "Patch Scan"],
+    "answer": 1,
+    "explain": "Port scanning identifies open and closed ports.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 193,
+    "q": "Which attack exploits trust in a website to run malicious scripts in a user's browser?",
+    "opts": ["SQL Injection", "CSRF", "XSS", "MITM"],
+    "answer": 2,
+    "explain": "XSS injects malicious scripts into trusted websites.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 194,
+    "q": "Which wireless security feature prevents unauthorized APs?",
+    "opts": ["WPS", "MAC Filtering", "Rogue AP Detection", "SSID Broadcast"],
+    "answer": 2,
+    "explain": "Rogue AP detection identifies unauthorized access points.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 195,
+    "q": "Which tool is used for network mapping and port scanning?",
+    "opts": ["Wireshark", "Burp Suite", "Nmap", "Nessus"],
+    "answer": 2,
+    "explain": "Nmap maps networks and scans ports.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 196,
+    "q": "Which encryption method uses a single shared key?",
+    "opts": ["Asymmetric", "Symmetric", "Hashing", "Steganography"],
+    "answer": 1,
+    "explain": "Symmetric encryption uses one shared secret key.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 197,
+    "q": "Which type of threat actor is motivated by political goals?",
+    "opts": ["Script Kiddie", "Hacktivist", "Insider", "Competitor"],
+    "answer": 1,
+    "explain": "Hacktivists attack for activism or political objectives.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 198,
+    "q": "Which physical control prevents tailgating?",
+    "opts": ["Mantrap", "CCTV", "Badge Access", "Fencing"],
+    "answer": 0,
+    "explain": "Mantraps stop unauthorized persons from entering behind authorized users.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 199,
+    "q": "Which document outlines responsibilities between service providers and customers?",
+    "opts": ["SLA", "SOX", "HIPAA", "AUP"],
+    "answer": 0,
+    "explain": "Service Level Agreements define service expectations and responsibilities.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 200,
+    "q": "Which security control type is encryption classified as?",
+    "opts": ["Physical Control", "Detective Control", "Technical Control", "Administrative Control"],
+    "answer": 2,
+    "explain": "Encryption is a technical (logical) control protecting data.",
+    "video": "http://www.midkey.xyz"
+  }
+]
+
+
+
