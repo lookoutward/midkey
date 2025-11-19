@@ -889,6 +889,729 @@
     "answer": 1,
     "explain": "Whaling targets executives or high-value individuals.",
     "video": "http://www.midkey.xyz"
+  },
+
+  
+  {
+    "id": 111,
+    "q": "What is the primary goal of Business Continuity Planning (BCP)?",
+    "opts": ["Ensure regulatory compliance", "Maintain critical business functions during disruption", "Optimize daily operations", "Reduce employee headcount"],
+    "answer": 1,
+    "explain": "BCP focuses on keeping essential business operations running during and after a disruption.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 112,
+    "q": "Which control is best at preventing unauthorized software from executing on endpoints?",
+    "opts": ["Application whitelisting", "Antivirus signatures", "Network segmentation", "Data classification"],
+    "answer": 0,
+    "explain": "Application whitelisting allows only approved applications to run, blocking unknown or malicious programs.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 113,
+    "q": "Which type of test validates that backups can be restored successfully?",
+    "opts": ["Penetration test", "Business Impact Analysis", "Restore test", "Vulnerability scan"],
+    "answer": 2,
+    "explain": "A restore test actually restores data from backups to confirm backup integrity and recoverability.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 114,
+    "q": "Which legal concept requires organizations to protect personal data under certain laws?",
+    "opts": ["Due diligence", "Data subject rights", "Regulatory liability", "Data protection compliance"],
+    "answer": 3,
+    "explain": "Data protection compliance obliges organizations to follow laws (e.g., GDPR) that mandate safeguarding personal data.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 115,
+    "q": "What is 'least privilege' intended to reduce?",
+    "opts": ["User training needs", "Risk of unauthorized access", "Bandwidth usage", "Password complexity"],
+    "answer": 1,
+    "explain": "Least privilege limits access rights to the minimum necessary, reducing misuse or compromise risk.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 116,
+    "q": "Which technique separates sensitive data elements and stores them elsewhere to reduce exposure?",
+    "opts": ["Encryption", "Tokenization", "Hashing", "Compression"],
+    "answer": 1,
+    "explain": "Tokenization replaces sensitive data with tokens that map to the original value stored securely elsewhere.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 117,
+    "q": "What does DLP (Data Loss Prevention) primarily do?",
+    "opts": ["Mitigate DDoS attacks", "Prevent unauthorized data exfiltration", "Manage encryption keys", "Patch vulnerable systems"],
+    "answer": 1,
+    "explain": "DLP systems detect and block attempts to move sensitive data outside authorized channels.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 118,
+    "q": "Which metric measures how long it takes to restore a system after an outage?",
+    "opts": ["RPO", "MTTR", "MTBF", "RTO"],
+    "answer": 1,
+    "explain": "MTTR (Mean Time To Repair) quantifies the average time required to repair and restore a system.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 119,
+    "q": "Which cryptographic function ensures message integrity and authentication when using a shared secret?",
+    "opts": ["RSA", "AES", "HMAC", "SHA-1"],
+    "answer": 2,
+    "explain": "HMAC combines a cryptographic hash with a secret key to provide integrity and authentication.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 120,
+    "q": "Which policy defines acceptable use of corporate information systems?",
+    "opts": ["Incident response policy", "Acceptable Use Policy (AUP)", "Retention policy", "Encryption policy"],
+    "answer": 1,
+    "explain": "An AUP sets rules for how employees may use organizational IT resources and services.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 121,
+    "q": "What is the purpose of network address translation (NAT)?",
+    "opts": ["Encrypt traffic", "Map private addresses to public addresses", "Perform packet inspection", "Block malware"],
+    "answer": 1,
+    "explain": "NAT translates private IP addresses to public ones to conserve IPv4 addresses and hide internal networks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 122,
+    "q": "Which access control model uses labels and mandatory policies to enforce security?",
+    "opts": ["Discretionary Access Control (DAC)", "Role-Based Access Control (RBAC)", "Mandatory Access Control (MAC)", "Attribute-Based Access Control (ABAC)"],
+    "answer": 2,
+    "explain": "MAC enforces access based on system-assigned labels and centrally defined security policies.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 123,
+    "q": "Which process identifies, evaluates, and prioritizes risks to an organization?",
+    "opts": ["Risk assessment", "Vulnerability scanning", "Pen testing", "Incident response"],
+    "answer": 0,
+    "explain": "Risk assessment analyzes threats and vulnerabilities to determine potential business impact and priorities.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 124,
+    "q": "Which statement about asymmetric encryption is true?",
+    "opts": ["It uses one key for encryption and decryption", "It is typically faster than symmetric encryption", "It uses a public/private key pair", "It does not support digital signatures"],
+    "answer": 2,
+    "explain": "Asymmetric cryptography uses a public key for encryption and a private key for decryption and supports signatures.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 125,
+    "q": "What is a primary benefit of network segmentation?",
+    "opts": ["Reduce encryption overhead", "Improve single point of failure", "Limit lateral movement by attackers", "Increase broadcast domain size"],
+    "answer": 2,
+    "explain": "Segmentation confines breaches to smaller network zones, hindering attacker movement.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 126,
+    "q": "Which control provides non-repudiation for electronic communications?",
+    "opts": ["Strong passwords", "Digital signatures", "Firewalls", "ACLs"],
+    "answer": 1,
+    "explain": "Digital signatures tie actions to an identity, making it difficult to deny involvement.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 127,
+    "q": "Which NIST special publication provides a framework for security controls (commonly referenced)?",
+    "opts": ["NIST SP 800-53", "NIST SP 800-30", "NIST SP 800-61", "NIST SP 800-63"],
+    "answer": 0,
+    "explain": "NIST SP 800-53 catalogs security and privacy controls for federal information systems and organizations.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 128,
+    "q": "What is 'pharming' in cybersecurity?",
+    "opts": ["Mass emailing for phishing", "Tampering with DNS to redirect users", "A social engineering phone call", "Brute-force credential guessing"],
+    "answer": 1,
+    "explain": "Pharming corrupts DNS or host files to redirect users from legitimate sites to malicious ones.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 129,
+    "q": "Which practice improves security posture by regularly applying vendor updates?",
+    "opts": ["Vulnerability scanning", "Patch management", "Network monitoring", "User training"],
+    "answer": 1,
+    "explain": "Patch management ensures known vulnerabilities are remediated by applying vendor fixes promptly.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 130,
+    "q": "Which disaster recovery site is fully equipped and can operate immediately after a failure?",
+    "opts": ["Cold site", "Warm site", "Hot site", "Archived site"],
+    "answer": 2,
+    "explain": "A hot site is continuously operational and ready for immediate failover.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 131,
+    "q": "What does 'salting' a password hash protect against?",
+    "opts": ["Network snooping", "Rainbow table attacks", "Phishing", "Privilege escalation"],
+    "answer": 1,
+    "explain": "Salts add unique randomness to hashes, making precomputed rainbow tables ineffective.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 132,
+    "q": "Which is a primary function of a Security Operations Center (SOC)?",
+    "opts": ["Develop software features", "Monitor and respond to security events", "Manage payroll", "Provide legal counsel"],
+    "answer": 1,
+    "explain": "A SOC continuously monitors security telemetry and coordinates incident response.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 133,
+    "q": "Which protocol is commonly used to securely exchange symmetric keys over an insecure channel?",
+    "opts": ["Diffie-Hellman", "HTTP", "FTP", "Telnet"],
+    "answer": 0,
+    "explain": "Diffie-Hellman enables two parties to derive a shared secret securely over an untrusted network.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 134,
+    "q": "Which is the best way to protect data at rest in a database?",
+    "opts": ["Use TLS", "Encrypt stored data", "Enable SNMP", "Use cleartext backups"],
+    "answer": 1,
+    "explain": "Encrypting data at rest prevents unauthorized users from reading stored information if accessed.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 135,
+    "q": "Which term describes an attacker-controlled network of compromised hosts?",
+    "opts": ["Botnet", "Sandbox", "Proxy", "Honeypot"],
+    "answer": 0,
+    "explain": "A botnet is a collection of devices hijacked to perform coordinated malicious actions.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 136,
+    "q": "What is the primary reason to implement multi-factor authentication (MFA)?",
+    "opts": ["Reduce costs", "Enhance identity assurance", "Speed up login", "Eliminate passwords completely"],
+    "answer": 1,
+    "explain": "MFA combines multiple verification factors to significantly lower the chance of unauthorized access.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 137,
+    "q": "Which technique is used to obfuscate sensitive data while preserving format for testing?",
+    "opts": ["Encryption", "Data masking", "Tokenization", "Hashing"],
+    "answer": 1,
+    "explain": "Data masking replaces values with realistic but non-sensitive substitutes for test environments.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 138,
+    "q": "What is the goal of threat modeling during design?",
+    "opts": ["Count number of servers", "Identify and mitigate potential threats proactively", "Schedule backups", "Hire developers"],
+    "answer": 1,
+    "explain": "Threat modeling uncovers probable threats and helps design mitigations before implementation.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 139,
+    "q": "Which policy outlines how long records should be retained and disposed?",
+    "opts": ["Acceptable Use Policy", "Retention Policy", "Incident Response Plan", "Encryption Policy"],
+    "answer": 1,
+    "explain": "Retention policies define retention periods and secure disposal methods for records and data.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 140,
+    "q": "Which form of testing involves an authorized simulated attack to identify weaknesses?",
+    "opts": ["Vulnerability scanning", "Penetration testing", "Compliance audit", "Backup verification"],
+    "answer": 1,
+    "explain": "Penetration testing attempts to exploit vulnerabilities in a controlled way to assess risk.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 141,
+    "q": "Which is a common control to mitigate SQL injection vulnerabilities?",
+    "opts": ["Use prepared statements/parameterized queries", "Allow user-supplied SQL", "Disable logging", "Use weak hashing"],
+    "answer": 0,
+    "explain": "Parameterized queries separate code from data, preventing attackers from injecting SQL commands.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 142,
+    "q": "What is the difference between IDS and IPS?",
+    "opts": ["IDS blocks traffic, IPS only alerts", "IDS only alerts, IPS can block traffic", "Both are the same", "IPS only logs, IDS blocks traffic"],
+    "answer": 1,
+    "explain": "An IDS detects and alerts on suspicious activity; an IPS can actively block or prevent it.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 143,
+    "q": "Which measure helps protect against supply chain attacks?",
+    "opts": ["Ignoring vendor updates", "Vendor risk assessments and secure procurement", "Installing unknown packages", "Sharing credentials with vendors"],
+    "answer": 1,
+    "explain": "Assessing vendor security and requiring secure practices reduce supply chain risks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 144,
+    "q": "Which legal concept allows organizations to demonstrate due care and reduce liability?",
+    "opts": ["Willful negligence", "Due diligence", "Absolute immunity", "Non-repudiation"],
+    "answer": 1,
+    "explain": "Due diligence shows reasonable steps were taken to protect assets and comply with laws.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 145,
+    "q": "Which control type best describes encryption for protecting confidentiality?",
+    "opts": ["Detective", "Preventive", "Compensating", "Corrective"],
+    "answer": 1,
+    "explain": "Encryption is a preventive control that stops unauthorized disclosure of data.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 146,
+    "q": "Which cloud service model provides applications managed by the provider?",
+    "opts": ["IaaS", "PaaS", "SaaS", "DaaS"],
+    "answer": 2,
+    "explain": "SaaS delivers fully managed applications where the provider handles most operational tasks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 147,
+    "q": "What is 'least functionality' in secure system design?",
+    "opts": ["Provide only essential features to reduce attack surface", "Enable all features by default", "Expose administrative ports publicly", "Allow user customization of core services"],
+    "answer": 0,
+    "explain": "Least functionality minimizes enabled features to reduce potential vulnerabilities.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 148,
+    "q": "Which attack manipulates a user's browser into making unintended requests on their behalf?",
+    "opts": ["XSS", "CSRF", "SQLi", "Phishing"],
+    "answer": 1,
+    "explain": "CSRF tricks authenticated users into performing unwanted actions on web applications.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 149,
+    "q": "Which technique is useful to detect unknown threats by observing behavior rather than signatures?",
+    "opts": ["Signature-based detection", "Behavioral analytics", "Static scanning", "Manual review only"],
+    "answer": 1,
+    "explain": "Behavioral analytics spot anomalous patterns that may indicate new or unknown threats.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 150,
+    "q": "What is the purpose of an incident response playbook?",
+    "opts": ["Define hiring practices", "Provide step-by-step guidance for handling common incidents", "Schedule backups", "Authorize access changes"],
+    "answer": 1,
+    "explain": "Playbooks offer repeatable procedures to accelerate and standardize incident handling.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 151,
+    "q": "Which control helps prevent data exposure when using public cloud storage?",
+    "opts": ["Open ACLs", "Server-side encryption with customer-managed keys", "Public sharing links by default", "Disable logging"],
+    "answer": 1,
+    "explain": "Customer-managed encryption keys give the organization control over data confidentiality in the cloud.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 152,
+    "q": "Which practice reduces risk of credential theft from browsers?",
+    "opts": ["Store passwords in browser in plaintext", "Use password managers and encourage unique strong passwords", "Reuse passwords across sites", "Disable MFA"],
+    "answer": 1,
+    "explain": "Dedicated password managers generate and store strong unique passwords securely.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 153,
+    "q": "Which is a primary objective of secure coding practices?",
+    "opts": ["Increase feature count", "Prevent vulnerabilities like buffer overflows or injection", "Reduce testing", "Avoid version control"],
+    "answer": 1,
+    "explain": "Secure coding aims to eliminate common vulnerabilities at development time.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 154,
+    "q": "Which component validates the identity of certificate holders in PKI?",
+    "opts": ["CA (Certificate Authority)", "OCSP responder", "CRL only", "DNS server"],
+    "answer": 0,
+    "explain": "The CA issues and signs certificates after validating requester identity as part of PKI.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 155,
+    "q": "Which control mitigates risk from removable media like USB drives?",
+    "opts": ["Allow all devices by default", "Disable autorun and enforce media scanning", "Use weak antivirus", "Share credentials via USB"],
+    "answer": 1,
+    "explain": "Disabling autorun and scanning removable media helps prevent malware propagation.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 156,
+    "q": "What is the primary focus of a privacy notice given to data subjects?",
+    "opts": ["Technical architecture", "Legal obligations and how personal data is used", "Configuration settings", "Network topology"],
+    "answer": 1,
+    "explain": "Privacy notices explain purposes, rights, and processing details to individuals whose data is collected.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 157,
+    "q": "Which is an example of a detective control?",
+    "opts": ["Firewall", "Security logging and monitoring", "Encryption", "Account lockout policy"],
+    "answer": 1,
+    "explain": "Logging and monitoring detect and record security events after they occur.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 158,
+    "q": "Which method provides strong authentication without transmitting static passwords?",
+    "opts": ["Plaintext passwords", "One-time passwords (OTPs)", "Reusing passwords", "Default credentials"],
+    "answer": 1,
+    "explain": "OTPs change with each use, reducing risk from intercepted credentials.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 159,
+    "q": "Which assessment evaluates whether a system meets legal and regulatory requirements?",
+    "opts": ["Penetration test", "Compliance audit", "Vulnerability scan", "Load test"],
+    "answer": 1,
+    "explain": "Compliance audits check conformance with laws, standards, and contractual obligations.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 160,
+    "q": "Which is a primary goal of security awareness training?",
+    "opts": ["Replace technical controls", "Teach employees to recognize and avoid threats", "Reduce encryption strength", "Disable logging"],
+    "answer": 1,
+    "explain": "Training empowers employees to identify social engineering and follow secure practices.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 161,
+    "q": "Which technique separates duties among multiple people to reduce fraud risk?",
+    "opts": ["Consolidation of roles", "Separation of duties", "Single sign-on", "Default password use"],
+    "answer": 1,
+    "explain": "Separation of duties prevents a single individual from performing all sensitive tasks unchecked.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 162,
+    "q": "Which log source is most useful for investigating network intrusions?",
+    "opts": ["HR records", "Firewall and network device logs", "Printer logs", "Payroll logs"],
+    "answer": 1,
+    "explain": "Firewall and network device logs show traffic patterns and potential malicious connections.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 163,
+    "q": "What is a common indicator of compromise (IOC)?",
+    "opts": ["Updated antivirus", "Unknown outbound connections to suspicious IPs", "Proper backups", "Employee training completion"],
+    "answer": 1,
+    "explain": "Unexpected connections to malicious IP addresses often signal a breach or exfiltration attempt.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 164,
+    "q": "Which option best describes 'red team' exercises?",
+    "opts": ["Routine backups", "Offensive security assessments that simulate real attackers", "Documentation writing", "Policy enforcement only"],
+    "answer": 1,
+    "explain": "Red teams emulate adversaries to test defenses and detection capabilities.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 165,
+    "q": "Which privacy principle limits collection of personal data to what is necessary?",
+    "opts": ["Data minimization", "Data maximization", "Unlimited retention", "Unrestricted sharing"],
+    "answer": 0,
+    "explain": "Data minimization restricts collection to only what is required for the purpose.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 166,
+    "q": "Which is an effective mitigation for brute-force password attacks?",
+    "opts": ["Unlimited login attempts", "Account lockout and rate limiting", "Store passwords in cleartext", "Disable logging"],
+    "answer": 1,
+    "explain": "Lockouts and throttling increase attack cost and reduce success of brute-force attempts.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 167,
+    "q": "Which technique ensures malware cannot easily persist after a reboot on a secure endpoint?",
+    "opts": ["Allowing unknown installers", "Use of immutable OS images and application control", "Disabling updates", "Running as admin always"],
+    "answer": 1,
+    "explain": "Immutable images and strict application control prevent unauthorized changes that persist across reboots.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 168,
+    "q": "What is the purpose of a honeypot in security testing?",
+    "opts": ["Host production services", "Attract and study attacker behavior", "Store backups", "Speed up network traffic"],
+    "answer": 1,
+    "explain": "Honeypots lure attackers into controlled environments for analysis and intelligence gathering.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 169,
+    "q": "Which is an important step after detecting a security incident?",
+    "opts": ["Ignore it", "Contain, eradicate, and recover following the incident response plan", "Delete all logs", "Publish details without review"],
+    "answer": 1,
+    "explain": "A structured response containing containment, eradication, and recovery limits damage and restores operations.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 170,
+    "q": "Which control helps protect APIs from abuse and excessive requests?",
+    "opts": ["Rate limiting and API gateways", "Open CORS by default", "Disable authentication", "Unrestricted public access"],
+    "answer": 0,
+    "explain": "Rate limiting and API gateways enforce quotas and authentication to prevent abuse.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 171,
+    "q": "Which is a primary advantage of hardware security modules (HSMs)?",
+    "opts": ["Faster network speed", "Secure key storage and cryptographic operations", "Open password storage", "Disable encryption"],
+    "answer": 1,
+    "explain": "HSMs provide tamper-resistant storage and perform cryptographic functions securely.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 172,
+    "q": "Which is a common social engineering vector?",
+    "opts": ["Firewall misconfiguration", "Phishing emails that impersonate trusted parties", "Proper MFA enrollment", "Encrypted backups"],
+    "answer": 1,
+    "explain": "Phishing uses deceptive messages to trick users into revealing credentials or performing actions.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 173,
+    "q": "Which logging best practice helps ensure logs are available during and after incidents?",
+    "opts": ["Store logs locally only", "Centralize logs and protect them from tampering", "Delete logs daily", "Disable log collection"],
+    "answer": 1,
+    "explain": "Centralized logging with protections preserves evidence and supports timely analysis.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 174,
+    "q": "Which approach minimizes amount of sensitive data exposed during processing?",
+    "opts": ["Process on shared public systems", "Use privacy-enhancing techniques like homomorphic encryption or tokenization", "Store all data in one open file", "Disable encryption"],
+    "answer": 1,
+    "explain": "Privacy-enhancing technologies reduce direct exposure while allowing processing or analysis.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 175,
+    "q": "Which is the best practice for decommissioning hardware containing sensitive data?",
+    "opts": ["Throw it away", "Wipe or destruct storage media using approved methods", "Reuse without checks", "Sell without inspection"],
+    "answer": 1,
+    "explain": "Secure sanitization or physical destruction prevents data recovery from retired devices.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 176,
+    "q": "Which concept describes accepting risk rather than mitigating it due to cost or feasibility?",
+    "opts": ["Risk transference", "Risk acceptance", "Risk avoidance", "Risk escalation"],
+    "answer": 1,
+    "explain": "Risk acceptance is a deliberate decision to live with a risk when mitigation is not practical.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 177,
+    "q": "Which is an effective way to secure developer pipelines?",
+    "opts": ["Allow unsigned code into production", "Implement CI/CD security controls like signing, scanning, and least privilege", "Share keys openly", "Disable automated tests"],
+    "answer": 1,
+    "explain": "Securing pipelines with scanning, signing, and access controls reduces supply chain and deployment risks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 178,
+    "q": "Which control helps detect data exfiltration over DNS?",
+    "opts": ["Disable DNS entirely", "Monitor DNS queries for abnormal patterns and length", "Allow all outbound DNS", "Use cleartext logging only"],
+    "answer": 1,
+    "explain": "Anomalous DNS activity (e.g., long domain names) can indicate tunneling used for exfiltration.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 179,
+    "q": "Which is a typical sign of credential stuffing attacks?",
+    "opts": ["Multiple failed logins from varied IPs using known credential sets", "Single successful login", "Proper MFA usage", "Encrypted traffic"],
+    "answer": 0,
+    "explain": "Credential stuffing uses breached credentials en masse, causing numerous failures across accounts.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 180,
+    "q": "Which approach reduces insider threat risk related to privileged accounts?",
+    "opts": ["Share admin passwords widely", "Use privileged access management (PAM) and session monitoring", "Disable logging for admins", "Grant permanent unlimited access"],
+    "answer": 1,
+    "explain": "PAM controls, just-in-time access, and monitoring limit abuse and provide accountability.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 181,
+    "q": "Which is the main advantage of using TLS for web traffic?",
+    "opts": ["Increase DNS speed", "Provide encryption and server authentication for HTTP", "Disable HTTP entirely", "Improve disk I/O"],
+    "answer": 1,
+    "explain": "TLS encrypts data in transit and ensures clients communicate with legitimate servers.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 182,
+    "q": "Which is an appropriate response when a zero-day vulnerability is disclosed publicly?",
+    "opts": ["Ignore it", "Apply available mitigations, monitor for exploits, and patch when vendor release is available", "Publish exploit details", "Disable all security controls"],
+    "answer": 1,
+    "explain": "Mitigations and monitoring reduce exposure until a vendor patch is applied.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 183,
+    "q": "Which framework is widely used to manage organizational information security governance?",
+    "opts": ["COBIT", "HTML", "FTP", "SMTP"],
+    "answer": 0,
+    "explain": "COBIT provides governance and management guidance for enterprise IT, including security.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 184,
+    "q": "Which is an effective control for protecting mobile devices that access corporate data?",
+    "opts": ["Enforce device encryption, remote wipe, and containerization", "Allow all apps without review", "Disable screen locks", "Share corporate credentials freely"],
+    "answer": 0,
+    "explain": "Encryption, wipe capability, and separating corporate data protect mobile endpoints from loss or theft.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 185,
+    "q": "Which practice helps ensure secure third-party integrations?",
+    "opts": ["Blindly trust vendors", "Conduct security due diligence, contractual requirements, and continuous monitoring", "Share sensitive keys", "Grant full network access"],
+    "answer": 1,
+    "explain": "Due diligence and contractual security clauses with monitoring reduce third-party risk.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 186,
+    "q": "Which is a mechanism to revoke compromised digital certificates quickly?",
+    "opts": ["CRL or OCSP", "Disable encryption", "Reissue passwords", "Ignore revocation"],
+    "answer": 0,
+    "explain": "Certificate Revocation Lists (CRL) and OCSP allow clients to check if a certificate is revoked.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 187,
+    "q": "Which is an effective control against supply chain software compromise?",
+    "opts": ["Allow unsigned dependencies", "Implement code signing and dependency provenance checks", "Disable versioning", "Use untrusted repositories only"],
+    "answer": 1,
+    "explain": "Code signing and verifying package provenance detect tampering in third-party components.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 188,
+    "q": "Which describes 'defense in depth'?",
+    "opts": ["Single layer of protection", "Multiple complementary security controls across layers", "No security controls", "Only perimeter firewalls"],
+    "answer": 1,
+    "explain": "Defense in depth layers preventative, detective, and corrective controls to reduce risk.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 189,
+    "q": "Which is a common indicator of ransomware infection?",
+    "opts": ["Files encrypted with ransom note present", "Improved performance", "Frequent backups", "Unchanged file access patterns"],
+    "answer": 0,
+    "explain": "Ransomware typically encrypts user files and leaves instructions demanding payment for decryption.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 190,
+    "q": "Which is a best practice for securing SSH access to servers?",
+    "opts": ["Allow root login with password", "Use key-based authentication and disable root password login", "Use Telnet instead", "Open SSH to entire internet without restrictions"],
+    "answer": 1,
+    "explain": "Key-based auth and disabling root passwords reduce brute-force and credential compromise risk.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 191,
+    "q": "Which architecture principle reduces single points of failure?",
+    "opts": ["High availability and redundancy", "Single server deployment", "Disable backups", "Remove monitoring"],
+    "answer": 0,
+    "explain": "Redundancy and high-availability designs keep services running despite failures.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 192,
+    "q": "Which is the best way to protect APIs from injection attacks?",
+    "opts": ["Trust all input", "Validate and sanitize input and use parameterized queries", "Log input only", "Return raw stack traces to users"],
+    "answer": 1,
+    "explain": "Input validation and parameterization prevent injection of malicious commands into APIs.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 193,
+    "q": "Which term refers to the time period an organization can tolerate data loss measured in time?",
+    "opts": ["RTO", "RPO", "MTTR", "MTBF"],
+    "answer": 1,
+    "explain": "RPO (Recovery Point Objective) defines the acceptable age of files after recovery, i.e., tolerated data loss.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 194,
+    "q": "Which control reduces the risk of malware spreading within a network?",
+    "opts": ["Flat network with no segmentation", "Network segmentation and micro-segmentation", "Open file shares for all", "Disable endpoint protection"],
+    "answer": 1,
+    "explain": "Segmentation limits lateral movement, containing infections to smaller areas.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 195,
+    "q": "Which is a key feature of Zero Trust architecture?",
+    "opts": ["Implicit trust for internal users", "Verify every access request and apply least privilege", "No authentication required", "Open network by default"],
+    "answer": 1,
+    "explain": "Zero Trust requires continuous verification and enforces minimal access regardless of location.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 196,
+    "q": "Which is the main goal of penetration testing reports?",
+    "opts": ["Roast developers", "Provide actionable findings and remediation guidance", "Publish vulnerabilities publicly", "Disable security controls"],
+    "answer": 1,
+    "explain": "Pen test reports should offer clear findings and prioritized remediation steps to improve security.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 197,
+    "q": "Which technique improves security of system credentials in CI/CD pipelines?",
+    "opts": ["Store secrets in plaintext in repo", "Use secret vaults and short-lived credentials", "Embed keys in code comments", "Grant developer full access to production keys"],
+    "answer": 1,
+    "explain": "Secret vaults and ephemeral credentials limit exposure if pipelines or repos are compromised.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 198,
+    "q": "Which control helps ensure integrity of software packages delivered to production?",
+    "opts": ["Unsigned binaries", "Code signing and checksum verification", "Delete manifests", "Disable build logs"],
+    "answer": 1,
+    "explain": "Signing and verifying checksums confirm packages have not been tampered with during transit.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 199,
+    "q": "Which is a recommended method to secure databases against SQL injection?",
+    "opts": ["Construct SQL using string concatenation with user input", "Use prepared statements, least privilege accounts, and input validation", "Allow admin to run queries from user input", "Disable auditing"],
+    "answer": 1,
+    "explain": "Prepared statements, restricted accounts, and validation significantly reduce SQL injection risk.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 200,
+    "q": "Which is an appropriate metric to measure effectiveness of an incident response program?",
+    "opts": ["Number of open tickets only", "Mean time to detect (MTTD) and mean time to respond (MTTR)", "Number of features released", "Disk usage"],
+    "answer": 1,
+    "explain": "MTTD and MTTR quantify how quickly incidents are found and resolved, indicating program effectiveness.",
+    "video": "http://www.midkey.xyz"
   }
 ]
+
 
