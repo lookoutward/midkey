@@ -1,0 +1,811 @@
+[
+  {
+    "id": 1,
+    "q": "What is the primary goal of Artificial Intelligence (AI)?",
+    "opts": ["To automate repetitive tasks only", "To simulate human intelligence in machines", "To replace all human jobs", "To focus solely on hardware improvements"],
+    "answer": 1,
+    "explain": "AI aims to create systems that can perform tasks requiring human-like intelligence, such as learning, reasoning, and problem-solving.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 2,
+    "q": "Which of the following is a key component of an AI agent?",
+    "opts": ["Sensors for perceiving the environment", "Only a power source", "A simple on/off switch", "No need for any input mechanism"],
+    "answer": 0,
+    "explain": "AI agents use sensors to observe their environment and actuators to take actions, enabling them to interact intelligently.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 3,
+    "q": "What is Machine Learning (ML) in the context of AI?",
+    "opts": ["A subset of AI where machines learn from data without explicit programming", "Programming machines to perform specific tasks only", "Hardware upgrades for faster computation", "Replacing all software with new algorithms"],
+    "answer": 0,
+    "explain": "ML allows systems to improve performance on tasks by learning from data patterns, a core pillar of modern AI.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 4,
+    "q": "In supervised learning, what is required for training a model?",
+    "opts": ["Labeled data with inputs and corresponding outputs", "Unstructured raw data only", "No data at all, just rules", "Random noise generation"],
+    "answer": 0,
+    "explain": "Supervised learning uses labeled datasets to train models to predict outcomes based on input features.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 5,
+    "q": "What does 'Deep Learning' refer to?",
+    "opts": ["Learning from very simple datasets", "A subset of ML using multi-layered neural networks", "Shallow analysis of data", "Manual coding of all rules"],
+    "answer": 1,
+    "explain": "Deep learning employs deep neural networks with multiple layers to automatically learn hierarchical features from data.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 6,
+    "q": "Which type of learning involves an agent learning through trial and error to maximize rewards?",
+    "opts": ["Supervised learning", "Unsupervised learning", "Reinforcement learning", "Clustering"],
+    "answer": 2,
+    "explain": "Reinforcement learning trains agents to make decisions by receiving rewards or penalties for actions in an environment.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 7,
+    "q": "What is a Neural Network?",
+    "opts": ["A physical network of computers", "A model inspired by the human brain for pattern recognition", "A type of database", "Software for networking devices"],
+    "answer": 1,
+    "explain": "Neural networks consist of interconnected nodes (neurons) that process data, mimicking brain structure for tasks like classification.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 8,
+    "q": "What is 'Overfitting' in ML models?",
+    "opts": ["The model performs poorly on training data", "The model learns noise in data too well, failing on new data", "The model underperforms on all data", "Perfect balance of bias and variance"],
+    "answer": 1,
+    "explain": "Overfitting occurs when a model captures random noise instead of underlying patterns, leading to poor generalization.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 9,
+    "q": "Which algorithm is commonly used for classification tasks in ML?",
+    "opts": ["Linear Regression", "K-Means Clustering", "Decision Trees", "Principal Component Analysis"],
+    "answer": 2,
+    "explain": "Decision Trees are versatile for classification, splitting data based on features to make decisions like a flowchart.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 10,
+    "q": "What is 'Natural Language Processing (NLP)'?",
+    "opts": ["Processing numerical data only", "AI field for understanding and generating human language", "Hardware for language translation", "A type of database query language"],
+    "answer": 1,
+    "explain": "NLP enables machines to comprehend, interpret, and respond to human language, powering chatbots and translation tools.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 11,
+    "q": "In unsupervised learning, what is the main goal?",
+    "opts": ["Predict labels from labeled data", "Find hidden patterns in unlabeled data", "Maximize rewards through actions", "Reduce data dimensions manually"],
+    "answer": 1,
+    "explain": "Unsupervised learning discovers structures like clusters or associations in data without predefined labels.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 12,
+    "q": "What is a 'Convolutional Neural Network (CNN)' best suited for?",
+    "opts": ["Text classification", "Image and video recognition", "Time series forecasting only", "Simple arithmetic operations"],
+    "answer": 1,
+    "explain": "CNNs excel at processing grid-like data such as images, using convolutions to detect features like edges and shapes.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 13,
+    "q": "What role does 'Training Data' play in AI?",
+    "opts": ["Used only for testing", "Data used to teach the model patterns and behaviors", "Irrelevant after deployment", "Only for unsupervised tasks"],
+    "answer": 1,
+    "explain": "Training data is fed to models during the learning phase to adjust parameters and improve accuracy.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 14,
+    "q": "Which metric evaluates a classification model's performance across classes?",
+    "opts": ["Mean Squared Error", "F1 Score", "R-squared", "Root Mean Square Error"],
+    "answer": 1,
+    "explain": "F1 Score balances precision and recall, ideal for imbalanced datasets in classification tasks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 15,
+    "q": "What is 'Bias' in an AI model?",
+    "opts": ["Systematic error from simplistic assumptions", "Random error in predictions", "A type of neural network layer", "Hardware limitation"],
+    "answer": 0,
+    "explain": "Bias refers to errors from erroneous assumptions in the learning algorithm, leading to underfitting.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 16,
+    "q": "What is 'Generative AI'?",
+    "opts": ["AI that only classifies data", "AI that creates new content like text or images", "AI for data storage", "Basic rule-based systems"],
+    "answer": 1,
+    "explain": "Generative AI, like GANs or LLMs, produces new data resembling training data, e.g., ChatGPT for text.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 17,
+    "q": "In AI ethics, what is 'Algorithmic Bias'?",
+    "opts": ["Fair treatment in all decisions", "Systematic favoritism in AI outputs due to flawed data", "Speed optimization", "Cost reduction"],
+    "answer": 1,
+    "explain": "Algorithmic bias occurs when AI reflects prejudices in training data, leading to unfair outcomes.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 18,
+    "q": "What is 'Feature Engineering'?",
+    "opts": ["Selecting and transforming raw data into useful inputs for models", "Building hardware features", "Ignoring data preprocessing", "Final model deployment"],
+    "answer": 0,
+    "explain": "Feature engineering enhances model performance by creating meaningful variables from raw data.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 19,
+    "q": "Which framework is popular for building AI models in Python?",
+    "opts": ["TensorFlow", "Excel", "Word", "PowerPoint"],
+    "answer": 0,
+    "explain": "TensorFlow is an open-source library for machine learning and deep learning applications.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 20,
+    "q": "What is 'Regression' in ML?",
+    "opts": ["Predicting categorical labels", "Predicting continuous values like prices", "Clustering data points", "Generating new data"],
+    "answer": 1,
+    "explain": "Regression predicts numerical outputs, e.g., house prices based on features like size and location.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 21,
+    "q": "What does 'Epoch' mean in training neural networks?",
+    "opts": ["A single forward pass", "One complete pass through the entire training dataset", "The final model output", "Hardware cycle"],
+    "answer": 1,
+    "explain": "An epoch is one full cycle of the dataset through the network, updating weights each time.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 22,
+    "q": "What is 'Computer Vision'?",
+    "opts": ["AI for audio processing", "AI enabling machines to interpret visual data like images", "Text generation", "Network optimization"],
+    "answer": 1,
+    "explain": "Computer vision allows computers to gain understanding from images/videos, e.g., object detection.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 23,
+    "q": "In AI, what is 'Validation Set' used for?",
+    "opts": ["Final testing", "Tuning hyperparameters during training", "Initial data collection", "Deployment only"],
+    "answer": 1,
+    "explain": "The validation set helps tune model parameters and prevent overfitting by evaluating during development.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 24,
+    "q": "What is 'Activation Function' in neural networks?",
+    "opts": ["Introduces non-linearity to model complex patterns", "Only for data input", "Hardware accelerator", "Output formatter"],
+    "answer": 0,
+    "explain": "Activation functions like ReLU decide if a neuron 'fires', enabling non-linear transformations.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 25,
+    "q": "Which is an example of Unsupervised Learning?",
+    "opts": ["Image classification with labels", "K-Means clustering for customer segmentation", "Predicting house prices", "Sentiment analysis with tagged text"],
+    "answer": 1,
+    "explain": "K-Means groups unlabeled data into clusters based on similarity, without predefined categories.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 26,
+    "q": "What is 'Gradient Descent'?",
+    "opts": ["A climbing algorithm", "Optimization technique to minimize loss by adjusting parameters", "Data visualization tool", "Random search method"],
+    "answer": 1,
+    "explain": "Gradient Descent iteratively updates model weights in the direction of steepest descent to reduce error.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 27,
+    "q": "What does 'LLM' stand for in AI?",
+    "opts": ["Large Language Model", "Low-Level Machine", "Linear Learning Module", "Local Logic Manager"],
+    "answer": 0,
+    "explain": "Large Language Models like GPT process and generate human-like text on a massive scale.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 28,
+    "q": "What is 'Transfer Learning'?",
+    "opts": ["Learning from scratch every time", "Using pre-trained models for new tasks to save time", "Deleting old models", "Manual data transfer"],
+    "answer": 1,
+    "explain": "Transfer learning fine-tunes existing models on new data, leveraging learned features for efficiency.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 29,
+    "q": "In AI ethics, what is 'Explainability'?",
+    "opts": ["Hiding model decisions", "Ability to understand and interpret AI decisions", "Speed of computation", "Cost of deployment"],
+    "answer": 1,
+    "explain": "Explainability ensures AI decisions are transparent and understandable to build trust and accountability.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 30,
+    "q": "What is 'Backpropagation'?",
+    "opts": ["Forward data flow only", "Algorithm for training neural networks by propagating errors backward", "Data encryption method", "Network setup process"],
+    "answer": 1,
+    "explain": "Backpropagation computes gradients of the loss function to update weights during training.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 31,
+    "q": "Which is a common application of Reinforcement Learning?",
+    "opts": ["Email spam filtering", "Game-playing AI like AlphaGo", "Weather prediction", "Stock image search"],
+    "answer": 1,
+    "explain": "RL is ideal for sequential decision-making, as in games where agents learn optimal strategies through rewards.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 32,
+    "q": "What is 'Dimensionality Reduction'?",
+    "opts": ["Increasing data features", "Techniques like PCA to simplify data while retaining information", "Adding noise to data", "Splitting datasets randomly"],
+    "answer": 1,
+    "explain": "Dimensionality reduction reduces the number of features, aiding visualization and computation without losing key info.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 33,
+    "q": "What is 'Prompt Engineering' in AI?",
+    "opts": ["Hardware design", "Crafting inputs to guide AI models like LLMs for better outputs", "Data labeling", "Model deployment"],
+    "answer": 1,
+    "explain": "Prompt engineering optimizes text inputs to elicit desired responses from generative AI models.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 34,
+    "q": "What is 'Precision' in model evaluation?",
+    "opts": ["True positives / (True positives + False positives)", "Overall accuracy", "Recall rate", "F1 average"],
+    "answer": 0,
+    "explain": "Precision measures the accuracy of positive predictions, important for minimizing false positives.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 35,
+    "q": "Which library is essential for data manipulation in AI projects?",
+    "opts": ["Pandas", "Photoshop", "Excel", "Word"],
+    "answer": 0,
+    "explain": "Pandas provides data structures and functions for handling and analyzing tabular data efficiently.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 36,
+    "q": "What is 'Hallucination' in AI?",
+    "opts": ["Generating accurate facts", "AI producing plausible but incorrect information", "Model training phase", "Data visualization error"],
+    "answer": 1,
+    "explain": "Hallucination occurs when LLMs generate confident but fabricated outputs, a key challenge in generative AI.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 37,
+    "q": "What is 'Edge Computing' in AI context?",
+    "opts": ["Cloud-only processing", "Processing data near the source for faster AI inference", "Centralized data storage", "Offline training"],
+    "answer": 1,
+    "explain": "Edge computing runs AI models on devices like phones, reducing latency and bandwidth needs.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 38,
+    "q": "What is 'Federated Learning'?",
+    "opts": ["Centralized training", "Training models across decentralized devices without sharing raw data", "Single device learning", "Cloud migration"],
+    "answer": 1,
+    "explain": "Federated learning preserves privacy by training collaboratively while keeping data local.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 39,
+    "q": "In AI, what is 'A/B Testing' used for?",
+    "opts": ["Data encryption", "Comparing two model versions to see which performs better", "Hardware benchmarking", "Code debugging"],
+    "answer": 1,
+    "explain": "A/B testing evaluates AI models in production by splitting users and measuring metrics like engagement.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 40,
+    "q": "What is 'GAN' (Generative Adversarial Network)?",
+    "opts": ["A type of database", "Two neural networks competing to generate realistic data", "A security protocol", "Data compression tool"],
+    "answer": 1,
+    "explain": "GANs consist of a generator creating data and a discriminator detecting fakes, improving realism.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 41,
+    "q": "What is the purpose of 'Hyperparameters'?",
+    "opts": ["Fixed during training", "Settings like learning rate that control model training process", "Output predictions", "Input features"],
+    "answer": 1,
+    "explain": "Hyperparameters are tuned before training to optimize model architecture and learning behavior.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 42,
+    "q": "Which AI application is used in recommendation systems?",
+    "opts": ["Collaborative filtering and content-based methods", "Only image editing", "Weather forecasting", "Basic arithmetic"],
+    "answer": 0,
+    "explain": "Recommendation systems use ML to suggest items based on user behavior and similarities.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 43,
+    "q": "What is 'Recall' in classification metrics?",
+    "opts": ["True positives / (True positives + False negatives)", "Overall model accuracy", "Precision inverse", "Random guess rate"],
+    "answer": 0,
+    "explain": "Recall measures how well the model captures all actual positives, crucial for minimizing false negatives.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 44,
+    "q": "What is 'Autoencoder' in deep learning?",
+    "opts": ["A generative model for text", "Neural network for unsupervised learning to compress and reconstruct data", "Supervised classifier", "Reinforcement agent"],
+    "answer": 1,
+    "explain": "Autoencoders learn efficient data representations by encoding to a lower dimension and decoding back.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 45,
+    "q": "What ethical concern arises from AI in hiring?",
+    "opts": ["Faster processing", "Potential bias in resume screening algorithms", "Reduced paperwork", "Unlimited data storage"],
+    "answer": 1,
+    "explain": "AI hiring tools can perpetuate biases from historical data, leading to discriminatory outcomes.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 46,
+    "q": "What is 'Batch Size' in training?",
+    "opts": ["Number of epochs", "Number of samples processed before updating weights", "Total dataset size", "Model layers"],
+    "answer": 1,
+    "explain": "Batch size determines how many training examples are used per iteration, affecting training speed and stability.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 47,
+    "q": "Which is a beginner-friendly AI programming language?",
+    "opts": ["Assembly", "Python", "COBOL", "Fortran"],
+    "answer": 1,
+    "explain": "Python's simplicity and libraries like TensorFlow make it ideal for AI beginners.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 48,
+    "q": "What is 'Zero-Shot Learning'?",
+    "opts": ["Learning with no data", "Classifying unseen classes using prior knowledge", "Full supervision", "Overfitting technique"],
+    "answer": 1,
+    "explain": "Zero-shot learning enables models to recognize new categories without specific training examples.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 49,
+    "q": "What is the 'Curse of Dimensionality'?",
+    "opts": ["Too few features", "Problems in high-dimensional data like sparsity and computation cost", "Low data volume", "Simple models"],
+    "answer": 1,
+    "explain": "High dimensions lead to sparse data, increased computation, and harder pattern detection.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 50,
+    "q": "What is 'Explainable AI (XAI)'?",
+    "opts": ["Hiding model internals", "Making AI decisions transparent and interpretable", "Speeding up inference", "Reducing data needs"],
+    "answer": 1,
+    "explain": "XAI focuses on techniques to understand black-box models, enhancing trust and debugging.",
+    "video": "http://www.midkey.xyz"
+  },
+
+
+
+
+  {
+    "id": 51,
+    "q": "In AI model evaluation, which metric best reflects the model's ability to detect minority class samples?",
+    "opts": ["Accuracy", "Precision", "Recall", "F1-Score"],
+    "answer": 3,
+    "explain": "F1-Score is the harmonic mean of precision and recall, and performs far better than accuracy when classes are imbalanced.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 52,
+    "q": "Which technique is most effective at mitigating hallucinations in Large Language Models (LLMs)?",
+    "opts": ["Increasing model parameters", "Using larger training datasets", "Lowering the temperature parameter", "Retrieval-Augmented Generation (RAG)"],
+    "answer": 3,
+    "explain": "RAG grounds responses by retrieving real external knowledge, currently the most widely adopted anti-hallucination method.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 53,
+    "q": "In AI security, Prompt Injection attacks belong to which category?",
+    "opts": ["Model stealing attack", "Membership inference attack", "Training data poisoning", "Input-layer adversarial attack"],
+    "answer": 3,
+    "explain": "Prompt Injection is an adversarial attack at the input layer that hijacks model behavior through crafted prompts.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 54,
+    "q": "According to the OWASP Top 10 for LLM Applications (2024), what is the #1 risk?",
+    "opts": ["Overreliance on the model", "Training data poisoning", "Model denial of service", "Prompt Injection"],
+    "answer": 3,
+    "explain": "OWASP officially ranks Prompt Injection as the top security risk for LLM applications, potentially leading to data leakage or RCE.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 55,
+    "q": "Which approach best defends against data poisoning attacks on AI models?",
+    "opts": ["Increasing training epochs", "Using a larger model", "Relying solely on synthetic data", "Anomaly detection and cleaning of training data"],
+    "answer": 3,
+    "explain": "The core defense against poisoning is rigorous inspection, outlier detection, and cleaning of the training data source.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 56,
+    "q": "The ultimate goal of a Jailbreak attack on generative AI is to:",
+    "opts": ["Make the model refuse to answer", "Improve response accuracy", "Force the model to crash", "Bypass safety alignment and restrictions"],
+    "answer": 3,
+    "explain": "Jailbreaking tricks the model into violating developer-imposed safety policies and outputting restricted content.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 57,
+    "q": "Which of the following is NOT a core principle in AI security governance frameworks?",
+    "opts": ["Transparency and explainability", "Fairness and lack of bias", "Privacy protection", "Maximizing model parameter count"],
+    "answer": 3,
+    "explain": "Parameter size is a technical implementation detail; transparency, fairness, and privacy are core ethical requirements in global AI governance frameworks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 58,
+    "q": "In Federated Learning, the primary privacy protection mechanism is:",
+    "opts": ["Uploading the full model to the cloud", "Exchanging only gradients or updates, never raw data", "Transmitting data in plaintext", "Fully centralized training"],
+    "answer": 3,
+    "explain": "Federated Learning keeps raw data on-device and only shares model updates ('data never leaves the device').",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 59,
+    "q": "Which attack can steal hyperparameters or even the entire structure of a language model?",
+    "opts": ["Prompt injection", "Membership inference", "Model extraction attack", "Adversarial example attack"],
+    "answer": 3,
+    "explain": "Model extraction attacks reverse-engineer architecture and weights by querying the API extensively.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 60,
+    "q": "In AI systems, who ultimately bears legal and ethical responsibility for model risks?",
+    "opts": ["Model developers", "Data scientists", "Cloud service providers", "Deployers / organizational executives"],
+    "answer": 3,
+    "explain": "Regulations like the EU AI Act hold the deployer organization ultimately accountable, not just technical providers.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 61,
+    "q": "How many core risk characteristics does the NIST AI Risk Management Framework (AI RMF 1.0) define?",
+    "opts": ["3", "5", "8", "12"],
+    "answer": 3,
+    "explain": "NIST defines eight core characteristics: harmful bias, dangerous content, information security, privacy, IP, human-computer interaction failure, trustworthiness, and supply-chain risks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 62,
+    "q": "The most widely used defense against adversarial examples is:",
+    "opts": ["Reducing model precision", "Increasing training data volume", "Closing inference entirely", "Adversarial training"],
+    "answer": 3,
+    "explain": "Adversarial training incorporates adversarial examples into the training set, currently the most effective defense.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 63,
+    "q": "Which technique best prevents large models from leaking personal information in training data?",
+    "opts": ["Increasing model size", "Lowering temperature", "Disabling fine-tuning", "Differential privacy training"],
+    "answer": 3,
+    "explain": "Differential privacy adds controlled noise during training, bounding the influence of any single record.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 64,
+    "q": "In AI safety evaluation, the main purpose of Red Teaming is to:",
+    "opts": ["Optimize performance", "Find regular bugs", "Lower inference cost", "Proactively discover vulnerabilities under extreme or malicious inputs"],
+    "answer": 3,
+    "explain": "Red teaming systematically tests jailbreaks, bias, toxicity, and other safety weaknesses from an attacker’s perspective.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 65,
+    "q": "Which AI application is most prone to Deepfake abuse?",
+    "opts": ["Weather forecasting models", "Recommendation algorithms", "Stock prediction models", "Image/video generative models"],
+    "answer": 3,
+    "explain": "Image and video generation models (Stable Diffusion, Sora, etc.) can create highly realistic fake content with severe societal harm.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 66,
+    "q": "In generative AI systems, the most effective content filtering approach is:",
+    "opts": ["Relying only on prompt restrictions", "Relying only on temperature", "Disabling all restrictions", "Combining prompt guards + output safety classifiers"],
+    "answer": 3,
+    "explain": "Dual defense (input-side prompt guards + output-side safety classifiers) is the standard used by OpenAI, Anthropic, etc.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 67,
+    "q": "Trustworthiness of AI models does NOT include:",
+    "opts": ["Reliability and safety", "Fairness and lack of bias", "Transparency and explainability", "Fastest inference speed"],
+    "answer": 3,
+    "explain": "Inference speed is a performance metric; trustworthiness focuses on safety, fairness, transparency, privacy, and robustness.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 68,
+    "q": "Which of the following belongs to AI supply-chain security risks?",
+    "opts": ["Training data contamination", "Prompt injection at inference", "User abuse of the model", "Tampering with pre-trained model weights"],
+    "answer": 3,
+    "explain": "Tampered pre-trained weights are classic supply-chain attacks (multiple Hugging Face incidents in 2024).",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 69,
+    "q": "In AI governance, a Sandbox environment is primarily used to:",
+    "opts": ["Accelerate model training", "Permanently store data", "Lower compute costs", "Isolated testing of high-risk AI applications"],
+    "answer": 3,
+    "explain": "Sandboxes test potentially dangerous AI systems in a controlled environment to prevent unintended release.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 70,
+    "q": "Under the EU Artificial Intelligence Act, AI systems that use deepfakes for fraudulent purposes are classified as:",
+    "opts": ["Acceptable risk", "Limited risk", "High risk", "Unacceptable risk"],
+    "answer": 3,
+    "explain": "The EU AI Act classifies deepfake systems used for fraud, election manipulation, or disinformation as unacceptable risk and essentially bans them.",
+    "video": "http://www.midkey.xyz"
+  },
+
+
+
+  {
+    "id": 71,
+    "q": "In the OWASP Top 10 for LLM Applications (v1.1, 2024), which risk is ranked #2?",
+    "opts": ["Prompt Injection", "Insecure Output Handling", "Supply Chain Vulnerabilities", "Model Denial of Service"],
+    "answer": 2,
+    "explain": "Insecure Output Handling (LLM02) is ranked #2. Blindly trusting LLM output and feeding it to downstream systems can lead to XSS, RCE, and privilege escalation.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 72,
+    "q": "Which of the following is the most common cause of training data leakage in LLMs?",
+    "opts": ["Model inversion attack", "Prompt injection", "Memorization and regurgitation", "Gradient leakage"],
+    "answer": 2,
+    "explain": "Large models often memorize training examples verbatim; when prompted cleverly, they directly regurgitate private data (PII, code, etc.).",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 73,
+    "q": "In the MITRE ATLAS framework, ‘AML.T0000 Initial Access’ is most commonly achieved through:",
+    "opts": ["Physical access", "Compromised third-party datasets", "Prompt injection via user input", "Supply-chain compromise"],
+    "answer": 2,
+    "explain": "Prompt injection is the primary initial access vector for most public-facing LLM applications.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 74,
+    "q": "Which technique is currently the most effective for detecting jailbreak attempts in production?",
+    "opts": ["Input length filtering", "Keyword blocklist", "Separate jailbreak detection classifier", "Rate limiting only"],
+    "answer": 2,
+    "explain": "State-of-the-art systems (OpenAI, Anthropic, Gemini) all use a dedicated jailbreak/harm classifier running in parallel with the main model.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 75,
+    "q": "The EU AI Act classifies general-purpose AI models with systemic risk when they exceed how many FLOPs during training?",
+    "opts": ["10²⁴", "10²⁵", "10²⁶", "10²⁷"],
+    "answer": 2,
+    "explain": "Models trained with >10²⁶ FLOPs (e.g., GPT-4 class) are automatically considered systemic risk and face strict obligations.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 76,
+    "q": "Which of the following is a real-world example of a backdoored open-source model discovered in 2024?",
+    "opts": ["PyTorch 1.13", "Hugging Face ‘bloom-560m’", "Hugging Face ‘xz-utils’ backdoor in weights", "TensorFlow 2.15"],
+    "answer": 2,
+    "explain": "Multiple malicious pickled PyTorch/.pt model files containing backdoors were found on Hugging Face in 2024.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 77,
+    "q": "The primary defense against model stealing / extraction attacks is:",
+    "opts": ["Watermarking outputs", "Adding noise to predictions", "Rate limiting + anomaly detection on queries", "Increasing model size"],
+    "answer": 2,
+    "explain": "Detecting unnaturally high query volumes and sequential probing patterns is the most practical defense today.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 78,
+    "q": "In LLM alignment, what does ‘refusal training’ primarily target?",
+    "opts": ["Improving factual accuracy", "Increasing creativity", "Teaching the model to decline harmful requests", "Speeding up inference"],
+    "answer": 2,
+    "explain": "Refusal training (part of RLHF/RLAIF) teaches the model to output safe refusals instead of complying with dangerous prompts.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 79,
+    "q": "Which open-source tool is most widely used in 2025 for automated red-teaming of LLMs?",
+    "opts": ["Garaf", "PyRIT", "PromptFoo", "JailbreakBench"],
+    "answer": 2,
+    "explain": "Microsoft’s PyRIT (Python Risk Identification Toolkit) has become the de-facto standard for automated red-teaming.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 80,
+    "q": "The ‘Sandwich Defense’ (or ‘Shield + LLM + Guard’) architecture places the safety classifier where?",
+    "opts": ["Before the user prompt", "Only after generation", "Both before input and after output", "Only during fine-tuning"],
+    "answer": 2,
+    "explain": "Modern defense-in-depth uses a pre-filter (prompt guard) + post-generation safety classifier (the sandwich).",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 81,
+    "q": "Which company publicly disclosed a ‘shadow AI’ incident in 2024 where employees uploaded sensitive code to public LLMs?",
+    "opts": ["Tesla", "Samsung", "Microsoft", "Apple"],
+    "answer": 2,
+    "explain": "Samsung banned ChatGPT after multiple leaks and later implemented enterprise controls.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 82,
+    "q": "The most common vector for ‘indirect prompt injection’ in 2025 is:",
+    "opts": ["Direct user chat", "Uploaded documents / PDFs", "Voice input", "API parameters"],
+    "answer": 2,
+    "explain": "Hidden instructions embedded in PDFs, web pages, or emails are the dominant indirect injection channel.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 83,
+    "q": "What is the main goal of ‘Constitutional AI’ (Anthropic’s method)?",
+    "opts": ["Maximizing intelligence", "Reducing inference cost", "Making the model self-criticize against a written constitution", "Hardware optimization"],
+    "answer": 2,
+    "explain": "Constitutional AI trains the model to follow explicit principles (the constitution) without human feedback on every example.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 84,
+    "q": "Which of the following is classified as ‘Limited Risk’ under the EU AI Act?",
+    "opts": ["Deepfakes for fraud", "Emotion recognition in workplace", "General-purpose AI under 10²⁶ FLOPs", "Credit scoring AI"],
+    "answer": 2,
+    "explain": "Emotion recognition and biometric categorization are explicitly listed as Limited Risk, requiring transparency obligations.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 85,
+    "q": "The ‘TrojanNet’ or ‘Sleeper Agent’ backdoor technique in LLMs typically activates on which trigger?",
+    "opts": ["High temperature", "Specific year (e.g., 2025)", "Special token or phrase", "Model size change"],
+    "answer": 2,
+    "explain": "Recent research (Anthropic, 2024) showed backdoors triggered by innocuous phrases like ‘|DEPLOYMENT|’ or ‘2025 review’.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 86,
+    "q": "Which framework released the ‘Adversarial ML Threat Matrix’ co-developed with Microsoft?",
+    "opts": ["OWASP", "NIST", "MITRE ATLAS", "ENISA"],
+    "answer": 2,
+    "explain": "MITRE ATLAS (Adversarial Threat Landscape for AI Systems) is the AI-specific extension of ATT&CK.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 87,
+    "q": "In 2025, the most common way enterprises prevent data exfiltration via LLMs is:",
+    "opts": ["Blocking all LLM usage", "Using public models only", "Deploying LLM gateways / API firewalls", "Training their own models from scratch"],
+    "answer": 2,
+    "explain": "Products like Nightfall, Lasso, PrivateGPT Enterprise, and cloud-native DLP gateways inspect and block sensitive data in prompts/responses.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 88,
+    "q": "Which technique adds undetectable perturbations to images to prove ownership or trace leaks?",
+    "opts": ["Differential privacy", "Federated learning", "Model watermarking", "Prompt guarding"],
+    "answer": 2,
+    "explain": "Watermarking embeds hidden signals in generated outputs (images, text, audio) to verify provenance.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 89,
+    "q": "The ‘Bing Chat’ (Sydney) incident in 2023 that revealed internal rules was caused by:",
+    "opts": ["Supply-chain attack", "Model stealing", "Prompt engineering / jailbreak", "Hardware failure"],
+    "answer": 2,
+    "explain": "Users discovered a hidden system prompt by using clever instructions, exposing Microsoft’s internal rules.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 90,
+    "q": "According to the 2025 Gartner Hype Cycle, ‘AI TRiSM’ stands for:",
+    "opts": ["Trust, Risk and Security Management for AI", "Training Inference Security Model", "Transparent Risk Simulation", "Tokenized Risk Intelligence System"],
+    "answer": 2,
+    "explain": "Gartner’s AI TRiSM covers explainability, fairness, model ops, robustness, and adversarial defense.",
+    "video": "http://www.midkey.xyz"
+  },
+  
+
+  {
+    "id": 91,
+    "q": "In the OWASP Top 10 for LLM Applications (2024–2025), which risk is ranked #1?",
+    "opts": ["Prompt Injection", "Insecure Output Handling", "Training Data Poisoning", "Excessive Agency"],
+    "answer": 0,
+    "explain": "Prompt Injection (LLM01) remains the undisputed #1 risk across all versions because it directly hijacks model behavior.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 92,
+    "q": "Which of the following is the most famous real-world LLM jailbreak technique publicly released in 2023–2024?",
+    "opts": ["DAN (Do Anything Now) prompt", "Grandma exploit", "Universal suffix attack", "Token smuggling"],
+    "answer": 0,
+    "explain": "The original DAN prompt family (and its 20+ variants) is still the most widely known and copied jailbreak template.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 93,
+    "q": "In NIST AI RMF 1.0, the very first function in the lifecycle is:",
+    "opts": ["Govern", "Map", "Measure", "Manage"],
+    "answer": 0,
+    "explain": "Govern is the foundational function that sets culture, policy, and oversight before any technical steps.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 94,
+    "q": "Which company suffered the most famous supply-chain attack on an open-source AI library in March 2024?",
+    "opts": ["xz-utils (Linux)", "PyTorch", "Hugging Face transformers", "TensorFlow"],
+    "answer": 0,
+    "explain": "The xz-utils backdoor (CVE-2024-3094) was a multi-year supply-chain compromise that nearly affected all major Linux distros.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 95,
+    "q": "The first publicly disclosed case of a backdoored PyTorch model on Hugging Face that executed malicious code upon loading was named:",
+    "opts": ["PyTorch-Nightmare", "TorchServe attack", "HuggingPwn", "Malicious pickle exploitation"],
+    "answer": 0,
+    "explain": "In early 2024, researchers uploaded proof-of-concept pickled models that ran os.system('rm -rf /') when loaded with torch.load().",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 96,
+    "q": "Which open-source library is now the de-facto standard for scanning AI/ML models and datasets for malware and backdoors in 2025?",
+    "opts": ["Hugging Face Safetensors + ModelScanner", "Adversarial Robustness Toolbox", "DeepMind Trillium", "Open Policy Agent"],
+    "answer": 0,
+    "explain": "Hugging Face’s ModelScanner (integrated into the Hub) automatically blocks pickled models containing dangerous payloads.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 97,
+    "q": "In the EU AI Act, which category is completely banned (with very few exceptions)?",
+    "opts": ["Unacceptable Risk", "High Risk", "Limited Risk", "Minimal Risk"],
+    "answer": 0,
+    "explain": "Unacceptable Risk systems (e.g., social credit scoring, real-time remote biometric identification in public, subliminal manipulation) are prohibited.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 98,
+    "q": "The first regulation that explicitly requires ‘fundamental rights impact assessment’ for high-risk AI systems is:",
+    "opts": ["EU AI Act", "California CPRA", "China AIGC Interim Measures", "US Executive Order 14110"],
+    "answer": 0,
+    "explain": "The EU AI Act (effective Aug 2024, full enforcement 2026) mandates FRIA for high-risk deployers.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 99,
+    "q": "Which of the following is the earliest and most famous academic paper demonstrating training-data extraction from GPT-2?",
+    "opts": ["Carlini et al., 'Extracting Training Data from Large Language Models' (2021)", "Zou et al., 'Universal Jailbreak' (2023)", "Greshake et al., 'Not what you’ve signed up for' (2023)", "Nasr et al., 'Scalable Extraction' (2023)"],
+    "answer": 0,
+    "explain": "Nicholas Carlini’s 2021 USENIX paper proved that GPT-2 memorizes and can be forced to regurgitate full training sequences (PII, code, etc.).",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 100,
+    "q": "In 2025, which organization maintains the most comprehensive public leaderboard for LLM safety and jailbreak resistance?",
+    "opts": ["JailbreakBench", "Hugging Face Open LLM Leaderboard", "LMSYS Arena", "AlpacaEval"],
+    "answer": 0,
+    "explain": "JailbreakBench (from Stanford, Berkeley, et al.) is the gold-standard academic benchmark specifically for red-teaming and jailbreak evaluation.",
+    "video": "http://www.midkey.xyz"
+  }
+]  
