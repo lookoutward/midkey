@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
 
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WFHJXZ2KQF"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -11,15 +10,42 @@
       gtag('config', 'G-WFHJXZ2KQF');
     </script>
 
+    <script>
+        (function () {                
+                // 1. 获取浏览器语言，并转为小写
+                const lang = (navigator.language || navigator.userLanguage || "").toLowerCase();
+                
+                let targetPath = '/#/en'; // 默认目标（英文）
+                
+                // 2. 检查是否为中文 (zh-cn, zh-tw, zh等)
+                if (lang.startsWith('zh')) {
+                    targetPath = '/#/cn';
+                }
+                
+                // 3. Fallback for non-standard browsers
+                if (!lang || lang.length < 2) {
+                    const ua = navigator.userAgent.toLowerCase();
+                    if (ua.includes('zh')) {
+                        targetPath = '/#/cn';
+                    }
+                }
+
+                // 5. 如果当前 URL hash 为空（即在根路径），则进行跳转
+                if (window.location.hash === '' || window.location.hash === '#/') {
+                    // 使用 replace 避免在浏览器历史记录中留下重定向记录
+                    window.location.replace(targetPath);
+                }
+        })();
+    </script>
+
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
-    <!-- Vue CLI 的 <%= BASE_URL %> 移除，改成 Vite 原生路径 -->
     <link rel="icon" href="./favicon.ico" />
 
     <title>Midkey</title>
-    <script type="module" crossorigin src="./assets/index-BLp8gmDY.js"></script>
+    <script type="module" crossorigin src="./assets/index-F0whqJAR.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-dMVBsrcA.css">
   </head>
   <body>
@@ -29,6 +55,5 @@
 
     <div id="app"></div>
 
-    <!-- Vite 的入口，必须添加 type="module" -->
   </body>
 </html>
