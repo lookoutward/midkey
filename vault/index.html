@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Midkey Vault 离线密码管理器（纯前端）</title>
+
+  <!-- 强制离线：禁止任何网络连接；不引入任何外部资源 -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self';
+                 connect-src 'none';
+                 img-src 'self' data:;
+                 style-src 'self';
+                 script-src 'self';
+                 base-uri 'none';
+                 form-action 'self';
+                 frame-ancestors 'none'">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">🔐</span>
+      <span class="brand-title">Midkey Vault 离线密码管理器</span>
+      <span class="badge" id="vaultStatusBadge">未登录</span>
+    </div>
+
+    <div class="topbar-actions">
+      <button class="btn small" id="btnExport" title="导出/保存加密金库" disabled>保存金库</button>
+      <button class="btn small ghost" id="btnSettings" title="设置" disabled>设置</button>
+      <button class="btn ghost" id="btnTheme" title="暗色模式切换">暗色</button>
+      <button class="btn warn" id="btnExit" title="退出（Ctrl+L）" disabled>退出</button>
+    </div>
+  </header>
+
+  <!-- AUTH / WELCOME -->
+  <main class="auth" id="authView">
+    <section class="card">
+      <h1>打开或创建金库</h1>
+      <p class="muted">
+        本应用完全离线运行。金库数据在保存/导出时始终保持加密（AES‑256），密钥由主密码经 PBKDF2 派生。
+      </p>
+
+      <div class="grid2">
+        <div class="panel">
+          <h2>解锁现有金库</h2>
+
+          <div class="field">
+            <label>Vault JSON 文件</label>
+            <div class="row wrap">
+              <button class="btn" id="btnOpenVault" type="button">
+                打开 Vault（自动选择最优方式）
+              </button>
+              <div class="muted small" id="selectedVaultName">未选择文件</div>
+            </div>
+            <div class="hint" id="openVaultHint">
+              程序将自动判断是否支持 File System Access API（Chrome/Edge）。支持时可“写回原文件”，否则使用传统文件选择（只读）。
+            </div>
+
+            <!-- fallback：不支持 File System Access API 时使用（保持隐藏） -->
+            <input type="file" id="fileImportVault" accept="application/json" class="hidden" />
+          </div>
+
+          <div class="field">
+            <label>主密码</label>
+            <input type="password" id="unlockMaster" autocomplete="current-password" />
+          </div>
+
+          <details class="advanced">
+            <summary>高级（可选）</summary>
+            <div class="field">
+              <label>第二因子口令（Passphrase，可选）</label>
+              <input type="password" id="unlockPassphrase" autocomplete="off" />
+            </div>
+            <div class="field">
+              <label>Keyfile（可选）</label>
+              <input type="file" id="unlockKeyfile" />
+            </div>
+          </details>
+
+          <div class="row">
+            <button class="btn primary" id="btnUnlock">解锁</button>
+          </div>
+
+          <div class="msg" id="unlockMsg" role="status" aria-live="polite"></div>
+        </div>
+
+        <div class="panel">
+          <h2>创建新金库</h2>
+
+          <div class="field">
+            <label>金库名称（用于导出文件名）</label>
+            <input type="text" id="newVaultName" placeholder="例如：personal / work" />
+          </div>
+
+          <div class="field">
+            <label>主密码</label>
+            <input type="password" id="newMaster" autocomplete="new-password" />
+          </div>
+
+          <div class="field">
+            <label>确认主密码</label>
+            <input type="password" id="newMaster2" autocomplete="new-password" />
+          </div>
+
+          <details class="advanced">
+            <summary>高级（可选）</summary>
+            <div class="field">
+              <label>
+                <input type="checkbox" id="chkUsePassphrase" />
+                启用第二因子口令（Passphrase）
+              </label>
+              <input type="password" id="newPassphrase" autocomplete="off" disabled />
+            </div>
+
+            <div class="field">
+              <label>
+                <input type="checkbox" id="chkUseKeyfile" />
+                启用 Keyfile
+              </label>
+              <input type="file" id="newKeyfile" disabled />
+            </div>
+
+            <div class="field">
+              <label>PBKDF2 迭代次数（≥100,000）</label>
+              <input type="number" id="kdfIterations" min="100000" step="10000" value="200000" />
+              <div class="hint">越高越安全，但解锁会更慢。</div>
+            </div>
+          </details>
+
+          <div class="row">
+            <button class="btn primary" id="btnCreateVault">创建并导出</button>
+          </div>
+
+          <div class="msg" id="createMsg" role="status" aria-live="polite"></div>
+        </div>
+      </div>
+
+      <p class="muted small">
+        Midkey Vault 为“文件驱动”。不使用 LocalStorage 保存金库。每次进入都需打开 JSON 文件。
+      </p>
+    </section>
+  </main>
+
+  <!-- APP -->
+  <main class="app hidden" id="appView">
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <div class="sidebar-title">分组</div>
+        <button class="btn small" id="btnAddGroup">+ 分组</button>
+      </div>
+
+      <div class="sidebar-tools">
+        <button class="btn small ghost" id="btnFavorites">★ 收藏</button>
+        <button class="btn small ghost" id="btnAll">全部</button>
+      </div>
+
+      <div class="groupTree" id="groupTree" aria-label="分组树"></div>
+
+      <div class="sidebar-bottom">
+        <div class="sidebar-title">标签筛选</div>
+        <select id="tagFilter">
+          <option value="">（全部标签）</option>
+        </select>
+      </div>
+    </aside>
+
+    <section class="main">
+      <div class="main-top">
+        <div class="search">
+          <input type="text" id="searchInput" placeholder="搜索（Ctrl+F）…" />
+          <button class="btn small" id="btnClearSearch">清空</button>
+        </div>
+
+        <div class="main-actions">
+          <button class="btn primary" id="btnAddEntry" title="新建条目（Ctrl+N）">+ 条目</button>
+        </div>
+      </div>
+
+      <div class="split">
+        <div class="entries">
+          <div class="listHeader">
+            <div id="listTitle">条目</div>
+            <div class="muted small" id="listCount"></div>
+          </div>
+          <div class="entryList" id="entryList" aria-label="条目列表"></div>
+        </div>
+
+        <div class="details" id="detailsPane" aria-label="详情面板">
+          <div class="placeholder">
+            选择一个条目查看详情
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ENTRY MODAL -->
+  <div class="modal hidden" id="entryModal" role="dialog" aria-modal="true" aria-labelledby="entryModalTitle">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h2 id="entryModalTitle">编辑条目</h2>
+        <button class="btn ghost" id="btnCloseEntryModal" aria-label="关闭">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="grid2">
+          <div class="field">
+            <label>标题</label>
+            <input type="text" id="eTitle" />
+          </div>
+
+          <div class="field">
+            <label>分组</label>
+            <select id="eGroup"></select>
+          </div>
+
+          <div class="field">
+            <label>用户名</label>
+            <input type="text" id="eUsername" autocomplete="off" />
+          </div>
+
+          <div class="field">
+            <label>URL</label>
+            <input type="url" id="eUrl" placeholder="https://example.com" />
+          </div>
+
+          <div class="field">
+            <label>密码</label>
+            <div class="pwRow">
+              <input type="password" id="ePassword" autocomplete="new-password" />
+              <button class="btn small" id="btnTogglePw" type="button" title="显示/隐藏">👁</button>
+              <button class="btn small" id="btnCopyPw" type="button" title="复制密码">复制</button>
+            </div>
+            <div class="strength">
+              <div class="bar" id="pwStrengthBar"></div>
+            </div>
+            <div class="hint" id="pwStrengthText"></div>
+          </div>
+
+          <div class="field">
+            <label>标签（逗号分隔）</label>
+            <input type="text" id="eTags" placeholder="工作,邮箱,银行" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label>备注</label>
+          <textarea id="eNotes" rows="4"></textarea>
+        </div>
+
+        <div class="field">
+          <label>
+            <input type="checkbox" id="eFav" />
+            收藏（★）
+          </label>
+        </div>
+
+        <div class="field">
+          <label>自定义字段</label>
+          <div class="customFields" id="customFields"></div>
+          <button class="btn small" id="btnAddCustomField" type="button">+ 添加字段</button>
+        </div>
+
+        <details class="advanced">
+          <summary>密码工具</summary>
+          <div class="gen">
+            <div class="grid2">
+              <div class="field">
+                <label>长度：<span id="genLenLabel">16</span></label>
+                <input type="range" id="genLen" min="8" max="64" value="16" />
+              </div>
+              <div class="field">
+                <label>选项</label>
+                <div class="checks">
+                  <label><input type="checkbox" id="genUpper" checked /> 大写</label>
+                  <label><input type="checkbox" id="genLower" checked /> 小写</label>
+                  <label><input type="checkbox" id="genNums" checked /> 数字</label>
+                  <label><input type="checkbox" id="genSyms" checked /> 符号</label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <button class="btn" id="btnGeneratePw" type="button">生成密码</button>
+              <button class="btn ghost" id="btnUseGenerated" type="button">使用生成的</button>
+              <input type="text" id="genOut" readonly />
+            </div>
+          </div>
+        </details>
+
+        <div class="metaRow muted small" id="entryMeta"></div>
+      </div>
+
+      <div class="modal-foot">
+        <button class="btn danger" id="btnDeleteEntry" type="button">删除</button>
+        <div class="spacer"></div>
+        <button class="btn" id="btnCancelEntry" type="button">取消</button>
+        <button class="btn primary" id="btnSaveEntry" type="button">保存</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUP MODAL -->
+  <div class="modal hidden" id="groupModal" role="dialog" aria-modal="true" aria-labelledby="groupModalTitle">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h2 id="groupModalTitle">分组</h2>
+        <button class="btn ghost" id="btnCloseGroupModal" aria-label="关闭">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="field">
+          <label>名称</label>
+          <input type="text" id="gName" />
+        </div>
+        <div class="field">
+          <label>父分组</label>
+          <select id="gParent"></select>
+          <div class="hint">留空表示顶级分组。</div>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <button class="btn danger" id="btnDeleteGroup" type="button">删除</button>
+        <div class="spacer"></div>
+        <button class="btn" id="btnCancelGroup" type="button">取消</button>
+        <button class="btn primary" id="btnSaveGroup" type="button">保存</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SETTINGS MODAL -->
+  <div class="modal hidden" id="settingsModal" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+    <div class="modal-card">
+      <div class="modal-head">
+        <h2 id="settingsTitle">设置</h2>
+        <button class="btn ghost" id="btnCloseSettings" aria-label="关闭">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="panel" style="margin-bottom:12px">
+          <h2>安全</h2>
+
+          <div class="kv">
+            <label>自动锁定（分钟）</label>
+            <input type="number" id="autoLockMinutes" min="1" max="240" step="1" />
+          </div>
+
+          <div class="kv">
+            <label>剪贴板清空（秒）</label>
+            <input type="number" id="clipboardClearSeconds" min="1" max="300" step="1" />
+          </div>
+
+          <div class="hint">
+            自动锁定按“无操作计时”；复制密码后将按设置秒数清空剪贴板（尽力而为，部分环境可能受限）。
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>文件状态</h2>
+          <div class="field">
+            <label>当前 Vault 文件</label>
+            <div class="hint" id="vaultFileInfo">未选择文件</div>
+          </div>
+          <div class="hint">
+            若浏览器支持 File System Access API 并以“可写方式”打开文件，导出将直接写回原文件；否则导出会下载一个新文件。
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-foot">
+        <div class="spacer"></div>
+        <button class="btn" id="btnCancelSettings" type="button">取消</button>
+        <button class="btn primary" id="btnSaveSettings" type="button">保存</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="crypto.js"></script>
+  <script src="vault.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
