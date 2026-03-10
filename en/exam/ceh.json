@@ -1,0 +1,1628 @@
+[
+  {
+    "id": 1,
+    "q": "Which phase of ethical hacking involves gathering publicly available information about a target?",
+    "opts": ["Scanning", "Enumeration", "Reconnaissance", "Exploitation"],
+    "answer": 2,
+    "explain": "Reconnaissance collects open-source information before active scanning.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 2,
+    "q": "Which tool is commonly used for network mapping and port scanning?",
+    "opts": ["Burp Suite", "Nmap", "Metasploit", "Hydra"],
+    "answer": 1,
+    "explain": "Nmap is a popular tool for discovering hosts, services, and ports.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 3,
+    "q": "Which type of attack involves injecting malicious SQL code into a web application's database query?",
+    "opts": ["XSS", "MITM", "SQL Injection", "Command Injection"],
+    "answer": 2,
+    "explain": "SQL injection manipulates backend SQL queries for unauthorized access.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 4,
+    "q": "Which wireless attack involves creating a fake AP to trick users into connecting?",
+    "opts": ["War Driving", "Evil Twin", "Deauth Attack", "WPS Attack"],
+    "answer": 1,
+    "explain": "An Evil Twin AP impersonates a legitimate one to steal data.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 5,
+    "q": "Which tool is used for exploiting known vulnerabilities?",
+    "opts": ["Nmap", "Wireshark", "Metasploit", "Aircrack-ng"],
+    "answer": 2,
+    "explain": "Metasploit provides exploit modules for penetration testing.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 6,
+    "q": "What type of malware replicates itself across networks without user interaction?",
+    "opts": ["Virus", "RAT", "Worm", "Trojan"],
+    "answer": 2,
+    "explain": "Worms self-replicate and spread automatically across systems.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 7,
+    "q": "Which hashing algorithm is considered broken due to collisions?",
+    "opts": ["SHA-256", "MD5", "AES", "Blowfish"],
+    "answer": 1,
+    "explain": "MD5 is no longer secure because collisions can be created.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 8,
+    "q": "Which type of attack involves intercepting communication between two systems?",
+    "opts": ["MITM", "Replay Attack", "DDoS", "Phishing"],
+    "answer": 0,
+    "explain": "Man-in-the-middle attacks intercept or modify communication.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 9,
+    "q": "What does OSINT stand for in cybersecurity?",
+    "opts": ["Open Source Intelligence", "Open Security Integration", "Online Security Information", "Operational Source Data"],
+    "answer": 0,
+    "explain": "OSINT refers to collecting public data for reconnaissance.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 10,
+    "q": "Which attack attempts to guess passwords using common word lists?",
+    "opts": ["Brute Force", "Rainbow Attack", "Dictionary Attack", "Replay Attack"],
+    "answer": 2,
+    "explain": "Dictionary attacks use precompiled word lists to guess passwords.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 11,
+    "q": "Which tool is primarily used for packet sniffing and protocol analysis?",
+    "opts": ["Hydra", "Nessus", "Wireshark", "Aircrack-ng"],
+    "answer": 2,
+    "explain": "Wireshark captures and analyzes network packets.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 12,
+    "q": "Which type of malware hides its presence by modifying system files?",
+    "opts": ["Rootkit", "Virus", "Trojan", "Botnet"],
+    "answer": 0,
+    "explain": "Rootkits provide stealth to malicious activity on systems.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 13,
+    "q": "What term describes scanning a range of IP addresses to discover live hosts?",
+    "opts": ["OS Fingerprinting", "Ping Sweep", "DNS Enumeration", "Banner Grabbing"],
+    "answer": 1,
+    "explain": "Ping sweeps identify active hosts by sending ICMP requests.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 14,
+    "q": "Which vulnerability type allows attackers to execute scripts in a user’s browser?",
+    "opts": ["XSS", "SQL Injection", "Command Injection", "Buffer Overflow"],
+    "answer": 0,
+    "explain": "XSS injects malicious scripts into trusted websites.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 15,
+    "q": "Which tool is commonly used for wireless network auditing?",
+    "opts": ["Aircrack-ng", "Nmap", "Burp Suite", "Hydra"],
+    "answer": 0,
+    "explain": "Aircrack-ng is used to assess Wi-Fi security and crack WEP/WPA keys.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 16,
+    "q": "Which technique extracts information by analyzing error messages or system responses?",
+    "opts": ["Evasion", "Footprinting", "Banner Grabbing", "Escalation"],
+    "answer": 2,
+    "explain": "Banner grabbing reveals service details through responses.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 17,
+    "q": "Which phase of hacking involves actively probing systems for weaknesses?",
+    "opts": ["Reconnaissance", "Scanning", "Enumeration", "Covering Tracks"],
+    "answer": 1,
+    "explain": "Scanning identifies open ports and vulnerabilities.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 18,
+    "q": "A criminal sends fake emails pretending to be a bank. Which attack is this?",
+    "opts": ["Whaling", "Phishing", "Smishing", "Spoofing"],
+    "answer": 1,
+    "explain": "Phishing is performed through fraudulent emails targeting users.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 19,
+    "q": "Which tool is used to crack passwords using various protocols like SSH, FTP, etc.?",
+    "opts": ["Hydra", "Nmap", "Wireshark", "Metasploit"],
+    "answer": 0,
+    "explain": "Hydra performs brute-force attacks across many protocols.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 20,
+    "q": "Which attack involves sending malformed packets to crash a system or service?",
+    "opts": ["Buffer Overflow", "DoS", "MITM", "Phishing"],
+    "answer": 1,
+    "explain": "DoS attacks overwhelm or crash services using malformed or excessive traffic.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 21,
+    "q": "Which term describes secretly capturing keystrokes typed by a user?",
+    "opts": ["Sniffing", "Keylogging", "Phishing", "Footprinting"],
+    "answer": 1,
+    "explain": "Keyloggers record user keystrokes for credential theft.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 22,
+    "q": "Which framework is widely used for penetration testing automation?",
+    "opts": ["OWASP", "Metasploit", "COBIT", "NIST"],
+    "answer": 1,
+    "explain": "Metasploit automates exploitation tasks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 23,
+    "q": "Which attack tricks users into revealing sensitive information by creating fake websites?",
+    "opts": ["Spoofing", "Pharming", "XSS", "Sniffing"],
+    "answer": 1,
+    "explain": "Pharming redirects users to fake websites to collect data.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 24,
+    "q": "Which protocol is commonly targeted during wireless cracking attempts?",
+    "opts": ["WEP", "WPA2", "WPA3", "802.1X"],
+    "answer": 0,
+    "explain": "WEP has weak encryption that can be cracked easily.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 25,
+    "q": "Which term describes removing traces of intrusion from logs?",
+    "opts": ["Covering Tracks", "Reconnaissance", "Enumeration", "Escalation"],
+    "answer": 0,
+    "explain": "Covering tracks hides evidence of compromise.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 26,
+    "q": "What type of vulnerability occurs when an application stores user input without validation?",
+    "opts": ["Stored XSS", "Reflected XSS", "SQL Injection", "CSRF"],
+    "answer": 0,
+    "explain": "Stored XSS saves malicious scripts directly in a database or page.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 27,
+    "q": "What is the main goal of privilege escalation?",
+    "opts": ["DoS", "Gain higher access", "Sniff traffic", "Hide identity"],
+    "answer": 1,
+    "explain": "Privilege escalation aims to gain higher-level permissions.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 28,
+    "q": "Which port is commonly used by SSH?",
+    "opts": ["21", "22", "23", "80"],
+    "answer": 1,
+    "explain": "SSH uses port 22 for secure remote management.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 29,
+    "q": "Which protocol is used for secure web communication?",
+    "opts": ["HTTP", "FTP", "HTTPS", "Telnet"],
+    "answer": 2,
+    "explain": "HTTPS encrypts web traffic using SSL/TLS.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 30,
+    "q": "Which tool is best for web application penetration testing?",
+    "opts": ["Nmap", "Burp Suite", "Cain & Abel", "Aircrack-ng"],
+    "answer": 1,
+    "explain": "Burp Suite is widely used for web vulnerability testing.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 31,
+    "q": "Which type of scan attempts to identify the OS of a target?",
+    "opts": ["Port Scan", "OS Fingerprinting", "Service Scan", "Ping Sweep"],
+    "answer": 1,
+    "explain": "OS fingerprinting analyzes responses to determine operating systems.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 32,
+    "q": "Which attack relies on redirecting DNS queries to malicious servers?",
+    "opts": ["DNS Poisoning", "XSS", "MITM", "Replay Attack"],
+    "answer": 0,
+    "explain": "DNS poisoning corrupts DNS entries to redirect traffic.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 33,
+    "q": "Which vulnerability allows attackers to overflow memory buffers?",
+    "opts": ["SQL Injection", "Brute Force", "Buffer Overflow", "XSS"],
+    "answer": 2,
+    "explain": "Buffer overflow exploits insufficient memory boundary checks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 34,
+    "q": "Which tool is used for password recovery and sniffing in Windows environments?",
+    "opts": ["Cain & Abel", "Nmap", "Burp Suite", "Aircrack-ng"],
+    "answer": 0,
+    "explain": "Cain & Abel performs password recovery and network sniffing.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 35,
+    "q": "Which part of ethical hacking includes vulnerability exploitation?",
+    "opts": ["Reconnaissance", "Scanning", "Gaining Access", "Maintaining Access"],
+    "answer": 2,
+    "explain": "Gaining access involves exploiting vulnerabilities.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 36,
+    "q": "Which wireless tool captures WPA/WPA2 handshakes for cracking?",
+    "opts": ["Wireshark", "Aircrack-ng", "Hydra", "Nmap"],
+    "answer": 1,
+    "explain": "Aircrack-ng captures and cracks wireless authentication traffic.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 37,
+    "q": "Which encryption method uses the same key for encryption and decryption?",
+    "opts": ["Symmetric", "Asymmetric", "Hashing", "ECC"],
+    "answer": 0,
+    "explain": "Symmetric encryption uses one shared secret key.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 38,
+    "q": "Which attack floods a target with traffic from multiple systems?",
+    "opts": ["MITM", "DDoS", "Phishing", "XSS"],
+    "answer": 1,
+    "explain": "DDoS attacks overwhelm targets using multiple compromised hosts.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 39,
+    "q": "Which type of malware pretends to be legitimate software?",
+    "opts": ["Botnet", "Trojan", "Virus", "Worm"],
+    "answer": 1,
+    "explain": "Trojans disguise themselves to trick users into executing them.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 40,
+    "q": "Which tool can intercept, modify, and replay HTTP requests?",
+    "opts": ["Metasploit", "Wireshark", "Burp Suite", "Hydra"],
+    "answer": 2,
+    "explain": "Burp Suite enables interception and modification of web traffic.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 41,
+    "q": "Which shellcode technique avoids using bad characters such as null bytes?",
+    "opts": ["Encoding", "Hashing", "Salting", "Pivoting"],
+    "answer": 0,
+    "explain": "Shellcode encoding avoids bad characters to ensure proper execution.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 42,
+    "q": "Which tool is used to perform DNS enumeration?",
+    "opts": ["nslookup", "Hydra", "Aircrack-ng", "Burp Suite"],
+    "answer": 0,
+    "explain": "nslookup queries DNS records to gather target information.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 43,
+    "q": "Which vulnerability allows attackers to force users to perform unwanted actions on websites?",
+    "opts": ["XSS", "CSRF", "SQL Injection", "MITM"],
+    "answer": 1,
+    "explain": "CSRF tricks clients into sending unauthorized requests.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 44,
+    "q": "Which term describes gaining continuous access to a compromised system?",
+    "opts": ["Backdoor", "Phishing", "Sniffing", "Spoofing"],
+    "answer": 0,
+    "explain": "Backdoors provide persistent unauthorized access.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 45,
+    "q": "Which OS is most commonly used for penetration testing?",
+    "opts": ["Windows 11", "Kali Linux", "macOS", "Chrome OS"],
+    "answer": 1,
+    "explain": "Kali Linux includes many penetration testing tools by default.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 46,
+    "q": "What does a VPN provide?",
+    "opts": ["Integrity only", "Encryption and anonymity", "Open access", "Password storage"],
+    "answer": 1,
+    "explain": "VPNs secure traffic by encrypting communication and hiding IP addresses.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 47,
+    "q": "Which attack involves reusing captured network authentication packets?",
+    "opts": ["MITM", "Replay Attack", "Smishing", "XSS"],
+    "answer": 1,
+    "explain": "Replay attacks reuse captured data to impersonate legitimate requests.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 48,
+    "q": "Which protocol is commonly used for file transfers but is insecure due to plaintext transmission?",
+    "opts": ["FTP", "SFTP", "FTPS", "HTTPS"],
+    "answer": 0,
+    "explain": "FTP transmits data without encryption.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 49,
+    "q": "Which method identifies vulnerabilities by comparing systems to known weaknesses?",
+    "opts": ["Penetration Testing", "Vulnerability Scanning", "Sniffing", "Social Engineering"],
+    "answer": 1,
+    "explain": "Vulnerability scanners identify weaknesses using signatures.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 50,
+    "q": "Which type of malware gives attackers remote control over infected systems?",
+    "opts": ["RAT", "Virus", "Worm", "Bot"],
+    "answer": 0,
+    "explain": "Remote Access Trojans provide full remote control to attackers.",
+    "video": "http://www.midkey.xyz"
+  },
+
+
+  {
+    "id": 51,
+    "q": "Which type of scan attempts to identify open ports without completing the TCP handshake?",
+    "opts": ["Connect Scan", "Stealth SYN Scan", "ACK Scan", "FIN Scan"],
+    "answer": 1,
+    "explain": "SYN scans send only an initial SYN packet without completing the handshake, making them stealthy.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 52,
+    "q": "What is the main purpose of a vulnerability scanner?",
+    "opts": ["Patch systems automatically", "Identify security weaknesses", "Prevent malware infection", "Block network attacks"],
+    "answer": 1,
+    "explain": "A vulnerability scanner detects system, network, and configuration weaknesses.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 53,
+    "q": "Which wireless attack forces clients to disconnect by sending fake deauthentication frames?",
+    "opts": ["Evil Twin", "Deauth Attack", "WEP Injection", "Wi-Fi Phishing"],
+    "answer": 1,
+    "explain": "Deauthentication attacks send spoofed deauth packets to disconnect Wi-Fi clients.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 54,
+    "q": "What tool is commonly used to crack Windows password hashes using dictionary or brute force attacks?",
+    "opts": ["Wireshark", "Nmap", "John the Ripper", "Burp Suite"],
+    "answer": 2,
+    "explain": "John the Ripper is widely used for cracking password hashes.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 55,
+    "q": "Which type of malware disguises itself as legitimate software?",
+    "opts": ["Worm", "Trojan", "Rootkit", "Ransomware"],
+    "answer": 1,
+    "explain": "A Trojan appears benign but performs malicious actions in the background.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 56,
+    "q": "What technique is used to modify packets so they appear to come from a trusted host?",
+    "opts": ["Phishing", "Spoofing", "Sniffing", "Encoding"],
+    "answer": 1,
+    "explain": "Spoofing manipulates packet headers to impersonate a trusted source.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 57,
+    "q": "Which cryptographic attack attempts all possible keys until the correct one is found?",
+    "opts": ["Replay Attack", "Brute Force Attack", "Man-in-the-middle", "Padding Oracle Attack"],
+    "answer": 1,
+    "explain": "Brute force attacks try every possible key to decrypt a message.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 58,
+    "q": "What is the primary goal of footprinting?",
+    "opts": ["Exploit vulnerabilities", "Gather information", "Crack passwords", "Deploy malware"],
+    "answer": 1,
+    "explain": "Footprinting focuses on collecting information about the target.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 59,
+    "q": "Which port is typically used by HTTPS?",
+    "opts": ["80", "21", "443", "23"],
+    "answer": 2,
+    "explain": "HTTPS uses TCP port 443 for encrypted web communication.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 60,
+    "q": "What tool is most commonly used for packet sniffing?",
+    "opts": ["Nmap", "Wireshark", "John the Ripper", "Metasploit"],
+    "answer": 1,
+    "explain": "Wireshark captures and analyzes network packets.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 61,
+    "q": "Which scanning method sends TCP packets with unexpected flags to determine firewall rules?",
+    "opts": ["SYN Scan", "XMAS Scan", "Connect Scan", "UDP Scan"],
+    "answer": 1,
+    "explain": "XMAS scans use FIN, PSH, and URG flags to identify filtering behaviors.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 62,
+    "q": "What type of attack involves injecting malicious scripts into trusted websites?",
+    "opts": ["XSS", "SQL Injection", "Command Injection", "DNS Poisoning"],
+    "answer": 0,
+    "explain": "XSS allows attackers to execute scripts in users' browsers.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 63,
+    "q": "Which wireless encryption protocol is considered the weakest and easily crackable?",
+    "opts": ["WPA2", "WPA3", "WEP", "EAP-TLS"],
+    "answer": 2,
+    "explain": "WEP uses weak IVs and can be cracked quickly with modern tools.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 64,
+    "q": "What is the primary purpose of a proxy server?",
+    "opts": ["Capture passwords", "Filter traffic", "Block firewalls", "Exploit vulnerabilities"],
+    "answer": 1,
+    "explain": "Proxy servers provide filtering, caching, and anonymity.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 65,
+    "q": "Which protocol is commonly exploited in a DNS poisoning attack?",
+    "opts": ["SMTP", "DNS", "FTP", "SSH"],
+    "answer": 1,
+    "explain": "DNS poisoning corrupts DNS cache entries to redirect traffic.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 66,
+    "q": "Which tool is widely used for exploitation and payload delivery?",
+    "opts": ["Nmap", "Metasploit", "Nikto", "Aircrack-ng"],
+    "answer": 1,
+    "explain": "Metasploit is a powerful exploitation framework.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 67,
+    "q": "What type of malware records keystrokes to steal sensitive data?",
+    "opts": ["Rootkit", "Keylogger", "Worm", "Botnet"],
+    "answer": 1,
+    "explain": "Keyloggers monitor and record user keystrokes.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 68,
+    "q": "SQL injection mainly targets which type of component?",
+    "opts": ["Operating System", "Database", "Network Switch", "Firewall"],
+    "answer": 1,
+    "explain": "SQL injection compromises database queries and data.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 69,
+    "q": "Which security concept ensures that data is not altered during transmission?",
+    "opts": ["Confidentiality", "Availability", "Integrity", "Authentication"],
+    "answer": 2,
+    "explain": "Integrity protects data from unauthorized modification.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 70,
+    "q": "Which attack attempts to make a system unavailable by overwhelming it with traffic?",
+    "opts": ["Spoofing", "Sniffing", "DoS Attack", "XSS"],
+    "answer": 2,
+    "explain": "DoS attacks exhaust system resources to disrupt service.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 71,
+    "q": "Which command in Linux displays network interface information?",
+    "opts": ["ls", "ifconfig", "chmod", "ps"],
+    "answer": 1,
+    "explain": "ifconfig shows network interface configuration.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 72,
+    "q": "What is the primary goal of social engineering?",
+    "opts": ["Scan networks", "Exploit protocols", "Manipulate people", "Analyze traffic"],
+    "answer": 2,
+    "explain": "Social engineering relies on psychological manipulation.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 73,
+    "q": "What type of attack involves replaying captured authentication packets?",
+    "opts": ["MITM", "Session Hijacking", "Replay Attack", "Brute Force"],
+    "answer": 2,
+    "explain": "Replay attacks resend captured packets to impersonate users.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 74,
+    "q": "What phase of hacking includes scanning and enumeration?",
+    "opts": ["Maintaining Access", "Reconnaissance", "Covering Tracks", "Gaining Access"],
+    "answer": 1,
+    "explain": "Reconnaissance includes passive and active information gathering.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 75,
+    "q": "Which tool is commonly used to test web application vulnerability?",
+    "opts": ["Burp Suite", "Aircrack-ng", "Cain & Abel", "Putty"],
+    "answer": 0,
+    "explain": "Burp Suite is widely used for web application penetration testing.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 76,
+    "q": "What type of attack tricks a user into visiting a fake website that looks legitimate?",
+    "opts": ["Phishing", "ARP Poisoning", "MITM", "XSS"],
+    "answer": 0,
+    "explain": "Phishing uses fraudulent websites to steal sensitive data.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 77,
+    "q": "Which protocol is used for secure remote login?",
+    "opts": ["Telnet", "SSH", "FTP", "TFTP"],
+    "answer": 1,
+    "explain": "SSH provides encrypted secure remote access.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 78,
+    "q": "A botnet is primarily controlled by which component?",
+    "opts": ["Firewall", "IDS", "C2 Server", "Proxy Cache"],
+    "answer": 2,
+    "explain": "Botnets are remotely managed through command-and-control servers.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 79,
+    "q": "Which file contains hashed passwords in Linux systems?",
+    "opts": ["/etc/passwd", "/etc/shadow", "/etc/login", "/etc/secure"],
+    "answer": 1,
+    "explain": "/etc/shadow securely stores hashed user passwords.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 80,
+    "q": "Which tool is used for wireless packet capture and WEP/WPA cracking?",
+    "opts": ["Aircrack-ng", "Burp Suite", "Hydra", "Netcat"],
+    "answer": 0,
+    "explain": "Aircrack-ng is designed for Wi-Fi cracking and packet capture.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 81,
+    "q": "Which of the following describes ARP spoofing?",
+    "opts": ["Flooding DNS servers", "Forging MAC-to-IP mappings", "Modifying SQL queries", "Sending fake certificates"],
+    "answer": 1,
+    "explain": "ARP spoofing manipulates ARP tables to redirect network traffic.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 82,
+    "q": "Which attack injects malicious SQL commands into input fields?",
+    "opts": ["SQL Injection", "XSS", "Path Traversal", "Command Injection"],
+    "answer": 0,
+    "explain": "SQL injection manipulates database queries using crafted input.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 83,
+    "q": "What is the purpose of a honeypot?",
+    "opts": ["Increase server speed", "Attract attackers", "Encrypt traffic", "Authenticate users"],
+    "answer": 1,
+    "explain": "Honeypots lure attackers to monitor behavior and collect intelligence.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 84,
+    "q": "Which attack attempts to guess passwords using predefined word lists?",
+    "opts": ["Brute Force", "Dictionary Attack", "Phishing", "MITM"],
+    "answer": 1,
+    "explain": "Dictionary attacks test password candidates from a known list.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 85,
+    "q": "Which type of malware provides unauthorized administrator-level access?",
+    "opts": ["Virus", "Rootkit", "Adware", "Spyware"],
+    "answer": 1,
+    "explain": "Rootkits hide processes and enable privileged access.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 86,
+    "q": "Which tool allows command execution on remote systems via reverse shells?",
+    "opts": ["Nmap", "Metasploit", "Burp Suite", "Aircrack-ng"],
+    "answer": 1,
+    "explain": "Metasploit can generate payloads that establish reverse shells.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 87,
+    "q": "What is the purpose of a DMZ in network architecture?",
+    "opts": ["Accelerate VPN", "Isolate public services", "Block internal traffic", "Replace firewalls"],
+    "answer": 1,
+    "explain": "DMZs isolate Internet-facing servers for additional security.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 88,
+    "q": "What type of scan sends ICMP echo requests to identify live hosts?",
+    "opts": ["UDP Scan", "Ping Sweep", "ACK Scan", "XMAS Scan"],
+    "answer": 1,
+    "explain": "Ping sweeps check network ranges for active hosts.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 89,
+    "q": "Which password attack uses all possible character combinations?",
+    "opts": ["Dictionary Attack", "Brute Force Attack", "Hybrid Attack", "Phishing"],
+    "answer": 1,
+    "explain": "Brute force tries every possible password combination.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 90,
+    "q": "Which malware encrypts files and demands payment?",
+    "opts": ["Rootkit", "Ransomware", "Adware", "Worm"],
+    "answer": 1,
+    "explain": "Ransomware encrypts data and asks for ransom to restore access.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 91,
+    "q": "What does the tool Hydra specialize in?",
+    "opts": ["Network scanning", "Wireless cracking", "Password brute forcing", "Traffic sniffing"],
+    "answer": 2,
+    "explain": "Hydra performs brute force attacks on various network services.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 92,
+    "q": "Which protocol operates at the application layer?",
+    "opts": ["IP", "TCP", "HTTP", "ARP"],
+    "answer": 2,
+    "explain": "HTTP is an application-layer protocol for web communication.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 93,
+    "q": "Which concept ensures a user is who they claim to be?",
+    "opts": ["Integrity", "Authentication", "Availability", "Confidentiality"],
+    "answer": 1,
+    "explain": "Authentication verifies a user's identity.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 94,
+    "q": "Which attack intercepts communication between two parties?",
+    "opts": ["Brute Force", "Sniffing", "MITM", "XSS"],
+    "answer": 2,
+    "explain": "MITM attacks position the attacker between two communicating parties.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 95,
+    "q": "Which security device detects malicious activity but does not block it?",
+    "opts": ["Firewall", "IPS", "IDS", "Proxy"],
+    "answer": 2,
+    "explain": "IDS detects and alerts but does not block attacks.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 96,
+    "q": "Which tool is commonly used to perform OS fingerprinting?",
+    "opts": ["Nmap", "Wireshark", "Hydra", "Netcat"],
+    "answer": 0,
+    "explain": "Nmap reveals OS information using TCP/IP stack behavior.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 97,
+    "q": "Which malware spreads automatically without human interaction?",
+    "opts": ["Trojan", "Worm", "Spyware", "Adware"],
+    "answer": 1,
+    "explain": "Worms replicate across systems without user action.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 98,
+    "q": "What is the purpose of privilege escalation?",
+    "opts": ["Steal passwords", "Obtain higher access rights", "Avoid detection", "Scan for vulnerabilities"],
+    "answer": 1,
+    "explain": "Privilege escalation gains unauthorized elevated permissions.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 99,
+    "q": "Which protocol does a DHCP server use to assign IP addresses?",
+    "opts": ["DNS", "HTTP", "UDP", "SSH"],
+    "answer": 2,
+    "explain": "DHCP communicates using UDP ports 67 and 68.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 100,
+    "q": "Which hacking phase involves clearing logs and hiding traces?",
+    "opts": ["Scanning", "Covering Tracks", "Maintaining Access", "Reconnaissance"],
+    "answer": 1,
+    "explain": "Covering tracks removes logs to hide attacker activity.",
+    "video": "http://www.midkey.xyz"
+  },
+
+
+  {
+    "id": 101,
+    "q": "Which type of attack attempts to exploit a system on the same day a vulnerability becomes known?",
+    "opts": ["Brute Force Attack", "Zero-Day Attack", "Replay Attack", "MITM Attack"],
+    "answer": 1,
+    "explain": "Zero-day attacks occur before vendors can release patches for newly discovered vulnerabilities.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 102,
+    "q": "Which tool is commonly used for ARP scanning and network discovery?",
+    "opts": ["Metasploit", "Nmap", "Cain & Abel", "Aircrack-ng"],
+    "answer": 1,
+    "explain": "Nmap can perform ARP scans to discover active hosts in a local network.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 103,
+    "q": "Which type of malware hides its processes and files to avoid detection?",
+    "opts": ["Rootkit", "Trojan", "Worm", "Spyware"],
+    "answer": 0,
+    "explain": "Rootkits conceal malicious activities by modifying system components.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 104,
+    "q": "Which wireless attack sets up a fake access point that mimics a legitimate one?",
+    "opts": ["Evil Twin Attack", "Deauth Attack", "Rogue DHCP Attack", "WEP Injection"],
+    "answer": 0,
+    "explain": "Evil Twin APs trick users into connecting to a malicious wireless network.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 105,
+    "q": "Which protocol is commonly exploited using a buffer overflow attack?",
+    "opts": ["FTP", "HTTP", "DNS", "Any service with improper bounds checking"],
+    "answer": 3,
+    "explain": "Buffer overflows affect any service lacking proper input validation.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 106,
+    "q": "Which technique involves sending multiple spoofed packets to map firewall rules?",
+    "opts": ["Banner Grabbing", "Firewall Evasion", "Packet Crafting", "OS Fingerprinting"],
+    "answer": 2,
+    "explain": "Packet crafting allows custom packets to analyze firewall behavior.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 107,
+    "q": "Which tool specializes in capturing password hashes over the network using LLMNR poisoning?",
+    "opts": ["Responder", "Nessus", "Nikto", "Hydra"],
+    "answer": 0,
+    "explain": "Responder captures NTLM hashes by exploiting LLMNR and NetBIOS broadcasts.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 108,
+    "q": "What does the term 'blue team' refer to?",
+    "opts": ["Attackers", "Defenders", "Regulators", "End Users"],
+    "answer": 1,
+    "explain": "Blue teams are responsible for defense and incident response.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 109,
+    "q": "Which encryption algorithm is used in WPA2's CCMP mode?",
+    "opts": ["DES", "AES", "RC4", "3DES"],
+    "answer": 1,
+    "explain": "WPA2 uses AES-CCMP for secure wireless encryption.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 110,
+    "q": "What is the purpose of 'salting' in password storage?",
+    "opts": ["Shorten passwords", "Increase cracking difficulty", "Encrypt data", "Hide usernames"],
+    "answer": 1,
+    "explain": "Salts add randomness to hashes, preventing precomputed attacks.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 111,
+    "q": "Which scanning technique sends UDP packets to locate open ports?",
+    "opts": ["SYN Scan", "Connect Scan", "UDP Scan", "ACK Scan"],
+    "answer": 2,
+    "explain": "UDP scans send UDP packets to determine if ports are open or filtered.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 112,
+    "q": "Which attack targets the browser’s trusted domain system?",
+    "opts": ["Clickjacking", "DNS Rebinding", "MITM", "XSS"],
+    "answer": 1,
+    "explain": "DNS Rebinding manipulates DNS to access internal network resources.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 113,
+    "q": "What is the goal of privilege escalation?",
+    "opts": ["Open ports", "Obtain higher permissions", "Scan networks", "Break encryption"],
+    "answer": 1,
+    "explain": "Privilege escalation elevates access beyond what a normal user has.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 114,
+    "q": "Which type of malware pretends to be legitimate but installs backdoors?",
+    "opts": ["Trojan", "Worm", "Ransomware", "Adware"],
+    "answer": 0,
+    "explain": "Trojans disguise themselves as useful programs while performing malicious actions.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 115,
+    "q": "Which Linux command is used to search for text in files?",
+    "opts": ["ls", "grep", "chmod", "cat"],
+    "answer": 1,
+    "explain": "grep is used to search text patterns within files.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 116,
+    "q": "Which concept ensures that data is accessible when needed?",
+    "opts": ["Confidentiality", "Integrity", "Availability", "Authentication"],
+    "answer": 2,
+    "explain": "Availability ensures systems are operational and accessible.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 117,
+    "q": "Which type of attack attempts to corrupt ARP tables?",
+    "opts": ["MITM", "ARP Poisoning", "Ping Sweep", "Brute Force"],
+    "answer": 1,
+    "explain": "ARP poisoning redirects network traffic by modifying ARP caches.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 118,
+    "q": "What does SQL injection primarily target?",
+    "opts": ["Operating Systems", "Databases", "Browsers", "DNS Servers"],
+    "answer": 1,
+    "explain": "SQL injection manipulates queries to access or alter databases.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 119,
+    "q": "Which tool is used for HTTP request interception?",
+    "opts": ["Burp Suite", "Aircrack-ng", "Netcat", "Nmap"],
+    "answer": 0,
+    "explain": "Burp Suite intercepts and analyzes web requests and responses.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 120,
+    "q": "Which penetration testing phase includes scanning and identifying vulnerabilities?",
+    "opts": ["Reporting", "Reconnaissance", "Enumeration", "Scanning"],
+    "answer": 3,
+    "explain": "Scanning includes port scans and vulnerability identification.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 121,
+    "q": "Which malware encrypts files but does NOT demand ransom?",
+    "opts": ["Ransomware", "Wiper Malware", "Spyware", "Adware"],
+    "answer": 1,
+    "explain": "Wipers destroy or encrypt data without financial demands.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 122,
+    "q": "What technique identifies the operating system of a target system?",
+    "opts": ["Sniffing", "OS Fingerprinting", "MITM", "Session Hijacking"],
+    "answer": 1,
+    "explain": "OS fingerprinting analyzes packet responses to determine OS type.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 123,
+    "q": "Which attack manipulates users into clicking invisible or disguised UI elements?",
+    "opts": ["XSS", "Clickjacking", "Phishing", "Session Fixation"],
+    "answer": 1,
+    "explain": "Clickjacking overlays invisible elements to trick users.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 124,
+    "q": "Which tool performs brute force attacks against network login services?",
+    "opts": ["Hydra", "Wireshark", "Burp Suite", "Nikto"],
+    "answer": 0,
+    "explain": "Hydra is specialized for brute forcing network logins.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 125,
+    "q": "Which scanning type sends packets with no flags set?",
+    "opts": ["NULL Scan", "XMAS Scan", "ACK Scan", "SYN Scan"],
+    "answer": 0,
+    "explain": "NULL scans send packets with no flags to probe system responses.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 126,
+    "q": "Which password attack uses a combination of dictionary words and random characters?",
+    "opts": ["Brute Force", "Hybrid Attack", "Rainbow Attack", "MITM"],
+    "answer": 1,
+    "explain": "Hybrid attacks extend dictionary words with random variations.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 127,
+    "q": "Which type of malware spreads through network shares and removable drives?",
+    "opts": ["Worm", "Trojan", "Adware", "Spyware"],
+    "answer": 0,
+    "explain": "Worms self-propagate via networks, USB drives, or shares.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 128,
+    "q": "What is the main purpose of a botnet?",
+    "opts": ["Faster networking", "Distributed attacks", "Log analysis", "VPN tunneling"],
+    "answer": 1,
+    "explain": "Botnets perform DDoS, spam, and other coordinated attacks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 129,
+    "q": "Which command in Linux is used to change file permissions?",
+    "opts": ["chmod", "grep", "netstat", "sudo"],
+    "answer": 0,
+    "explain": "chmod modifies file access permissions.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 130,
+    "q": "Which attack targets the trust between a browser and a user's logged-in session?",
+    "opts": ["CSRF", "XSS", "MITM", "Brute Force"],
+    "answer": 0,
+    "explain": "CSRF forces users to perform unwanted actions in an authenticated session.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 131,
+    "q": "Which protocol uses port 22?",
+    "opts": ["FTP", "SSH", "SMTP", "DNS"],
+    "answer": 1,
+    "explain": "SSH provides secure encrypted remote access on port 22.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 132,
+    "q": "Which phase of hacking includes maintaining persistent access?",
+    "opts": ["Scanning", "Reconnaissance", "Maintaining Access", "Covering Tracks"],
+    "answer": 2,
+    "explain": "Maintaining access ensures long-term presence inside the target.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 133,
+    "q": "Which type of malware logs keystrokes to capture sensitive information?",
+    "opts": ["Spyware", "Worm", "Keylogger", "Rootkit"],
+    "answer": 2,
+    "explain": "Keyloggers record keystrokes to obtain passwords or private data.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 134,
+    "q": "Which port does DNS typically use?",
+    "opts": ["80", "53", "110", "25"],
+    "answer": 1,
+    "explain": "DNS commonly uses UDP/TCP port 53.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 135,
+    "q": "Which cybersecurity principle prevents unauthorized changes to data?",
+    "opts": ["Confidentiality", "Integrity", "Availability", "Non-repudiation"],
+    "answer": 1,
+    "explain": "Integrity ensures that data has not been altered.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 136,
+    "q": "Which tool is used for packet crafting to manipulate TCP/IP fields?",
+    "opts": ["Hping3", "Hydra", "Dirbuster", "Nikto"],
+    "answer": 0,
+    "explain": "Hping3 sends custom packets for testing firewalls and networks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 137,
+    "q": "Which attack uses fraudulent ARP messages to redirect traffic?",
+    "opts": ["MITM", "ARP Poisoning", "DNS Spoofing", "Brute Force"],
+    "answer": 1,
+    "explain": "ARP poisoning maps a malicious MAC to a legitimate IP address.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 138,
+    "q": "Which HTTP method is commonly exploited in web attacks?",
+    "opts": ["GET", "POST", "PUT", "OPTIONS"],
+    "answer": 0,
+    "explain": "GET requests often expose parameters vulnerable to attack.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 139,
+    "q": "Which type of security assessment simulates real-world attacks?",
+    "opts": ["Audit", "Penetration Test", "Risk Analysis", "Compliance Review"],
+    "answer": 1,
+    "explain": "Penetration testing mimics attacker behavior to find vulnerabilities.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 140,
+    "q": "Which protocol is vulnerable to man-in-the-middle attacks if not encrypted?",
+    "opts": ["SSH", "HTTPS", "Telnet", "SFTP"],
+    "answer": 2,
+    "explain": "Telnet sends data in plain text without encryption.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 141,
+    "q": "Which type of attack overloads a system with SYN packets?",
+    "opts": ["XSS", "SYN Flood", "Session Fixation", "ARP Poisoning"],
+    "answer": 1,
+    "explain": "SYN floods exhaust server resources by exploiting incomplete handshakes.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 142,
+    "q": "Which password attack uses precomputed hash values?",
+    "opts": ["Brute Force", "Rainbow Table Attack", "Hybrid Attack", "Dictionary Attack"],
+    "answer": 1,
+    "explain": "Rainbow tables store hash–value pairs to accelerate password cracking.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 143,
+    "q": "Which tool is typically used to analyze logs and detect unusual patterns?",
+    "opts": ["Splunk", "Aircrack-ng", "Netcat", "Hydra"],
+    "answer": 0,
+    "explain": "Splunk collects and analyzes machine data to detect anomalies.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 144,
+    "q": "Which type of attack replaces legitimate DNS information with malicious entries?",
+    "opts": ["DNS Poisoning", "ARP Attack", "Smurf Attack", "Replay Attack"],
+    "answer": 0,
+    "explain": "DNS poisoning alters DNS records to redirect traffic.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 145,
+    "q": "Which type of scanning technique analyzes responses to fragmented packets?",
+    "opts": ["Fragmentation Scan", "ACK Scan", "FIN Scan", "XMAS Scan"],
+    "answer": 0,
+    "explain": "Fragmentation scans break TCP headers into small packets to bypass filters.",
+    "video": "http://www.midkey.xyz"
+  },
+
+  {
+    "id": 146,
+    "q": "Which attack involves exploiting user trust in a domain to steal credentials?",
+    "opts": ["Pharming", "Clickjacking", "CSRF", "MITM"],
+    "answer": 0,
+    "explain": "Pharming redirects users to malicious domain replicas.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 147,
+    "q": "Which protocol is used for email transmission?",
+    "opts": ["SSH", "SMTP", "DNS", "RDP"],
+    "answer": 1,
+    "explain": "SMTP handles outbound email delivery.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 148,
+    "q": "Which principle states that users should only have the access they need?",
+    "opts": ["Least Privilege", "Integrity", "Availability", "Non-repudiation"],
+    "answer": 0,
+    "explain": "Least privilege minimizes damage by restricting permissions.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 149,
+    "q": "Which scanning method uses banner grabbing to identify services?",
+    "opts": ["Port Scanning", "Service Enumeration", "Ping Sweep", "Firewall Evasion"],
+    "answer": 1,
+    "explain": "Service enumeration identifies running services and versions.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 150,
+    "q": "Which security device monitors traffic for malicious activity and actively blocks threats?",
+    "opts": ["IDS", "IPS", "Proxy", "NAT"],
+    "answer": 1,
+    "explain": "IPS detects and blocks attacks in real time.",
+    "video": "http://www.midkey.xyz"
+  },
+
+
+  {
+    "id": 151,
+    "q": "Which attack involves injecting malicious SQL commands into an application's input fields?",
+    "opts": ["Command Injection", "SQL Injection", "Code Injection", "XML Bomb"],
+    "answer": 1,
+    "explain": "SQL Injection targets database queries by injecting malicious SQL commands.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 152,
+    "q": "What is the primary purpose of a honeypot?",
+    "opts": ["To accelerate network traffic", "To deceive attackers and collect information", "To encrypt network packets", "To monitor employee activities"],
+    "answer": 1,
+    "explain": "Honeypots lure attackers and gather intelligence about their techniques.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 153,
+    "q": "Which tool is commonly used for wireless network auditing?",
+    "opts": ["Wireshark", "Nmap", "Aircrack-ng", "Hydra"],
+    "answer": 2,
+    "explain": "Aircrack-ng is a popular suite for wireless network penetration testing.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 154,
+    "q": "What is the main goal of privilege escalation?",
+    "opts": ["To reduce system logs", "To gain higher-level permissions", "To slow down a target system", "To scan the entire network"],
+    "answer": 1,
+    "explain": "Privilege escalation attempts to gain higher permissions than initially granted.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 155,
+    "q": "Which type of malware disguises itself as legitimate software?",
+    "opts": ["Worm", "Trojan", "Rootkit", "Backdoor"],
+    "answer": 1,
+    "explain": "Trojans masquerade as legitimate software to trick users into installing them.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 156,
+    "q": "What does XSS allow an attacker to do?",
+    "opts": ["Execute malicious scripts in a user's browser", "Modify firewall rules", "Perform SQL queries on the server", "Gain physical access to the machine"],
+    "answer": 0,
+    "explain": "Cross-site scripting enables attackers to run malicious scripts in victims' browsers.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 157,
+    "q": "Which technique is used to map a target's live hosts?",
+    "opts": ["Port Forwarding", "ARP Poisoning", "Ping Sweep", "Brute Force Attack"],
+    "answer": 2,
+    "explain": "A ping sweep identifies which hosts on a network are active.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 158,
+    "q": "What does the tool Hydra primarily perform?",
+    "opts": ["Wireless cracking", "Password brute-force attacks", "Network scanning", "Packet analysis"],
+    "answer": 1,
+    "explain": "Hydra is designed for fast password brute-force attacks on various protocols.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 159,
+    "q": "Which security model focuses on 'no read up, no write down'?",
+    "opts": ["Clark-Wilson", "Bell-LaPadula", "Biba", "Chinese Wall"],
+    "answer": 1,
+    "explain": "Bell-LaPadula enforces confidentiality with 'no read up, no write down' rules.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 160,
+    "q": "What does 'banner grabbing' collect?",
+    "opts": ["User passwords", "Service version information", "Registry files", "Encrypted data"],
+    "answer": 1,
+    "explain": "Banner grabbing gathers service and version info from applications and services.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 161,
+    "q": "Which protocol uses TCP port 22?",
+    "opts": ["SSH", "HTTP", "SNMP", "FTP"],
+    "answer": 0,
+    "explain": "SSH uses TCP port 22 for secure remote connections.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 162,
+    "q": "Which scanning type attempts to avoid full TCP connection establishment?",
+    "opts": ["ACK Scan", "SYN Scan", "NULL Scan", "FIN Scan"],
+    "answer": 1,
+    "explain": "SYN scan (half-open scan) does not complete the TCP handshake to remain stealthy.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 163,
+    "q": "Which malware hides its presence by modifying the operating system?",
+    "opts": ["Worm", "Rootkit", "Adware", "Spyware"],
+    "answer": 1,
+    "explain": "Rootkits modify OS components to stay hidden and undetected.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 164,
+    "q": "Which type of attack attempts all possible combinations to crack a password?",
+    "opts": ["Rainbow Attack", "Phishing", "Brute Force", "Social Engineering"],
+    "answer": 2,
+    "explain": "Brute-force attacks systematically test every possible password.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 165,
+    "q": "Which tool is widely used for sniffing network packets?",
+    "opts": ["John the Ripper", "Wireshark", "Nikto", "Burp Suite"],
+    "answer": 1,
+    "explain": "Wireshark is a leading packet sniffer used for traffic analysis.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 166,
+    "q": "Which attack involves sending deauthentication frames to disconnect clients?",
+    "opts": ["Evil Twin Attack", "Deauth Attack", "MAC Flooding", "Session Hijacking"],
+    "answer": 1,
+    "explain": "Deauthentication attacks force clients off a wireless network using spoofed frames.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 167,
+    "q": "Which protocol provides secure VPN tunneling?",
+    "opts": ["IPSec", "FTP", "Telnet", "TFTP"],
+    "answer": 0,
+    "explain": "IPSec secures VPN traffic through encryption and authentication.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 168,
+    "q": "Which command-line tool performs DNS queries?",
+    "opts": ["traceroute", "dig", "netstat", "ifconfig"],
+    "answer": 1,
+    "explain": "dig is commonly used to perform DNS lookups and queries.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 169,
+    "q": "What does the OWASP Top 10 focus on?",
+    "opts": ["Network attacks", "Web application security risks", "Malware families", "Cloud encryption standards"],
+    "answer": 1,
+    "explain": "OWASP Top 10 lists major web application security risks.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 170,
+    "q": "Which type of test simulates an external attacker with no internal access?",
+    "opts": ["Black-box test", "White-box test", "Gray-box test", "Unit test"],
+    "answer": 0,
+    "explain": "Black-box testing assumes zero internal knowledge of the system.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 171,
+    "q": "Which encryption type uses the same key for encryption and decryption?",
+    "opts": ["Asymmetric", "Hashing", "Symmetric", "Steganography"],
+    "answer": 2,
+    "explain": "Symmetric encryption uses a shared secret key for encryption and decryption.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 172,
+    "q": "What does port 3389 correspond to?",
+    "opts": ["SSH", "DNS", "RDP", "Kerberos"],
+    "answer": 2,
+    "explain": "Remote Desktop Protocol (RDP) runs on port 3389.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 173,
+    "q": "Which attack targets ARP tables?",
+    "opts": ["ARP Spoofing", "DNS Poisoning", "SQL Injection", "Cross-Site Scripting"],
+    "answer": 0,
+    "explain": "ARP spoofing alters ARP tables to redirect traffic.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 174,
+    "q": "Which technique hides data within an image file?",
+    "opts": ["Hashing", "Encoding", "Steganography", "Tokenization"],
+    "answer": 2,
+    "explain": "Steganography conceals data within another medium, such as images.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 175,
+    "q": "What is the main purpose of a backdoor?",
+    "opts": ["To update the system", "To secretly bypass authentication", "To scan the network", "To encrypt all system data"],
+    "answer": 1,
+    "explain": "Backdoors allow remote access that bypasses normal authentication controls.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 176,
+    "q": "Which attack floods a network device with MAC addresses?",
+    "opts": ["SYN Flood", "MAC Flooding", "Ping of Death", "Slowloris"],
+    "answer": 1,
+    "explain": "MAC flooding overwhelms switch CAM tables, forcing traffic to broadcast mode.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 177,
+    "q": "Which tool is commonly used for SQL Injection testing?",
+    "opts": ["sqlmap", "OpenVAS", "Aircrack-ng", "Responder"],
+    "answer": 0,
+    "explain": "sqlmap automates SQL injection discovery and exploitation.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 178,
+    "q": "Which malware records user keystrokes?",
+    "opts": ["Worm", "Keylogger", "Bot", "Ransomware"],
+    "answer": 1,
+    "explain": "Keyloggers capture keystrokes to steal credentials.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 179,
+    "q": "Which tool is designed for web vulnerability scanning?",
+    "opts": ["Nikto", "Hydra", "Cain & Abel", "dsniff"],
+    "answer": 0,
+    "explain": "Nikto scans web servers for known vulnerabilities.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 180,
+    "q": "Which protocol resolves IP addresses into MAC addresses?",
+    "opts": ["ARP", "DNS", "DHCP", "ICMP"],
+    "answer": 0,
+    "explain": "ARP resolves IP-to-MAC mappings within a local network.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 181,
+    "q": "Which vulnerability scanner is open-source?",
+    "opts": ["Burp Suite Pro", "OpenVAS", "Nessus (commercial)", "QualysGuard"],
+    "answer": 1,
+    "explain": "OpenVAS is the major open-source vulnerability scanning framework.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 182,
+    "q": "What is the purpose of a DMZ network?",
+    "opts": ["To isolate sensitive internal systems", "To store user credentials", "To increase wireless range", "To encrypt internal traffic"],
+    "answer": 0,
+    "explain": "A DMZ separates public-facing services from internal networks for added security.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 183,
+    "q": "Which method is commonly used in phishing?",
+    "opts": ["Social engineering emails", "Packet crafting", "Hash cracking", "Port scanning"],
+    "answer": 0,
+    "explain": "Phishing typically uses deceptive emails to trick users.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 184,
+    "q": "What type of malware replicates itself across networks?",
+    "opts": ["Worm", "Trojan", "Bot", "Keylogger"],
+    "answer": 0,
+    "explain": "Worms self-replicate and spread without human interaction.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 185,
+    "q": "Which type of testing uses partial internal knowledge?",
+    "opts": ["Black-box", "Gray-box", "White-box", "Blue team"],
+    "answer": 1,
+    "explain": "Gray-box testing uses limited internal knowledge to simulate an insider threat.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 186,
+    "q": "Which wireless security protocol is considered weak and deprecated?",
+    "opts": ["WPA2", "WEP", "WPA3", "802.1X"],
+    "answer": 1,
+    "explain": "WEP is outdated and easily cracked using simple tools.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 187,
+    "q": "Which log type shows login attempts?",
+    "opts": ["System log", "Authentication log", "Firewall log", "Web server log"],
+    "answer": 1,
+    "explain": "Authentication logs contain success and failure login attempts.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 188,
+    "q": "Which technology isolates applications in separate lightweight environments?",
+    "opts": ["Hypervisors", "Containers", "Switches", "Proxies"],
+    "answer": 1,
+    "explain": "Containers isolate application environments using OS-level virtualization.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 189,
+    "q": "Which attack tries to poison DNS cache entries?",
+    "opts": ["DNS Tunneling", "DNS Poisoning", "ARP Flooding", "MAC Spoofing"],
+    "answer": 1,
+    "explain": "DNS poisoning injects false DNS entries to redirect users.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 190,
+    "q": "Which cloud model provides full control over the operating system?",
+    "opts": ["SaaS", "PaaS", "IaaS", "FaaS"],
+    "answer": 2,
+    "explain": "IaaS allows administrators to manage the OS and applications.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 191,
+    "q": "Which weakness allows attackers to replay captured credentials?",
+    "opts": ["Replay Attack", "Injection Attack", "Eavesdropping", "Escalation Attack"],
+    "answer": 0,
+    "explain": "Replay attacks reuse captured authentication data to impersonate users.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 192,
+    "q": "Which file type often contains password hashes in Windows?",
+    "opts": ["hosts", "shadow", "SAM", "config.sys"],
+    "answer": 2,
+    "explain": "The SAM file stores Windows user password hashes.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 193,
+    "q": "Which Linux command lists active network connections?",
+    "opts": ["netstat", "ls", "chmod", "pwd"],
+    "answer": 0,
+    "explain": "netstat displays network connections, routing tables, and listening ports.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 194,
+    "q": "Which exploit delivery method uses malicious USB devices?",
+    "opts": ["Watering hole attack", "Baiting attack", "Phishing", "Drive-by download"],
+    "answer": 1,
+    "explain": "Baiting tricks users into inserting malicious physical devices.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 195,
+    "q": "Which tool is used to crack Windows password hashes?",
+    "opts": ["Nmap", "John the Ripper", "Nikto", "Aircrack-ng"],
+    "answer": 1,
+    "explain": "John the Ripper is widely used for password hash cracking.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 196,
+    "q": "Which type of attack abuses trust relationships between systems?",
+    "opts": ["Session hijacking", "Man-in-the-middle", "Pass-the-hash", "Brute force"],
+    "answer": 2,
+    "explain": "Pass-the-hash leverages trusted authentication relationships without knowing the password.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 197,
+    "q": "Which Wi-Fi attack sets up a fake access point?",
+    "opts": ["Rogue AP", "WPS Attack", "MAC Cloning", "SSID Cloaking"],
+    "answer": 0,
+    "explain": "Rogue APs trick users into connecting to fake access points.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 198,
+    "q": "What is the primary purpose of log retention policies?",
+    "opts": ["To reduce hardware costs", "To assist in investigations", "To increase network speed", "To delete old backups"],
+    "answer": 1,
+    "explain": "Log retention supports compliance and incident investigation.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 199,
+    "q": "Which type of malware encrypts user files for ransom?",
+    "opts": ["Adware", "Spyware", "Ransomware", "Botnet"],
+    "answer": 2,
+    "explain": "Ransomware encrypts files and demands payment for decryption.",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 200,
+    "q": "Which cybersecurity concept ensures data is not altered?",
+    "opts": ["Confidentiality", "Integrity", "Availability", "Resilience"],
+    "answer": 1,
+    "explain": "Integrity ensures data remains unchanged and accurate.",
+    "video": "http://www.midkey.xyz"
+  }
+]
+
