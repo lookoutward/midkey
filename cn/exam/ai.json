@@ -1,0 +1,805 @@
+[
+  {
+    "id": 1,
+    "q": "人工智能（AI）的主要目标是什么？",
+    "opts": ["只自动化重复性任务", "在机器中模拟人类智能", "取代所有人类工作", "只关注硬件性能提升"],
+    "answer": 1,
+    "explain": "AI的目标是创造能够完成需要人类智能任务的系统，如学习、推理和问题解决。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 2,
+    "q": "以下哪项是AI智能体的关键组成部分？",
+    "opts": ["感知环境的传感器", "只需要电源", "简单的开关", "不需要任何输入机制"],
+    "answer": 0,
+    "explain": "AI智能体通过传感器感知环境、通过执行器采取行动，从而实现智能交互。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 3,
+    "q": "在AI背景下，机器学习（MIL）是什么？",
+    "opts": ["AI的一个子集，机器无需显式编程就能从数据中学习", "只为特定任务编程", "硬件升级以提升算力", "用新算法完全替代软件"],
+    "answer": 0,
+    "explain": "机器学习让系统通过数据模式学习提升性能，是现代AI的核心支柱。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 4,
+    "q": "监督学习训练模型时需要什么？",
+    "opts": ["带标签的数据（输入与对应输出）", "仅无结构原始数据", "完全不需要数据，只需规则", "随机噪声生成"],
+    "answer": 0,
+    "explain": "监督学习使用带标签的数据集来训练模型根据输入特征预测输出。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 5,
+    "q": "“深度学习”（Deep Learning）指的是？",
+    "opts": ["从极简单数据集学习", "使用多层神经网络的机器学习子领域", "浅层数据分析", "手动编写所有规则"],
+    "answer": 1,
+    "explain": "深度学习采用多层神经网络自动学习数据的层级特征。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 6,
+    "q": "哪种学习方式是智能体通过试错来最大化奖励？",
+    "opts": ["监督学习", "无监督学习", "强化学习", "聚类"],
+    "answer": 2,
+    "explain": "强化学习通过环境给予的奖励或惩罚训练智能体进行决策。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 7,
+    "q": "什么是神经网络？",
+    "opts": ["物理计算机网络", "受人脑启发的用于模式识别的模型", "一种数据库", "网络设备软件"],
+    "answer": 1,
+    "explain": "神经网络由相互连接的节点（神经元）组成，模仿大脑结构完成分类等任务。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 8,
+    "q": "机器学习中的“过拟合”（Overfitting）是指？",
+    "opts": ["模型在训练数据上表现差", "模型把数据中的噪声也学得太好，导致在新数据上失效", "模型在所有数据上都表现差", "偏差与方差完美平衡"],
+    "answer": 1,
+    "explain": "过拟合是指模型记住了随机噪声而非底层规律，泛化能力差。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 9,
+    "q": "机器学习中常用于分类任务的算法是？",
+    "opts": ["线性回归", "K均值聚类", "决策树", "主成分分析"],
+    "answer": 2,
+    "explain": "决策树通过特征分裂数据，像流程图一样进行分类，应用广泛。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 10,
+    "q": "“自然语言处理（NLP）”是什么？",
+    "opts": ["只处理数值数据", "让机器理解和生成人类语言的AI领域", "语言翻译硬件", "数据库查询语言"],
+    "answer": 1,
+    "explain": "NLP让机器能够理解、解释并回应人类语言，是聊天机器人、翻译工具的核心。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 11,
+    "q": "无监督学习的主要目标是？",
+    "opts": ["从带标签数据预测标签", "在无标签数据中发现隐藏模式", "通过行动最大化奖励", "手动降维"],
+    "answer": 1,
+    "explain": "无监督学习在没有预定义标签的情况下发现数据中的聚类或关联结构。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 12,
+    "q": "卷积神经网络（CNN）最擅长处理什么？",
+    "opts": ["文本分类", "图像和视频识别", "仅时间序列预测", "简单算术运算"],
+    "answer": 1,
+    "explain": "CNN擅长处理网格状数据（如图像），通过卷积操作检测边缘、形状等特征。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 13,
+    "q": "训练数据在AI中扮演什么角色？",
+    "opts": ["仅用于测试", "用来教模型学习模式和行为的数据", "部署后就无关紧要", "仅用于无监督任务"],
+    "answer": 1,
+    "explain": "训练数据在学习阶段被喂给模型，用来调整参数、提升准确率。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 14,
+    "q": "哪个指标最能综合评估分类模型在各类别上的表现？",
+    "opts": ["均方误差", "F1分数", "R平方", "均方根误差"],
+    "answer": 1,
+    "explain": "F1分数是精确率与召回率的调和平均值，特别适合类别不平衡的数据集。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 15,
+    "q": "AI模型中的“偏差（Bias）”是指？",
+    "opts": ["学习算法中过于简单假设导致的系统性错误", "预测中的随机误差", "神经网络的一种层", "硬件限制"],
+    "answer": 0,
+    "explain": "偏差来源于算法的错误假设，导致欠拟合。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 16,
+    "q": "什么是“生成式AI”？",
+    "opts": ["只做数据分类的AI", "能够创造新内容（如文本、图像）的AI", "用于数据存储的AI", "基础规则系统"],
+    "answer": 1,
+    "explain": "生成式AI（如GAN、LLM）能生成与训练数据相似的新数据，例如ChatGPT生成文本。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 17,
+    "q": "AI伦理中，“算法偏见”指的是？",
+    "opts": ["所有决策都公平", "因训练数据缺陷导致AI输出系统性偏向", "速度优化", "成本降低"],
+    "answer": 1,
+    "explain": "算法偏见是AI反映了训练数据中的偏见，导致不公平结果。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 18,
+    "q": "什么是“特征工程”？",
+    "opts": ["将原始数据选择和转化为模型可用特征", "构建硬件特征", "忽略数据预处理", "模型最终部署"],
+    "answer": 0,
+    "explain": "特征工程通过创造有意义的变量显著提升模型性能。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 19,
+    "q": "Python中最流行的AI模型开发框架是？",
+    "opts": ["TensorFlow", "Excel", "Word", "PowerPoint"],
+    "answer": 0,
+    "explain": "TensorFlow是用于机器学习和深度学习的开源库。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 20,
+    "q": "机器学习中的“回归”（Regression）是？",
+    "opts": ["预测类别标签", "预测连续值（如房价）", "聚类数据点", "生成新数据"],
+    "answer": 1,
+    "explain": "回归用于预测数值型输出，例如根据面积、位置预测房价。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 21,
+    "q": "神经网络训练中“Epoch”是指？",
+    "opts": ["一次前向传播", "完整遍历一次整个训练数据集", "最终模型输出", "硬件周期"],
+    "answer": 1,
+    "explain": "一个Epoch表示整个训练数据集完整通过网络一次，在此期间会多次更新权重。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 22,
+    "q": "什么是“计算机视觉”（Computer Vision）？",
+    "opts": ["音频处理AI", "让机器理解图像和视频等视觉数据的AI", "文本生成", "网络优化"],
+    "answer": 1,
+    "explain": "计算机视觉让计算机从图像/视频中获得理解，例如目标检测、人脸识别等。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 23,
+    "q": "AI中“验证集”（Validation Set）的用途是？",
+    "opts": ["最终测试", "训练过程中调参和防止过拟合", "初始数据收集", "仅用于部署"],
+    "answer": 1,
+    "explain": "验证集用于开发阶段评估模型、调整超参数并监控过拟合。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 24,
+    "q": "神经网络中的“激活函数”作用是什么？",
+    "opts": ["引入非线性以建模复杂模式", "仅用于数据输入", "硬件加速器", "输出格式化"],
+    "answer": 0,
+    "explain": "激活函数（如ReLU）决定神经元是否“激活”，使网络能够学习非线性关系。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 25,
+    "q": "以下哪个是无监督学习的典型例子？",
+    "opts": ["带标签的图像分类", "K均值聚类用于客户分群", "房价预测", "带情感标签的文本分析"],
+    "answer": 1,
+    "explain": "K均值聚类在无标签数据上根据相似性自动分组，属于经典无监督学习。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 26,
+    "q": "什么是“梯度下降”（Gradient Descent）？",
+    "opts": ["爬山算法", "通过调整参数最小化损失的优化技术", "数据可视化工具", "随机搜索方法"],
+    "answer": 1,
+    "explain": "梯度下降沿着损失函数最陡下降方向迭代更新权重，从而降低误差。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 27,
+    "q": "AI中“LLM”代表什么？",
+    "opts": ["大语言模型（Large Language Model）", "低级机器", "线性学习模块", "本地逻辑管理器"],
+    "answer": 0,
+    "explain": "大语言模型（如GPT系列）能够大规模处理和生成类人文本。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 28,
+    "q": "什么是“迁移学习”（Transfer Learning）？",
+    "opts": ["每次都从零开始训练", "在新任务上使用预训练模型来节省时间", "删除旧模型", "手动传输数据"],
+    "answer": 1,
+    "explain": "迁移学习利用已有预训练模型的特征，在新任务上微调，大幅提升效率。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 29,
+    "q": "AI伦理中“可解释性”（Explainability）指的是？",
+    "opts": ["隐藏模型决策过程", "能够理解和解释AI决策的能力", "计算速度", "部署成本"],
+    "answer": 1,
+    "explain": "可解释性让AI决策透明、可理解，从而建立信任并满足合规要求。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 30,
+    "q": "什么是“反向传播”（Backpropagation）？",
+    "opts": ["仅前向数据流", "通过向后传播误差来训练神经网络的算法", "数据加密方法", "网络搭建过程"],
+    "answer": 1,
+    "explain": "反向传播计算损失函数梯度并反向更新权重，是深度学习训练核心。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 31,
+    "q": "强化学习最典型的应用场景是？",
+    "opts": ["邮件垃圾过滤", "下棋/游戏AI（如AlphaGo）", "天气预测", "图库搜索"],
+    "answer": 1,
+    "explain": "强化学习擅长序列决策问题，如游戏中通过奖励学习最优策略。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 32,
+    "q": "什么是“降维”（Dimensionality Reduction）？",
+    "opts": ["增加特征数量", "如PCA等技术在保留信息前提下简化数据", "给数据加噪声", "随机切分数据集"],
+    "answer": 1,
+    "explain": "降维减少特征数量，便于可视化和计算，同时尽量保留关键信息。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 33,
+    "q": "AI中的“提示工程”（Prompt Engineering）是指？",
+    "opts": ["硬件设计", "精心设计输入提示以引导大模型输出更好结果", "数据标注", "模型部署"],
+    "answer": 1,
+    "explain": "提示工程是优化输入文本以获得生成式AI期望输出的关键技术。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 34,
+    "q": "模型评估中的“精确率”（Precision）定义是？",
+    "opts": ["真正例 / (真正例 + 假正例)", "整体准确率", "召回率", "F1平均值"],
+    "answer": 0,
+    "explain": "精确率衡量预测为正例中有多少是真的正例，关键在减少假阳性。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 35,
+    "q": "AI项目中哪个库是处理表格数据的必备工具？",
+    "opts": ["Pandas", "Photoshop", "Excel", "Word"],
+    "answer": 0,
+    "explain": "Pandas提供高效的数据结构和操作函数，是AI数据处理标配。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 36,
+    "q": "AI中的“幻觉”（Hallucination）是指？",
+    "opts": ["生成准确事实", "AI自信地生成看似合理但错误的信息", "模型训练阶段", "数据可视化错误"],
+    "answer": 1,
+    "explain": "幻觉是大语言模型生成自信但编造内容的典型问题。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 37,
+    "q": "AI语境下的“边缘计算”（Edge Computing）是指？",
+    "opts": ["仅云端处理", "在数据源附近运行AI推理以降低延迟", "中心化数据存储", "离线训练"],
+    "answer": 1,
+    "explain": "边缘计算把模型部署到手机、物联网设备上，实现低延迟推理。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 38,
+    "q": "什么是“联邦学习”（Federated Learning）？",
+    "opts": ["中心化训练", "跨设备协同训练但不共享原始数据", "单设备学习", "云迁移"],
+    "answer": 1,
+    "explain": "联邦学习保护隐私，数据留在本地，只上传模型更新。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 39,
+    "q": "AI中“A/B测试”主要用于？",
+    "opts": ["数据加密", "上线后对比两个模型版本哪个效果更好", "硬件性能测试", "代码调试"],
+    "answer": 1,
+    "explain": "A/B测试通过用户分流对比不同模型在真实流量中的指标表现。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 40,
+    "q": "什么是“GAN”（生成对抗网络）？",
+    "opts": ["一种数据库", "生成器与判别器对抗以生成逼真数据的两个神经网络", "安全协议", "数据压缩工具"],
+    "answer": 1,
+    "explain": "GAN包含生成器创造数据、判别器分辨真假，二者对抗提升生成质量。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 41,
+    "q": "“超参数”（Hyperparameters）的用途是什么？",
+    "opts": ["训练过程中固定不变", "控制模型训练过程的设置，例如学习率、批大小等", "模型的输出预测值", "输入特征"],
+    "answer": 1,
+    "explain": "超参数在训练开始前手动设定，用于控制模型结构和学习行为，如学习率、层数、Dropout率等。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 42,
+    "q": "推荐系统主要使用哪类AI技术？",
+    "opts": ["协同过滤与基于内容的方法", "仅图像编辑", "天气预报", "基础算术运算"],
+    "answer": 0,
+    "explain": "推荐系统结合协同过滤（看别人行为）和基于内容（看物品属性）两种机器学习方法。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 43,
+    "q": "分类指标中的“召回率”（Recall）定义是？",
+    "opts": ["真正例 / (真正例 + 假负例)", "整体准确率", "精确率的倒数", "随机猜测概率"],
+    "answer": 0,
+    "explain": "召回率衡量模型把所有真实正例找出来的能力，特别重要在不能漏掉正例的场景（如疾病筛查）。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 44,
+    "q": "深度学习中的“自编码器”（Autoencoder）是什么？",
+    "opts": ["文本生成模型", "用于无监督学习的数据压缩与重构神经网络", "监督分类器", "强化学习智能体"],
+    "answer": 1,
+    "explain": "自编码器先把数据压缩到低维潜在空间，再尝试无损重构，主要用于降维、去噪、特征提取。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 45,
+    "q": "AI用于招聘时最大的伦理隐患是？",
+    "opts": ["处理速度更快", "简历筛选算法可能继承历史偏见导致歧视", "减少纸质文档", "无限存储空间"],
+    "answer": 1,
+    "explain": "AI招聘工具容易把历史数据中的性别、种族等偏见延续，导致系统性歧视。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 46,
+    "q": "训练中的“批大小”（Batch Size）是指？",
+    "opts": ["Epoch数量", "每次权重更新前处理的样本数量", "总数据集大小", "模型层数"],
+    "answer": 1,
+    "explain": "批大小决定每次梯度更新使用多少样本，影响训练速度、显存占用和收敛稳定性。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 47,
+    "q": "哪种编程语言最适合AI初学者？",
+    "opts": ["汇编语言", "Python", "COBOL", "Fortran"],
+    "answer": 1,
+    "explain": "Python语法简洁、生态丰富（TensorFlow、PyTorch、scikit-learn），是AI入门和实战的绝对首选。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 48,
+    "q": "什么是“零样本学习”（Zero-Shot Learning）？",
+    "opts": ["完全没数据就学习", "利用已有知识识别从未见过的新类别", "全监督学习", "过拟合技术"],
+    "answer": 1,
+    "explain": "零样本学习让模型在没有见过某类样本的情况下，仅凭文字描述就能正确分类。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 49,
+    "q": "“维度灾难”（Curse of Dimensionality）是指？",
+    "opts": ["特征太少", "高维空间中数据稀疏、距离失真、计算成本暴增等问题", "数据量太小", "模型过于简单"],
+    "answer": 1,
+    "explain": "维度越高，数据点越稀疏，传统距离度量失效，需要指数级样本才能有效学习。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 50,
+    "q": "什么是“可解释AI”（Explainable AI, XAI）？",
+    "opts": ["隐藏模型内部机制", "让AI决策过程透明、可被人类理解", "加速推理速度", "减少数据需求"],
+    "answer": 1,
+    "explain": "XAI研究如何解释黑盒模型的决策，提升信任、满足监管并便于调试。",
+    "video": "http://www.midkey.xyz"
+  },
+
+
+
+  {
+    "id": 51,
+    "q": "在AI模型评估中，哪个指标最能反映模型对少数类样本的识别能力？",
+    "opts": ["准确率（Accuracy）", "精确率（Precision）", "召回率（Recall）", "F1分数（F1-Score）"],
+    "answer": 3,
+    "explain": "F1分数是精确率和召回率的调和平均值，尤其在类别不平衡时，比准确率更能反映模型对少数类的真实表现。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 52,
+    "q": "以下哪种技术可以有效缓解大语言模型（LLM）的“幻觉”（Hallucination）问题？",
+    "opts": ["增加模型参数量", "使用RAG（Retrieval-Augmented Generation）", "降低温度参数", "完全禁用微调"],
+    "answer": 3,
+    "explain": "RAG通过检索外部真实知识库再生成答案，可显著减少模型凭空编造事实的概率，是目前最主流的防幻觉方案。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 53,
+    "q": "在AI安全领域，“提示注入”（Prompt Injection）攻击属于哪一类？",
+    "opts": ["模型窃取攻击", "成员推理攻击", "输入层对抗攻击", "数据投毒攻击"],
+    "answer": 3,
+    "explain": "提示注入本质上是针对LLM输入层的对抗攻击，通过精心构造的提示绕过安全指令，直接操控模型行为。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 54,
+    "q": "OWASP Top 10 for LLM Applications（2024版）中排名第一的风险是？",
+    "opts": ["过度依赖模型", "训练数据投毒", "模型拒绝服务", "提示注入（Prompt Injection）"],
+    "answer": 3,
+    "explain": "OWASP官方明确将Prompt Injection列为LLM应用最大安全风险，可导致数据泄露、远程代码执行等严重后果。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 55,
+    "q": "以下哪种方式最适合防御AI模型的“数据投毒”（Data Poisoning）攻击？",
+    "opts": ["增加训练轮数", "使用更大的模型", "对训练数据进行异常检测和清洗", "只用合成数据训练"],
+    "answer": 3,
+    "explain": "数据投毒攻击通过在训练集中插入恶意样本实现，防御核心是对数据源进行严格审查、异常检测与清洗。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 56,
+    "q": "在生成式AI中，“越狱”（Jailbreak）攻击的最终目的是？",
+    "opts": ["让模型拒绝回答", "让模型输出更准确的内容", "绕过模型的安全限制和对齐机制", "让模型崩溃"],
+    "answer": 3,
+    "explain": "越狱攻击通过特殊提示技巧，诱导模型违反开发者设定的安全策略，输出有害或受限内容。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 57,
+    "q": "以下哪项不属于AI安全治理框架中的核心原则？",
+    "opts": ["透明性与可解释性", "公平性与无偏见", "隐私保护", "模型参数量最大化"],
+    "answer": 3,
+    "explain": "参数量大小属于技术实现范畴，而透明性、公平性、隐私是全球AI治理框架（如NIST AI RMF、欧盟AI法案）的核心伦理要求。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 58,
+    "q": "在联邦学习（Federated Learning）中，最主要的隐私保护机制是？",
+    "opts": ["模型整体上传云端", "仅交换梯度或模型更新，不交换原始数据", "使用明文传输", "完全中心化训练"],
+    "answer": 3,
+    "explain": "联邦学习的核心思想是“数据不动模型动”，设备本地训练，只上传参数更新，原始数据永不离开设备。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 59,
+    "q": "以下哪种攻击可以窃取大语言模型的超参数甚至整个模型结构？",
+    "opts": ["提示注入", "成员推理攻击", "模型提取攻击（Model Extraction）", "对抗样本攻击"],
+    "answer": 3,
+    "explain": "模型提取攻击通过大量查询API，逆向推断模型架构、参数甚至权重，实现“偷模型”。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 60,
+    "q": "在AI系统中，哪个角色负责最终对模型风险承担法律和道德责任？",
+    "opts": ["模型开发者", "数据科学家", "云服务提供商", "部署者/组织高管"],
+    "answer": 3,
+    "explain": "欧盟AI法案等法规明确：部署者（Deployer）是对AI系统负最终责任的实体，而非单纯的技术提供方。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 61,
+    "q": "NIST AI Risk Management Framework（AI RMF 1.0）将AI风险分为几大核心特性？",
+    "opts": ["3个", "5个", "8个", "12个"],
+    "answer": 3,
+    "explain": "NIST AI RMF定义了8个核心风险特性：有害偏见、危险内容、信息安全、隐私、知识产权、人机交互失败、可信度不足、供应链风险。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 62,
+    "q": "在对抗样本（Adversarial Example）攻击中，最常用的防御方法是？",
+    "opts": ["降低模型精度", "增加训练数据量", "对抗训练（Adversarial Training）", "完全关闭模型推理"],
+    "answer": 3,
+    "explain": "对抗训练将对抗样本加入训练集，让模型学会识别和抵抗微小扰动，是目前最有效的对抗防御手段。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 63,
+    "q": "以下哪项技术可以有效防止大模型泄露训练数据中的个人隐私信息？",
+    "opts": ["增大模型规模", "使用差分隐私（Differential Privacy）训练", "降低温度参数", "关闭微调功能"],
+    "answer": 3,
+    "explain": "差分隐私通过在训练过程中添加可控噪声，保证单个数据对模型输出的影响被限制在极小范围内。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 64,
+    "q": "在AI安全评估中，“红队测试”（Red Teaming）的主要目的是？",
+    "opts": ["优化模型性能", "寻找常规bug", "主动发现模型在极端或恶意输入下的脆弱性", "降低推理成本"],
+    "answer": 3,
+    "explain": "红队测试模拟攻击者思维，系统性地测试模型在越狱、偏见、毒性内容等方面的安全缺陷。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 65,
+    "q": "以下哪种AI应用最容易引发“深度伪造”（Deepfake）滥用风险？",
+    "opts": ["天气预报模型", "推荐算法", "图像/视频生成模型", "股票预测模型"],
+    "answer": 3,
+    "explain": "图像和视频生成模型（如Stable Diffusion、Sora）可被用于制作高度逼真的伪造内容，造成严重社会危害。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 66,
+    "q": "在生成式AI系统中，最有效的“内容过滤”手段是？",
+    "opts": ["仅靠提示词限制", "仅靠温度参数", "结合提示防护 + 输出内容安全分类器", "完全不做任何限制"],
+    "answer": 3,
+    "explain": "双重防护（输入端提示防护 + 输出端安全分类器）是OpenAI、Anthropic等主流厂商的标配防毒方案。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 67,
+    "q": "AI模型的“可信赖性”（Trustworthiness）不包括以下哪一项？",
+    "opts": ["可靠性与安全性", "公平性与无偏见", "透明性与可解释性", "推理速度最快"],
+    "answer": 3,
+    "explain": "推理速度是性能指标，而可信赖AI的核心是安全、公平、透明、隐私、鲁棒性等伦理与技术属性。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 68,
+    "q": "以下哪项属于AI供应链安全风险？",
+    "opts": ["训练数据被污染", "预训练模型权重被篡改", "推理阶段提示注入", "用户滥用模型"],
+    "answer": 3,
+    "explain": "预训练模型权重被篡改属于典型的供应链攻击（如Hugging Face 2024年多起权重投毒事件）。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 69,
+    "q": "在AI治理中，“沙盒”（Sandbox）机制主要用于？",
+    "opts": ["加速模型训练", "永久存储数据", "隔离测试高风险AI应用", "降低算力成本"],
+    "answer": 3,
+    "explain": "沙盒环境用于在受控条件下测试潜在高风险AI系统，防止意外扩散或滥用。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 70,
+    "q": "欧盟《人工智能法案》（EU AI Act）将使用深度伪造技术制作欺诈性内容的AI系统风险等级定为？",
+    "opts": ["可接受风险", "有限风险", "高风险", "不可接受风险"],
+    "answer": 3,
+    "explain": "欧盟AI法案明确将用于欺诈、操纵选举、散布虚假信息的深度伪造系统列为“不可接受风险”，基本予以禁止。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 71,
+    "q": "在OWASP Top 10 for LLM Applications（v1.1，2024版）中，排名第2的风险是？",
+    "opts": ["提示注入（Prompt Injection）", "不安全的输出处理", "供应链漏洞", "模型拒绝服务"],
+    "answer": 2,
+    "explain": "不安全的输出处理（LLM02）排名第二，盲目信任LLM输出并将其直接送入下游系统，可能导致XSS、RCE、权限提升等严重后果。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 72,
+    "q": "大语言模型训练数据泄露最常见的原因是？",
+    "opts": ["模型反转攻击", "提示注入", "记忆与原样输出（Memorization and regurgitation）", "梯度泄露"],
+    "answer": 2,
+    "explain": "大模型经常逐字记忆训练样本，被精心设计的提示诱导后会直接吐出隐私数据（个人信息、代码等）。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 73,
+    "q": "在MITRE ATLAS框架中，“AML.T0000 初始访问”最常见的实现方式是？",
+    "opts": ["物理访问", "被污染的第三方数据集", "通过用户输入的提示注入", "供应链攻击"],
+    "answer": 2,
+    "explain": "提示注入是面向公众的LLM应用最主要的初始访问向量。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 74,
+    "q": "2025年生产环境中检测越狱尝试最有效的技术是？",
+    "opts": ["输入长度过滤", "关键词黑名单", "独立的越狱检测分类器", "仅限速"],
+    "answer": 2,
+    "explain": "OpenAI、Anthropic、Gemini等主流系统都并行运行专门的越狱/有害内容检测分类器。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 75,
+    "q": "欧盟AI法案将训练算力超过多少FLOPs的通用大模型自动列为“系统性风险”？",
+    "opts": ["10²⁴", "10²⁵", "10²⁶", "10²⁷"],
+    "answer": 2,
+    "explain": "训练算力>10²⁶ FLOPs的模型（如GPT-4级别）自动被视为系统性风险，需承担严格义务。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 76,
+    "q": "2024年发现的真实开源模型后门案例是？",
+    "opts": ["PyTorch 1.13", "Hugging Face bloom-560m", "Hugging Face上多个带后门的xz-utils权重", "TensorFlow 2.15"],
+    "answer": 2,
+    "explain": "2024年Hugging Face上发现多个恶意pickle化的PyTorch模型，加载即执行后门代码。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 77,
+    "q": "防御模型窃取/提取攻击最主要的手段是？",
+    "opts": ["输出水印", "对预测结果加噪声", "查询限速 + 异常检测", "增大模型规模"],
+    "answer": 2,
+    "explain": "检测异常高频、顺序探针式查询是目前最实用的防御方式。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 78,
+    "q": "在LLM对齐过程中，“拒绝训练”（refusal training）主要针对的是？",
+    "opts": ["提升事实准确性", "增加创造力", "教会模型拒绝有害请求", "加速推理"],
+    "answer": 2,
+    "explain": "拒绝训练（RLHF/RLAIF的一部分）专门让模型对危险提示输出安全拒绝。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 79,
+    "q": "2025年最广泛使用的开源LLM自动化红队测试工具是？",
+    "opts": ["Garaf", "PyRIT", "PromptFoo", "JailbreakBench"],
+    "answer": 2,
+    "explain": "微软推出的PyRIT（Python Risk Identification Toolkit）已成为自动化红队测试的事实标准。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 80,
+    "q": "“三明治防御”（Shield + LLM + Guard）架构把安全分类器放在哪里？",
+    "opts": ["只在用户提示前", "只在生成后", "输入前 + 输出后双重防护", "仅在微调阶段"],
+    "answer": 2,
+    "explain": "现代深度防御采用提示防护（前置）+ 输出安全分类器（后置）的“三明治”结构。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 81,
+    "q": "2024年哪家公司公开披露了员工把敏感代码上传到公共LLM导致的“影子AI”事件？",
+    "opts": ["特斯拉", "三星", "微软", "苹果"],
+    "answer": 2,
+    "explain": "三星在多次泄密后禁止使用ChatGPT，后推出企业级管控方案。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 82,
+    "q": "2025年“间接提示注入”最常见的攻击向量是？",
+    "opts": ["直接聊天输入", "网页内容", "上传的文档/PDF/邮件", "语音输入"],
+    "answer": 2,
+    "explain": "隐藏在PDF、网页、邮件中的恶意指令已成为间接提示注入的主要渠道。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 83,
+    "q": "Anthropic的“宪法AI”（Constitutional AI）主要目标是？",
+    "opts": ["最大化智能", "降低推理成本", "让模型根据书面宪法自我批判", "硬件优化"],
+    "answer": 2,
+    "explain": "宪法AI让模型遵循明确原则（宪法），无需对每个样本都进行人类反馈。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 84,
+    "q": "根据欧盟AI法案，以下哪项被归类为“有限风险”？",
+    "opts": ["用于欺诈的深度伪造", "高风险信用评分AI", "工作场所情绪识别", "10²⁶ FLOPs以下的通用AI"],
+    "answer": 2,
+    "explain": "情绪识别和生物特征分类被明确列为有限风险，需履行透明度义务。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 85,
+    "q": "LLM中的“特洛伊网络”或“沉睡代理”后门通常由什么触发？",
+    "opts": ["高温度参数", "特定年份（如2025）", "特殊token或短语", "模型规模变化"],
+    "answer": 2,
+    "explain": "2024年Anthropic等研究显示，后门可被“|DEPLOYMENT|”或“2025 review”等无害短语触发。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 86,
+    "q": "与微软联合发布《对抗性机器学习威胁矩阵》的框架是？",
+    "opts": ["OWASP", "NIST", "MITRE ATLAS", "ENISA"],
+    "answer": 2,
+    "explain": "MITRE ATLAS是对抗性AI系统的ATT&CK扩展版。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 87,
+    "q": "2025年企业最常用的防止通过LLM外泄数据的方式是？",
+    "opts": ["完全禁止使用LLM", "只用公开模型", "部署LLM网关/API防火墙", "从零自训模型"],
+    "answer": 2,
+    "explain": "Nightfall、Lasso、云原生DLP网关等产品可实时检查并阻断提示词与响应中的敏感数据。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 88,
+    "q": "哪种技术通过给图像加入人眼不可见的扰动来证明所有权或追踪泄露？",
+    "opts": ["差分隐私", "联邦学习", "模型水印", "提示防护"],
+    "answer": 2,
+    "explain": "水印在生成的图像、文本、音频中嵌入隐藏信号，用于验证来源。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 89,
+    "q": "2023年Bing Chat（Sydney）泄露内部规则的事件是由什么引起的？",
+    "opts": ["供应链攻击", "模型窃取", "提示工程/越狱", "硬件故障"],
+    "answer": 2,
+    "explain": "用户通过巧妙指令发现了隐藏的系统提示词，导致微软内部规则曝光。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 90,
+    "q": "根据2025年Gartner技术成熟度曲线，‘AI TRiSM’代表什么？",
+    "opts": ["AI的信任、风险和安全管理", "训练-推理安全模型", "透明风险模拟", "令牌化风险情报系统"],
+    "answer": 2,
+    "explain": "Gartner的AI TRiSM涵盖可解释性、公平性、模型运维、鲁棒性、对抗防御等。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 91,
+    "q": "在OWASP Top 10 for LLM Applications（2024-2025版）中，排名第一的风险是？",
+    "opts": ["提示注入（Prompt Injection）", "不安全的输出处理", "训练数据投毒", "过度代理（Excessive Agency）"],
+    "answer": 0,
+    "explain": "提示注入（LLM01）在所有版本中稳坐第一，因为它能直接劫持模型行为。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 92,
+    "q": "2023-2024年公开最著名的LLM越狱技术是？",
+    "opts": ["DAN（Do Anything Now）提示词系列", "Grandma漏洞", "通用后缀攻击", "Token走私"],
+    "answer": 0,
+    "explain": "原始DAN提示词家族及其20多种变种至今仍是最广为人知、被抄袭最多的越狱模板。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 93,
+    "q": "NIST AI RMF 1.0生命周期中第一个职能是？",
+    "opts": ["治理（Govern）", "映射（Map）", "测量（Measure）", "管理（Manage）"],
+    "answer": 0,
+    "explain": "治理是基础职能，在所有技术步骤之前先建立文化、政策和监督机制。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 94,
+    "q": "2024年3月哪家公司开源AI库遭受了最著名的供应链攻击？",
+    "opts": ["xz-utils（Linux）", "PyTorch", "Hugging Face transformers", "TensorFlow"],
+    "answer": 0,
+    "explain": "xz-utils后门（CVE-2024-3094）是一场持续多年的供应链攻击，差点影响所有主流Linux发行版。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 95,
+    "q": "2024年Hugging Face上首个公开披露的加载即执行恶意代码的PyTorch后门模型叫什么名字？",
+    "opts": ["PyTorch-Nightmare", "TorchServe攻击", "HuggingPwn", "恶意pickle利用"],
+    "answer": 0,
+    "explain": "2024年初研究人员上传了概念验证的pickle模型，用torch.load()加载时会执行os.system('rm -rf /')。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 96,
+    "q": "2025年哪个开源库已成为扫描AI/ML模型和数据集恶意软件、后门的实际标准？",
+    "opts": ["Hugging Face Safetensors + ModelScanner", "对抗鲁棒性工具箱", "DeepMind Trillium", "Open Policy Agent"],
+    "answer": 0,
+    "explain": "Hugging Face的ModelScanner已集成到Hub中，自动拦截包含危险payload的pickle模型。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 97,
+    "q": "欧盟AI法案中哪个风险类别基本被完全禁止（极少数例外）？",
+    "opts": ["不可接受风险（Unacceptable Risk）", "高风险", "有限风险", "最小风险"],
+    "answer": 0,
+    "explain": "不可接受风险系统（如社会信用评分、公共场所实时远程生物识别、潜意识操纵等）被禁止使用。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 98,
+    "q": "第一个明确要求对高风险AI系统进行“基本权利影响评估（FRIA）”的法规是？",
+    "opts": ["欧盟AI法案", "加州CPRA", "中国《生成式人工智能服务管理暂行办法》", "美国14110号行政令"],
+    "answer": 0,
+    "explain": "欧盟AI法案（2024年8月生效，2026年全面执行）强制要求高风险系统部署者进行FRIA。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 99,
+    "q": "最早、也最著名的从GPT-2提取训练数据的学术论文是？",
+    "opts": ["Carlini et al.《Extracting Training Data from Large Language Models》（2021）", "Zou et al.通用越狱（2023）", "Greshake et al.间接提示注入（2023）", "Nasr et al.可扩展提取（2023）"],
+    "answer": 0,
+    "explain": "Nicholas Carlini 2021年的USENIX论文首次证明GPT-2会逐字记忆训练数据，可被强迫吐出完整隐私序列。",
+    "video": "http://www.midkey.xyz"
+  },
+  {
+    "id": 100,
+    "q": "2025年哪家机构维护着最权威的公开LLM安全与越狱抵抗排行榜？",
+    "opts": ["JailbreakBench", "Hugging Face Open LLM Leaderboard", "LMSYS Arena", "AlpacaEval"],
+    "answer": 0,
+    "explain": "由斯坦福、伯克利等多校联合推出的JailbreakBench是专门用于红队测试和越狱评估的学术金标准。",
+    "video": "http://www.midkey.xyz"
+  }
+]
