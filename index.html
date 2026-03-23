@@ -11,6 +11,53 @@
   gtag('config', 'G-WFHJXZ2KQF');
 </script>
 
+
+<script>
+
+
+// const forceLang = new URLSearchParams(location.search).get('lang');
+
+// // ✅ 测试模式（最高优先级）
+// if (forceLang === 'en') {
+//     window.location.replace('/en/vault');
+//     return;
+// }
+// if (forceLang === 'zh') {
+//     window.location.replace('/');
+//     return;
+// }
+
+
+
+(function () {
+    const lang = (navigator.language || navigator.userLanguage || "").toLowerCase();
+    const isZh = lang.startsWith('zh');
+
+    const currentPath = window.location.pathname;
+
+    // =========================
+    // 1️⃣ 中文用户禁止访问 /en
+    // =========================
+    if (isZh && currentPath.startsWith('/en')) {
+        window.location.replace('/');
+        return;
+    }
+
+    // =========================
+    // 2️⃣ 首页自动跳转（可选）
+    // =========================
+    if (currentPath === '/') {
+        if (!isZh) {
+            window.location.replace('/en/vault');
+        }
+    }
+
+})();
+
+</script>
+
+
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Midkey - 密码安全工具与离线密码管理器</title>
