@@ -11,49 +11,46 @@
   gtag('config', 'G-WFHJXZ2KQF');
 </script>
 
-
 <script>
-
-
-// const forceLang = new URLSearchParams(location.search).get('lang');
-
-// // ✅ 测试模式（最高优先级）
-// if (forceLang === 'en') {
-//     window.location.replace('/en/vault');
-//     return;
-// }
-// if (forceLang === 'zh') {
-//     window.location.replace('/');
-//     return;
-// }
-
-
-
 (function () {
-    const lang = (navigator.language || navigator.userLanguage || "").toLowerCase();
-    const isZh = lang.startsWith('zh');
+  const lang = (navigator.language || navigator.userLanguage || "").toLowerCase();
+  const isZh = lang.startsWith('zh');
+  const currentPath = window.location.pathname;
 
-    const currentPath = window.location.pathname;
+  // =========================
+  // 中文用户禁止访问 /en
+  // =========================
+  if (isZh && currentPath.startsWith('/en')) {
+    window.location.replace('/cn/product');
+    return;
+  }
 
-    // =========================
-    // 1️⃣ 中文用户禁止访问 /en
-    // =========================
-    if (isZh && currentPath.startsWith('/en')) {
-        window.location.replace('/');
-        return;
+  // =========================
+  // 首页 / 根目录
+  // =========================
+  if (currentPath === '/') {
+    if (isZh) {
+      window.location.replace('/cn/product');
+    } else {
+      window.location.replace('/en/product');
     }
+    return;
+  }
 
-    // =========================
-    // 2️⃣ 首页自动跳转（可选）
-    // =========================
-    if (currentPath === '/') {
-        if (!isZh) {
-            window.location.replace('/en/vault');
-        }
-    }
+  // =========================
+  // 简化跳转：访问 /en 或 /cn 也自动到 /en/product 或 /cn/product
+  // =========================
+  if (currentPath === '/en') {
+    window.location.replace('/en/product');
+    return;
+  }
+
+  if (currentPath === '/cn') {
+    window.location.replace('/cn/product');
+    return;
+  }
 
 })();
-
 </script>
 
 
@@ -62,7 +59,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Midkey - 密码安全工具与离线密码管理器</title>
     <link rel="icon" href="/assets/logo-CxSVKBzZ.jpg" />
-    <script type="module" crossorigin src="/assets/index-DxeKivIV.js"></script>
+    <script type="module" crossorigin src="/assets/index-MXlmhdxW.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CFKhyr5Q.css">
   </head>
   <body>
