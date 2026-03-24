@@ -50,6 +50,13 @@
     return;
   }
 
+  if (currentPath.startsWith('/cn')) {
+    document.title = 'Midkey Vault｜离线密码管理器';
+  } else if (currentPath.startsWith('/en')) {
+    document.title = 'Midkey Vault | Offline Password Manager';
+  }
+
+
 })();
 </script>
 
@@ -57,7 +64,7 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Midkey - 密码安全工具与离线密码管理器</title>
+    <title>Midkey Vault</title>
     <link rel="icon" href="/assets/logo-CxSVKBzZ.jpg" />
     <script type="module" crossorigin src="/assets/index-MXlmhdxW.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CFKhyr5Q.css">
