@@ -1,14 +1,39 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+   
+<script>
+  const isLocal =
+    location.hostname === 'localhost' ||
+    location.hostname === '127.0.0.1'
+
+  if (!isLocal && location.protocol === 'http:') {
+    location.replace(
+      'https://' + location.host + location.pathname + location.search + location.hash
+    )
+  }
+</script>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WFHJXZ2KQF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-WFHJXZ2KQF');
+</script>
+
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Midkey隐私保险箱</title>
-    <script type="module" crossorigin src="./assets/index-DLo3sgsL.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BEDeEAJp.css">
+    <title>Midkey Vault</title>
+    <link rel="icon" href="/assets/logo-CxSVKBzZ.jpg" />
+    <script type="module" crossorigin src="/assets/index-DcHnDHIX.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CvxejNtJ.css">
   </head>
   <body>
     <div id="root"></div>
   </body>
 </html>
-
